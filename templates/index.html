@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Sims Lunch</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/grayscale.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!-- <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css"> -->
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+</head>
+
+<body id="page-top" data-spy="scroll">
+
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="brand-heading">Sims Lunch</h1>
+                        <p class="intro-text">({{ date }})<br>And our next presenters will be...</p>
+                        <a href="#current" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Current speakers -->
+    <section id="current" class="container content-section text-center">
+                <h1>Papers</h1>
+                <p>{{ presenters['students']['paper'] }}<br>{{ presenters['postdocs']['paper'] }}</p>
+                <h1>Plots</h1>
+                <p>{{ presenters['students']['plot'] }}<br>{{ presenters['postdocs']['plot'] }}</p>
+    </section>
+
+    <!-- History -->
+	<section id="past" class="content-section text-center">
+        <div class="history-section">
+            <div class="container">
+               <div align="justify">
+                    <p>Don't forget, you can volunteer for any future meeting of your choosing at <a href="http://doodle.com/poll/g3idnd5gfg8ck2ze">the doodle poll</a>. Doing so will reduce your chances of being randomly selected to present!</p>
+                    <p>Also, you can choose the date that you will not be able to make it for the simulation lunch at <a href="http://doodle.com/poll/umri2w7pxqnged37">this doodle poll</a>, so that you will not be selected on that day!</p>
+                </div>
+                <br>
+                <h2>Presenter statistics</h2>
+                {% include "papers_history.html" %}
+                <br>
+                {% include "plots_history.html" %}
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <p><i class="fa fa-copyright"></i> Simon Mutch<br><small>The University of Melbourne (2015)</small></p>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/grayscale.js"></script>
+
+</body>
+
+</html>
