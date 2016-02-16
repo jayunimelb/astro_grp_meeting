@@ -61,9 +61,7 @@ def generate():
     env = Environment(loader=FileSystemLoader('templates'))
     template = env.get_template('index.html')
     with open('build/index.html', 'w') as fd:
-        #fd.write(template.render(presenters=presenters,
-         #                        date=groupmeeting_time().strftime("%d/%m/%y")))
-        fd.write(template.render(dates = presenters.index, presenters=presenters))
+        fd.write(template.render(dates = [pd.to_datetime(item).to_pydatetime().strftime("%d. %B %Y") for item in presenters.index] , presenters=presenters))
 
 if __name__ == "__main__":
     generate()
