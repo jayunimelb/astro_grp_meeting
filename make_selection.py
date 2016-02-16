@@ -119,13 +119,15 @@ def make_selection():
     with open("selected_presenters_tba.yaml", "w") as fd:
         yaml.safe_dump(selected_presenters, fd)
 
-    femail1.write("\nPlease note that it will be the speaker's duty to prepare a talk on the astro-group meeting.\n")
-    femail1.write("\nAnd it will be the chair's responsibility to\n\t1) supervise the speaker on preparing the talk, \n\t2) remind the astro group that you are the chair and collect agendas from them on Monday, \n\t3) send an announcement to the astro-people about 15 minutes before the group meeting, \n\t4) prepare a cake (usually) after the colloquium on Wednesday. \n")
-    femail4.write("\nPlease note that it will be the speaker's duty to prepare a talk on the astro-group meeting.\n")
-    femail4.write("\nAnd it will be the chair's responsibility to\n\t1) supervise the speaker on preparing the talk, \n\t2) remind the astro group that you are the chair and collect agendas from them on Monday, \n\t3) send an announcement to the astro-people about 15 minutes before the group meeting, \n\t4) prepare a cake (usually) after the colloquium on Wednesday. \n")
+    femail1.write("\nPlease note that it will be the speaker's duty to prepare a talk (less than 30 minutes) on the astro-group meeting.\n")
+    femail1.write("\nAnd it will be the chair's responsibility to\n\t1) supervise the speaker on preparing the talk, \n\t2) remind the astro group that you are the chair and collect agendas from them on Monday, \n\t3) send an announcement to the astro-people about 15 minutes before the group meeting, \n\t4) update the group meeting minutes on AstroWiki,\n\t5) prepare a cake (usually) after the colloquium on Wednesday. \n")
     femail1.write('\nIf you have swapped with other people, please forward this email :)\n')
+
+    femail4.write("\nPlease note that it will be the speaker's duty to prepare a talk (less than 30 minutes) on the astro-group meeting.\n")
+    femail4.write("\nAnd it will be the chair's responsibility to\n\t1) supervise the speaker on preparing the talk, \n\t2) remind the astro group that you are the chair and collect agendas from them on Monday, \n\t3) send an announcement to the astro-people about 15 minutes before the group meeting, \n\t4) update the group meeting minutes on AstroWiki,\n\t5) prepare a cake (usually) after the colloquium on Wednesday. \n")
     femail4.write('\nPlease confirm it by replying me or let me know as soon as possible if you cannot make it :)\n')
     femail4.write('If you only need to give a 15-minute talk but you are the only speaker selected, let me know and I will arrange one more speaker.\n')
+
     femail1.write('\nCheers,\nYuxiang')
     femail4.write('\nCheers,\nYuxiang')
     femail1.close()
