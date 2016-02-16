@@ -14,10 +14,17 @@ def groupmeeting_time(week=4):
     weekday = 0  # 0 = Monday, 1=Tuesday, 2=Wednesday...
     days_ahead = weekday - today.weekday()
     if days_ahead <= 0: # Target day already happened this week
-        days_ahead += (week+1)*7
+        days_ahead += week*7
     return today + datetime.timedelta(days_ahead)
 
 def make_selection():
+
+    femail1 = open('email1.txt', 'w')
+    femail4 = open('email4.txt', 'w')
+    femail1.write('Hi all,\n\nLet me remind you that you are the chair and speaker(s) for next week. (http://qyx268.github.io/astromeeting_site/)\n\nHere are the details:\n')
+    femail4.write('Hi all,\n\nYou are selected to be the chair and speaker(s) for the group meeting to be held 4 weeks later (http://qyx268.github.io/astromeeting_site/)\n\nHere are the details:\n')
+    femail1.write('date: %s\n'%groupmeeting_time(week=1).strftime("%d. %B %Y"))
+    femail4.write('date: %s\n'%groupmeeting_time(week=4).strftime("%d. %B %Y"))
 
     half_talk_list = ['master', 'phd_junior']
     exception_list = {'chairs':{'',} ,'speakers':{'Sanjay Patil',}} 
@@ -32,10 +39,10 @@ def make_selection():
 
     # Temporarily increment the contribution counts to include future volunteers
     doodle_poll = scrape_doodle("http://doodle.com/poll/psdh3untd9dqedzi")
-    next_monday = groupmeeting_time().strftime("%m/%d/%y")
+    next4_monday = groupmeeting_time().strftime("%m/%d/%y")
     volunteers = {}
     for t in ('chair', 'speaker'):
-        volunteers[t] = list(doodle_poll.columns[doodle_poll.loc[next_monday, t]])
+        volunteers[t] = list(doodle_poll.columns[doodle_poll.loc[next4_monday, t]])
     for name in doodle_poll.columns:
         for contribution in ('chairs', 'speakers'):
             members.loc[name][contribution] += np.count_nonzero(doodle_poll[name].loc[:, contribution[:-1]])
@@ -62,6 +69,7 @@ def make_selection():
             presenters[k] = v
             volunteered[k] = True
             print(colored("Volunteer for "+k+" by "+v,'red'))
+            femail4.write(v+" Volunteered for "+k+'\n')
 
     # choose the chair presenters randomly from those who have presented the
     # minimum number of times.
@@ -98,13 +106,37 @@ def make_selection():
     # upate the selected_presenters file
     with open('selected_presenters.yaml', 'r') as fd:
         selected_presenters = yaml.load(fd)
+    
+    next_monday = groupmeeting_time(week=1).strftime("%m/%d/%y")
+    femail1.write('chair:\t%s\nspeaker:\t%s\n'%(selected_presenters[next_monday]['chair'],selected_presenters[next_monday]['speaker']))
 
-    selected_presenters.pop(groupmeeting_time(week=-1).strftime("%m/%d/%y")) 
-    selected_presenters[next_monday]= presenters
+    selected_presenters.pop(groupmeeting_time(week=0).strftime("%m/%d/%y")) 
+    selected_presenters[next4_monday]= presenters
 
-    print(colored(presenters,"red"))
+    print(colored('%s'%presenters+'4 weeks later',"red"))
+    print(colored('%s'%selected_presenters[next_monday]+'next week','red'))
+    femail4.write('chair:\t%s\nspeaker:\t%s\n'%(presenters['chair'],presenters['speaker']))
     with open("selected_presenters_tba.yaml", "w") as fd:
         yaml.safe_dump(selected_presenters, fd)
+
+    femail1.write("\nPlease note that it will be the speaker's duty to prepare a talk on the astro-group meeting.\n")
+    femail1.write("\nAnd it will be the chair's responsibility to\n\t1) supervise the speaker on preparing the talk, \n\t2) remind the astro group that you are the chair and collect agendas from them on Monday, \n\t3) send an announcement to the astro-people about 15 minutes before the group meeting, \n\t4) prepare a cake (usually) after the colloquium on Wednesday. \n")
+    femail4.write("\nPlease note that it will be the speaker's duty to prepare a talk on the astro-group meeting.\n")
+    femail4.write("\nAnd it will be the chair's responsibility to\n\t1) supervise the speaker on preparing the talk, \n\t2) remind the astro group that you are the chair and collect agendas from them on Monday, \n\t3) send an announcement to the astro-people about 15 minutes before the group meeting, \n\t4) prepare a cake (usually) after the colloquium on Wednesday. \n")
+    femail1.write('\nIf you have swapped with other people, please forward this email :)\n')
+    femail4.write('\nPlease confirm it by replying me or let me know as soon as possible if you cannot make it :)\n')
+    femail4.write('If you only need to give a 15-minute talk but you are the only speaker selected, let me know and I will arrange one more speaker.\n')
+    femail1.write('\nCheers,\nYuxiang')
+    femail4.write('\nCheers,\nYuxiang')
+    femail1.close()
+    femail4.close()
+
+    email4 = members['email'][list(selected_presenters[next4_monday].values())]
+    email1 = members['email'][list(selected_presenters[next_monday].values())]
+    for people4 in email4:
+        print('mail -s "Speaker and chair on the astro-group meeting " "%s" <email4.txt'%colored(people4,'red'))
+    for people1 in email1:
+        print('mail -s "Speaker and chair on the astro-group meeting " "%s" <email1.txt'%colored(people1,'red'))
 
 if __name__ == "__main__":
     make_selection()

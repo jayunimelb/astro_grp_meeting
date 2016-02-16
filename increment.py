@@ -11,7 +11,7 @@ def increment():
         members = yaml.load(fd)
 
     # increment the presenter counters
-    finished_presenters = presenters[groupmeeting_time(week=-1).strftime("%m/%d/%y")]
+    finished_presenters = presenters[groupmeeting_time(week=0).strftime("%m/%d/%y")]
     for t in ('chair', 'speaker'):
         members[finished_presenters[t]][t+'s']+=1
 
