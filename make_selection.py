@@ -27,7 +27,7 @@ def make_selection():
     femail4.write('date: %s\n'%groupmeeting_time(week=4).strftime("%d. %B %Y"))
 
     half_talk_list = ['master', 'phd_junior']
-    exception_list = {'chairs':{'',} ,'speakers':{'Sanjay Patil',}} 
+    exception_list = {'chairs':{'',} ,'speakers':{'Stuart Wyithe',}} 
 
     # read in the list of members and their presenting histories
     with open('members.yaml', 'r') as fd:

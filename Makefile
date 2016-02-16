@@ -27,7 +27,10 @@ auto:
 	python increment.py
 	python available.py
 	python make_selection.py
+	cat selected_presenters_tba.yaml
+	mv selected_presenters.yaml selected_presenters.yaml.bak
+	mv selected_presenters_tba.yaml selected_presenters.yaml
 	python generate.py
 	open build/index.html
 
-.PHONY: auto select confirm push
+.PHONY: auto increment select reselect confirm push

@@ -9,6 +9,9 @@ from make_selection import groupmeeting_time
 import numpy as np
 
 def generate():
+
+    exception_list = {'chairs':{} ,'speakers':{'Stuart Wyithe',}}   
+
     # read in the list of members and their presenting histories
     with open('members.yaml', 'r') as fd:
         members = yaml.load(fd)
@@ -29,12 +32,13 @@ def generate():
 
     # generate speakers of the current standings and render them to html files
     for contribution in ["Chairs", "Speakers"]:
-        data = np.column_stack((members[contribution.lower()],
-                                members["vcount_"+contribution.lower()[:-1]]))
+        pool = members.drop(exception_list[contribution.lower()])   
+        data = np.column_stack((pool[contribution.lower()],
+                                pool["vcount_"+contribution.lower()[:-1]]))
         canvas = toyplot.Canvas(1200, 500)
         axes = canvas.axes(bounds=(80, -200, 50, -120))
         mark = axes.bars(data, baseline="stacked")
-        axes.x.ticks.locator = toyplot.locator.Explicit(labels=members.index)
+        axes.x.ticks.locator = toyplot.locator.Explicit(labels=pool.index)
         axes.label.text = contribution
         axes.x.ticks.labels.angle = 30
         axes.x.ticks.show = True
