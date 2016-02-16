@@ -4,20 +4,24 @@ import yaml
 import pandas as pd
 import datetime
 from scrape_doodle import scrape_doodle
+from termcolor import colored
 import numpy as np
 import pickle
 
-def next_simslunch():
+def groupmeeting_time(week=4):
     """http://stackoverflow.com/a/6558571"""
     today = datetime.date.today()
-    weekday = 3  # 0 = Monday, 1=Tuesday, 2=Wednesday...
-    days_ahead = 3 - today.weekday()
+    weekday = 0  # 0 = Monday, 1=Tuesday, 2=Wednesday...
+    days_ahead = weekday - today.weekday()
     if days_ahead <= 0: # Target day already happened this week
-        days_ahead += 7
+        days_ahead += (week+1)*7
     return today + datetime.timedelta(days_ahead)
 
-
 def make_selection():
+
+    half_talk_list = ['master', 'phd_junior']
+    exception_list = {'chairs':{'',} ,'speakers':{'Sanjay Patil',}} 
+
     # read in the list of members and their presenting histories
     with open('members.yaml', 'r') as fd:
         members = yaml.load(fd)
@@ -27,13 +31,13 @@ def make_selection():
     members.index.name = 'name'
 
     # Temporarily increment the contribution counts to include future volunteers
-    doodle_poll = scrape_doodle("http://doodle.com/poll/g3idnd5gfg8ck2ze")
-    next_thursday = next_simslunch().strftime("%-m/%-d/%y")
+    doodle_poll = scrape_doodle("http://doodle.com/poll/psdh3untd9dqedzi")
+    next_monday = groupmeeting_time().strftime("%m/%d/%y")
     volunteers = {}
-    for t in ('paper', 'plot'):
-        volunteers[t] = list(doodle_poll.columns[doodle_poll.loc[next_thursday, t]])
+    for t in ('chair', 'speaker'):
+        volunteers[t] = list(doodle_poll.columns[doodle_poll.loc[next_monday, t]])
     for name in doodle_poll.columns:
-        for contribution in ('papers', 'plots'):
+        for contribution in ('chairs', 'speakers'):
             members.loc[name][contribution] += np.count_nonzero(doodle_poll[name].loc[:, contribution[:-1]])
 
     # pickle the doodle poll for later use
@@ -42,73 +46,65 @@ def make_selection():
 
     # cut down the members to just those who are available this coming week and
     # split by type
+    print(colored("Unavailable list: %s"%members[members.available==0].index,'red'))
     members = members[members.available==1] 
 
-    # Set up the dicts for storing the selection information
-    postdocs = members.query('type == "postdoc"')
-    postdocs.name = "postdocs"
-    postdocs.presenters = dict(
-        paper = "",
-        plot = ""
-    )
-    postdocs.volunteered = dict(
-        paper = False,
-        plot = False,
-    )
-    students = members.query('type == "student"')
-    students.name = "students"
-    students.presenters = postdocs.presenters.copy()
-    students.volunteered = postdocs.volunteered.copy()
+    if len(members)<2:
+        print(colored("not enough people","red"))
+        return
+
+    presenters = dict(chair = "", speaker = "")
+    volunteered = dict(chair = "", speaker = "")
 
     # select volunteers if there are any
     for k, l in iter(volunteers.items()):
         for v in l:
-            vgroup = None
-            for group in (postdocs, students):
-                if v in group.index and group.volunteered[k] is False:
-                    vgroup = group
-                    group.presenters[k] = v
-                    group.volunteered[k] = True
-                    break
-            #if vgroup is None:
-            #    for group in (postdocs, students):
-            #        if not group.volunteered[k]:
-            #            vgroup = group
-            #            break
-            #group.presenters[k] = v
-            #group.volunteered[k] = True
+            presenters[k] = v
+            volunteered[k] = True
+            print(colored("Volunteer for "+k+" by "+v,'red'))
 
-    # choose the paper presenters randomly from those who have presented the
+    # choose the chair presenters randomly from those who have presented the
     # minimum number of times.
-    for contribution in ('papers', 'plots'):
-        for group in (students, postdocs):
-            if not group.volunteered[contribution[:-1]]:
-                mi = group[contribution].min()
-                pool = list(group.query(contribution + ' == @mi').index)
-                group.presenters[contribution[:-1]] = random.sample(pool, 1)[0]
+    for contribution in ('chairs', 'speakers'):
+        if not volunteered[contribution[:-1]]:
+            mi = members[contribution].min()
+            pool = list(members.query(contribution + ' == @mi').index)
+            # some people are exception
+            pool = set(pool) - exception_list[contribution]
+            presenters[contribution[:-1]] = random.sample(pool, 1)[0]
+    
+    # try to avoid same person holding and speaking at the same time
+    while presenters['chair'] == presenters['speaker']:
+        if not volunteered['chair']:
+            mi = members['chair'].min()
+            pool = list(members.query('chair == @mi').index)
+            presenters['chair'] = random.sample(pool, 1)[0]
+        elif not volunteered['speaker']:
+            mi = members['speaker'].min()
+            pool = list(members.query('speaker == @mi').index)     
+            presenters['speaker'] = random.sample(pool, 1)[0]
+        else:
+            # well unless this guy volunteered to do both
+            print(colored(presenters['speaker']+'volunteered to do both',red))
+            break
 
-                # if we have someone who is meant to be presenting both types of
-                # contributions then keep randomizing until we get
-                # a valid combination (if possible)
-                max_tries = 100
-                n_tries = 0
-                while len(set(group.presenters.values())) < 2:
-                    try:
-                        group.presenters[contribution[:-1]] = random.sample(pool, 1)[0]
-                    except ValueError:
-                        n_tries = max_tries
-                    n_tries+=1
-                    if n_tries >= max_tries:
-                        mi += 1
-                        pool = list(group.query(contribution + ' == @mi').index)
-                        n_tries = 0
+    # masters or 1-st year phds are required to give 15 mins talk, so add an other one
+    if members['type'][presenters['speaker']] in half_talk_list:
+        half_talk_members = members[members['type'].isin(half_talk_list)].drop(presenters['speaker'])
+        mi = half_talk_members['speakers'].min()
+        pool = list(half_talk_members.query('speakers == @mi').index)
+        presenters['speaker']+=', '+random.sample(pool, 1)[0]
 
-    # write the presenters to a file
-    presenters = dict(postdocs = postdocs.presenters,
-                      students = students.presenters)
-    with open("selected_presenters.yaml", "w") as fd:
-        yaml.safe_dump(presenters, fd)
+    # upate the selected_presenters file
+    with open('selected_presenters.yaml', 'r') as fd:
+        selected_presenters = yaml.load(fd)
 
+    selected_presenters.pop(groupmeeting_time(week=-1).strftime("%m/%d/%y")) 
+    selected_presenters[next_monday]= presenters
+
+    print(colored(presenters,"red"))
+    with open("selected_presenters_tba.yaml", "w") as fd:
+        yaml.safe_dump(selected_presenters, fd)
 
 if __name__ == "__main__":
     make_selection()

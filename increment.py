@@ -1,4 +1,5 @@
 import yaml
+from make_selection import groupmeeting_time
 
 def increment():
     # read in this week's presenters
@@ -10,9 +11,9 @@ def increment():
         members = yaml.load(fd)
 
     # increment the presenter counters
-    for member_type in iter(presenters.values()):
-        for presentation, name in iter(member_type.items()):
-            members[name][presentation+'s'] += 1
+    finished_presenters = presenters[groupmeeting_time(week=-1).strftime("%m/%d/%y")]
+    for t in ('chair', 'speaker'):
+        members[finished_presenters[t]][t+'s']+=1
 
     # write out the updated members list
     with open('members.yaml', 'w') as fd:

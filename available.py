@@ -2,20 +2,20 @@ import yaml
 import pandas as pd
 import numpy as np
 from scrape_doodle import scrape_doodle
-from make_selection import next_simslunch
+from make_selection import groupmeeting_time
 
 def available():
 
-    left = ['Camila', 'Paul A']
+    left = []
 
     # read in the list of members and their presenting histories
     with open('members.yaml', 'r') as fd:
         members = yaml.load(fd)
     
-    doodle_poll = scrape_doodle("http://doodle.com/poll/umri2w7pxqnged37")
-    next_thursday = next_simslunch().strftime("%-m/%-d/%y")
+    doodle_poll = scrape_doodle("http://doodle.com/poll/pd7rn7esk4q5vuft")
+    next_monday = groupmeeting_time().strftime("%m/%d/%y")
 
-    unavailable = list(doodle_poll.columns[doodle_poll.loc[next_thursday, 'unavailable']])
+    unavailable = list(doodle_poll.columns[doodle_poll.loc[next_monday, 'unavailable']])
     for name in members.keys():   
         if name in unavailable or name in left:
             members[name]['available'] = 0

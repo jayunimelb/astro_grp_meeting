@@ -11,7 +11,14 @@ def scrape_doodle(link):
     data = json.loads(re.search('\{("poll":.*)\}', jscript).group(0))['poll']
 
     df = pd.DataFrame([list(d['preferences'])for d in data['participants']]).T
-    df.index = pd.MultiIndex.from_tuples([tuple(d.split()[1:]) for d in data['optionsText']])
+    #make index
+    index = []
+    for d in data['optionsText']:
+        old_index = d.split()[1:]
+        tmp = old_index[0].split('/')
+        old_index[0] = '%02d'%int(tmp[0])+'/'+'%02d'%int(tmp[1])+'/'+'%02d'%int(tmp[2])
+        index.append(old_index)
+    df.index = pd.MultiIndex.from_tuples(index)
     df.index.names = ['date', 'type']
     df.columns = [d['name'] for d in data['participants']]
     df.replace('n', False, inplace=True)

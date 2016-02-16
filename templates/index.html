@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Sims Lunch</title>
+    <title>Astro Group Meeting</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -33,8 +33,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading">Sims Lunch</h1>
-                        <p class="intro-text">({{ date }})<br>And our next presenters will be...</p>
+                        <h1 class="brand-heading">Astro Group Meeting</h1>
+                        <p class="intro-text"><br>Our next chairs and speakers will be...</p>
                         <a href="#current" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
                         </a>
@@ -46,10 +46,10 @@
 
     <!-- Current speakers -->
     <section id="current" class="container content-section text-center">
-                <h1>Papers</h1>
-                <p>{{ presenters['students']['paper'] }}<br>{{ presenters['postdocs']['paper'] }}</p>
-                <h1>Plots</h1>
-                <p>{{ presenters['students']['plot'] }}<br>{{ presenters['postdocs']['plot'] }}</p>
+                <h1>({{ dates[0] }})</h1> <p>chair: {{ presenters['chair'][0] }}<br>speaker: {{ presenters['speaker'][0] }}</p>
+                <h1>({{ dates[1] }})</h1> <p>chair: {{ presenters['chair'][1] }}<br>speaker: {{ presenters['speaker'][1] }}</p>
+                <h1>({{ dates[2] }})</h1> <p>chair: {{ presenters['chair'][2] }}<br>speaker: {{ presenters['speaker'][2] }}</p>
+                <h1>({{ dates[3] }})</h1> <p>chair: {{ presenters['chair'][3] }}<br>speaker: {{ presenters['speaker'][3] }}</p>
     </section>
 
     <!-- History -->
@@ -57,14 +57,14 @@
         <div class="history-section">
             <div class="container">
                <div align="justify">
-                    <p>Don't forget, you can volunteer for any future meeting of your choosing at <a href="http://doodle.com/poll/g3idnd5gfg8ck2ze">the doodle poll</a>. Doing so will reduce your chances of being randomly selected to present!</p>
-                    <p>Also, you can choose the date that you will not be able to make it for the simulation lunch at <a href="http://doodle.com/poll/umri2w7pxqnged37">this doodle poll</a>, so that you will not be selected on that day!</p>
+                    <p>Don't forget, you can volunteer for any future meeting of your choosing at <a href="http://doodle.com/poll/psdh3untd9dqedzi">the doodle poll</a>. Doing so will reduce your chances of being randomly selected to present!</p>
+                    <p>Also, you can choose the date that you will not be able to make it for the group meeting at <a href="http://doodle.com/poll/pd7rn7esk4q5vuft">this doodle poll</a>, so that you will not be selected on that day!</p>
                 </div>
                 <br>
-                <h2>Presenter statistics</h2>
-                {% include "papers_history.html" %}
+                <h2>History</h2>
+                {% include "chairs_history.html" %}
                 <br>
-                {% include "plots_history.html" %}
+                {% include "speakers_history.html" %}
             </div>
         </div>
     </section>
@@ -72,7 +72,7 @@
     <!-- Footer -->
     <footer>
         <div class="container text-center">
-            <p><i class="fa fa-copyright"></i> Simon Mutch<br><small>The University of Melbourne (2015)</small></p>
+            <p><i class="fa fa-copyright"></i> Yuxiang Qin<br><small>The University of Melbourne (2016)</small></p>
         </div>
     </footer>
 
