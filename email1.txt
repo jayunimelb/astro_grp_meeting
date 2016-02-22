@@ -3,9 +3,9 @@ Hi all,
 Let me remind you that you are the chair and speaker(s) for next week. (http://qyx268.github.io/astromeeting_site/)
 
 Here are the details:
-date: 22. February 2016
-chair:	None
-speaker:	None
+date: 29. February 2016
+chair:	Paul Angel
+speaker:	Srinivasan Raghunathan
 
 Please note that it will be the speaker's duty to prepare a talk (less than 30 minutes) on the astro-group meeting.
 
