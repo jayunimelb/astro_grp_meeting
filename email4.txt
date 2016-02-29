@@ -3,10 +3,11 @@ Hi there,
 You are selected to be the chair and speaker(s) for the group meeting to be held 4 weeks later (http://qyx268.github.io/astromeeting_site/)
 
 Here are the details:
-date: 21. March 2016
-Patrick Clearwater Volunteered for chair
-chair:	Patrick Clearwater (p.clearwater@student.unimelb.edu.au)
-speaker:	Clare Kenyon (ckenyon@student.unimelb.edu.au)
+date: 28. March 2016
+Yuxiang Qin Volunteered for chair
+Yuxiang Qin Volunteered for speaker
+chair:	Yuxiang Qin (yuxiangq@student.unimelb.edu.au)
+speaker:	Yuxiang Qin (yuxiangq@student.unimelb.edu.au)
 
 Please note that it will be the speaker's duty to prepare a talk (less than 30 minutes) on the astro-group meeting.
 

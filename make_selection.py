@@ -20,7 +20,7 @@ def groupmeeting_time(week=4):
 def make_selection():
 
     now = datetime.datetime.now()
-    tick_end = datetime.datetime(now.year, now.month, now.day-today.weekday(), 17,0,0,0)
+    tick_end = datetime.datetime(now.year, now.month, now.day-datetime.date.today().weekday(), 17,0,0,0)
     if now < tick_end:
         print(colored("THIS IS NOT THE TIME!!!",'red'))
         return
@@ -99,7 +99,7 @@ def make_selection():
             presenters['speaker'] = random.sample(pool, 1)[0]
         else:
             # well unless this guy volunteered to do both
-            print(colored(presenters['speaker']+'volunteered to do both',red))
+            print(colored(presenters['speaker']+'volunteered to do both','red'))
             break
 
     # masters or 1-st year phds are required to give 15 mins talk, so add an other one

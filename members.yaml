@@ -26,7 +26,7 @@ Craig Burnett: {available: 1, chairs: 0, email: c.burnett@student.unimelb.edu.au
   speakers: 0, type: phd_senior}
 Daniel Neri Lairios: {available: 1, chairs: 0, email: d.nerilarios@student.unimelb.edu.au,
   speakers: 0, type: postdoc}
-Daniela Carrasco: {available: 1, chairs: 0, email: null, speakers: 0, type: phd_senior}
+Daniela Carrasco: {available: 0, chairs: 0, email: null, speakers: 0, type: phd_senior}
 Dylan Sutton: {available: 1, chairs: 0, email: null, speakers: 0, type: unknown}
 Edoardo Tescari: {available: 1, chairs: 0, email: edoardo.tescari@unimelb.edu.au,
   speakers: 1, type: postdoc}
@@ -58,7 +58,7 @@ Mahsa Rahimi: {available: 1, chairs: 0, email: rahimi@student.unimelb.edu.au, sp
 Michele Trenti: {available: 1, chairs: 0, email: mtrenti@unimelb.edu.au, speakers: 0,
   type: fellower}
 Nina Rajcic: {available: 1, chairs: 0, email: null, speakers: 0, type: master}
-Noura Alonzi: {available: 1, chairs: 1, email: nalonzi@student.unimelb.edu.au, speakers: 0,
+Noura Alonzi: {available: 0, chairs: 1, email: nalonzi@student.unimelb.edu.au, speakers: 0,
   type: phd_senior}
 Patrick Clearwater: {available: 1, chairs: 0, email: p.clearwater@student.unimelb.edu.au,
   speakers: 0, type: phd_senior}
@@ -76,8 +76,8 @@ Simon Mutch: {available: 1, chairs: 0, email: null, speakers: 0, type: postdoc}
 Sinem Ozbilgen: {available: 1, chairs: 0, email: s.ozbilgen@student.unimelb.edu.au,
   speakers: 0, type: phd_senior}
 Srinivasan Raghunathan: {available: 1, chairs: 0, email: srinivasan.raghunathan@unimelb.edu.au,
-  speakers: 0, type: postdoc}
-Stephanie Bernard: {available: 1, chairs: 0, email: sbernard@student.unimelb.edu.au,
+  speakers: 1, type: postdoc}
+Stephanie Bernard: {available: 1, chairs: 1, email: sbernard@student.unimelb.edu.au,
   speakers: 0, type: phd_senior}
 Stuart Wyithe: {available: 1, chairs: 1, email: swyithe@physics.unimelb.edu.au, speakers: 0,
   type: professor}
@@ -85,5 +85,5 @@ Veronika Miles: {available: 1, chairs: 0, email: null, speakers: 0, type: unknow
 William Fulgenzi: {available: 1, chairs: 0, email: null, speakers: 0, type: master}
 Yisheng Qiu: {available: 1, chairs: 0, email: yishengq@student.unimelb.edu.au, speakers: 0,
   type: master}
-Yuxiang Qin: {available: 0, chairs: 0, email: yuxiangq@student.unimelb.edu.au, speakers: 0,
+Yuxiang Qin: {available: 1, chairs: 0, email: yuxiangq@student.unimelb.edu.au, speakers: 0,
   type: phd_senior}
