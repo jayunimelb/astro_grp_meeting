@@ -19,10 +19,16 @@ def groupmeeting_time(week=4):
 
 def make_selection():
 
+    now = datetime.datetime.now()
+    tick_end = datetime.datetime(now.year, now.month, now.day-today.weekday(), 17,0,0,0)
+    if now < tick_end:
+        print(colored("THIS IS NOT THE TIME!!!",'red'))
+        return
+
     femail1 = open('email1.txt', 'w')
     femail4 = open('email4.txt', 'w')
-    femail1.write('Hi all,\n\nLet me remind you that you are the chair and speaker(s) for next week. (http://qyx268.github.io/astromeeting_site/)\n\nHere are the details:\n')
-    femail4.write('Hi all,\n\nYou are selected to be the chair and speaker(s) for the group meeting to be held 4 weeks later (http://qyx268.github.io/astromeeting_site/)\n\nHere are the details:\n')
+    femail1.write('Hi there,\n\nLet me remind you that you are the chair and speaker(s) for next week. (http://qyx268.github.io/astromeeting_site/)\n\nHere are the details:\n')
+    femail4.write('Hi there,\n\nYou are selected to be the chair and speaker(s) for the group meeting to be held 4 weeks later (http://qyx268.github.io/astromeeting_site/)\n\nHere are the details:\n')
     femail1.write('date: %s\n'%groupmeeting_time(week=1).strftime("%d. %B %Y"))
     femail4.write('date: %s\n'%groupmeeting_time(week=4).strftime("%d. %B %Y"))
 
@@ -108,14 +114,14 @@ def make_selection():
         selected_presenters = yaml.load(fd)
     
     next_monday = groupmeeting_time(week=1).strftime("%m/%d/%y")
-    femail1.write('chair:\t%s\nspeaker:\t%s\n'%(selected_presenters[next_monday]['chair'],selected_presenters[next_monday]['speaker']))
+    femail1.write('chair:\t%s (%s)\nspeaker:\t%s(%s)\n'%(selected_presenters[next_monday]['chair'],members['email'][selected_presenters[next_monday]['chair']],selected_presenters[next_monday]['speaker'],members['email'][selected_presenters[next_monday]['speaker']]))
 
     selected_presenters.pop(groupmeeting_time(week=0).strftime("%m/%d/%y")) 
     selected_presenters[next4_monday]= presenters
 
     print(colored('%s'%presenters+'4 weeks later',"red"))
     print(colored('%s'%selected_presenters[next_monday]+'next week','red'))
-    femail4.write('chair:\t%s\nspeaker:\t%s\n'%(presenters['chair'],presenters['speaker']))
+    femail4.write('chair:\t%s (%s)\nspeaker:\t%s (%s)\n'%(presenters['chair'],members['email'][presenters['chair']],presenters['speaker'],members['email'][presenters['speaker']]))
     with open("selected_presenters_tba.yaml", "w") as fd:
         yaml.safe_dump(selected_presenters, fd)
 
@@ -135,10 +141,8 @@ def make_selection():
 
     email4 = members['email'][list(selected_presenters[next4_monday].values())]
     email1 = members['email'][list(selected_presenters[next_monday].values())]
-    for people4 in email4:
-        print('mail -s "Speaker and chair on the astro-group meeting " "%s" <email4.txt'%colored(people4,'red'))
-    for people1 in email1:
-        print('mail -s "Speaker and chair on the astro-group meeting " "%s" <email1.txt'%colored(people1,'red'))
+    print('mail -s "Speaker and chair on the astro-group meeting" "'+', '.join([people for people in email4])+'" <email4.txt')
+    print('mail -s "Speaker and chair on the astro-group meeting" "'+', '.join([people for people in email1])+'" <email1.txt')
 
 if __name__ == "__main__":
     make_selection()

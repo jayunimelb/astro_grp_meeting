@@ -1,11 +1,11 @@
-Hi all,
+Hi there,
 
 Let me remind you that you are the chair and speaker(s) for next week. (http://qyx268.github.io/astromeeting_site/)
 
 Here are the details:
 date: 29. February 2016
-chair:	Paul Angel
-speaker:	Srinivasan Raghunathan
+chair:	Paul Angel (pangel@student.unimelb.edu.au)
+speaker:	Srinivasan Raghunathan(srinivasan.raghunathan@unimelb.edu.au)
 
 Please note that it will be the speaker's duty to prepare a talk (less than 30 minutes) on the astro-group meeting.
 
