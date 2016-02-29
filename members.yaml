@@ -5,6 +5,7 @@ Anthony Doucouliagos: {available: 1, chairs: 0, email: null, speakers: 0, type: 
 Ariel Cherny: {available: 1, chairs: 0, email: null, speakers: 0, type: unknown}
 Arthur Suvorov: {available: 1, chairs: 0, email: suvorova@student.unimelb.edu.au,
   speakers: 0, type: phd_senior}
+Anthea King: {available: 1, chairs: 0, email: anthea.king@unimelb.edu.au, speakers: 0, type: postdoc}
 Bart Pindor: {available: 1, chairs: 0, email: bpindor@unimelb.edu.au, speakers: 0,
   type: postdoc}
 Benedetta Vulcani: {available: 1, chairs: 0, email: null, speakers: 1, type: postdoc}
