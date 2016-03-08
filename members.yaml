@@ -1,18 +1,24 @@
 Alpha Mastrano: {available: 1, chairs: 0, email: null, speakers: 0, type: unknown}
 Andrew Melatos: {available: 1, chairs: 0, email: amelatos@physics.unimelb.edu.au,
   speakers: 0, type: professor}
-Anthony Doucouliagos: {available: 1, chairs: 0, email: null, speakers: 0, type: unknown}
-Ariel Cherny: {available: 1, chairs: 0, email: null, speakers: 0, type: unknown}
+Anthea King: {available: 0, chairs: 0, email: anthea.king@unimelb.edu.au, speakers: 0,
+  type: postdoc}
+Anthony Doucouliagos: {available: 1, chairs: 0, email: a.doucouliagos@student.unimelb.edu.au,
+  speakers: 0, type: unknown}
+Ariel Cherny: {available: 1, chairs: 0, email: a.cherny@student.unimelb.edu.au, speakers: 0,
+  type: unknown}
 Arthur Suvorov: {available: 1, chairs: 0, email: suvorova@student.unimelb.edu.au,
-  speakers: 0, type: phd_senior}
-Anthea King: {available: 1, chairs: 0, email: anthea.king@unimelb.edu.au, speakers: 0, type: postdoc}
+  speakers: 1, type: phd_senior}
 Bart Pindor: {available: 1, chairs: 0, email: bpindor@unimelb.edu.au, speakers: 0,
   type: postdoc}
-Benedetta Vulcani: {available: 1, chairs: 0, email: null, speakers: 1, type: postdoc}
+Benedetta Vulcani: {available: 1, chairs: 0, email: benedetta.vulcani@unimelb.edu.au,
+  speakers: 1, type: postdoc}
 Benjamin McKinley: {available: 1, chairs: 0, email: ben.mckinley@unimelb.edu.au, speakers: 0,
   type: postdoc}
-Bryonie Scott: {available: 1, chairs: 0, email: null, speakers: 0, type: phd_senior}
-Cameron Van Der Velden: {available: 1, chairs: 0, email: null, speakers: 0, type: unknown}
+Bryonie Scott: {available: 1, chairs: 0, email: bryonies@student.unimelb.edu.au, speakers: 0,
+  type: Master}
+Cameron Van Der Velden: {available: 1, chairs: 0, email: c.vandervelden@student.unimelb.edu.au,
+  speakers: 0, type: unknown}
 Camila Correa: {available: 1, chairs: 0, email: correac@student.unimelb.edu.au, speakers: 0,
   type: phd_senior}
 Chiara Tonini: {available: 1, chairs: 0, email: chiara.tonini@unimelb.edu.au, speakers: 0,
@@ -27,8 +33,10 @@ Craig Burnett: {available: 1, chairs: 0, email: c.burnett@student.unimelb.edu.au
   speakers: 0, type: phd_senior}
 Daniel Neri Lairios: {available: 1, chairs: 0, email: d.nerilarios@student.unimelb.edu.au,
   speakers: 0, type: postdoc}
-Daniela Carrasco: {available: 0, chairs: 0, email: null, speakers: 0, type: phd_senior}
-Dylan Sutton: {available: 1, chairs: 0, email: null, speakers: 0, type: unknown}
+Daniela Carrasco: {available: 1, chairs: 0, email: dcarrasco@student.unimelb.edu.au,
+  speakers: 0, type: phd_senior}
+Dylan Sutton: {available: 1, chairs: 0, email: d.sutton@student.unimelb.edu.au, speakers: 0,
+  type: unknown}
 Edoardo Tescari: {available: 1, chairs: 0, email: edoardo.tescari@unimelb.edu.au,
   speakers: 1, type: postdoc}
 George Howitt: {available: 1, chairs: 0, email: ghowitt@student.unimelb.edu.au, speakers: 0,
@@ -58,12 +66,13 @@ Mahsa Rahimi: {available: 1, chairs: 0, email: rahimi@student.unimelb.edu.au, sp
   type: phd_senior}
 Michele Trenti: {available: 1, chairs: 0, email: mtrenti@unimelb.edu.au, speakers: 0,
   type: fellower}
-Nina Rajcic: {available: 1, chairs: 0, email: null, speakers: 0, type: master}
+Nina Rajcic: {available: 1, chairs: 0, email: n.rajcic@student.unimelb.edu.au, speakers: 0,
+  type: master}
 Noura Alonzi: {available: 0, chairs: 1, email: nalonzi@student.unimelb.edu.au, speakers: 0,
   type: phd_senior}
 Patrick Clearwater: {available: 1, chairs: 0, email: p.clearwater@student.unimelb.edu.au,
   speakers: 0, type: phd_senior}
-Paul Angel: {available: 1, chairs: 0, email: pangel@student.unimelb.edu.au, speakers: 0,
+Paul Angel: {available: 1, chairs: 1, email: pangel@student.unimelb.edu.au, speakers: 0,
   type: phd_senior}
 Paul Geil: {available: 1, chairs: 0, email: geil.p@unimelb.edu.au, speakers: 0, type: postdoc}
 Pietro Procopio: {available: 1, chairs: 0, email: pietro.procopio@unimelb.edu.au,
@@ -73,7 +82,8 @@ Rachel Webster: {available: 1, chairs: 0, email: r.webster@unimelb.edu.au, speak
 Sanjay Patil: {available: 1, chairs: 0, email: null, speakers: 0, type: phd_senior}
 Sarah Schon: {available: 1, chairs: 0, email: sschon@student.unimelb.edu.au, speakers: 0,
   type: phd_senior}
-Simon Mutch: {available: 1, chairs: 0, email: null, speakers: 0, type: postdoc}
+Simon Mutch: {available: 1, chairs: 0, email: smutch@unimelb.edu.au, speakers: 0,
+  type: postdoc}
 Sinem Ozbilgen: {available: 1, chairs: 0, email: s.ozbilgen@student.unimelb.edu.au,
   speakers: 0, type: phd_senior}
 Srinivasan Raghunathan: {available: 1, chairs: 0, email: srinivasan.raghunathan@unimelb.edu.au,
@@ -82,8 +92,10 @@ Stephanie Bernard: {available: 1, chairs: 1, email: sbernard@student.unimelb.edu
   speakers: 0, type: phd_senior}
 Stuart Wyithe: {available: 1, chairs: 1, email: swyithe@physics.unimelb.edu.au, speakers: 0,
   type: professor}
-Veronika Miles: {available: 1, chairs: 0, email: null, speakers: 0, type: unknown}
-William Fulgenzi: {available: 1, chairs: 0, email: null, speakers: 0, type: master}
+Veronika Miles: {available: 1, chairs: 0, email: v.miles3@student.unimelb.edu.au,
+  speakers: 0, type: unknown}
+William Fulgenzi: {available: 1, chairs: 0, email: w.fulgenzi@student.unimelb.edu.au,
+  speakers: 0, type: master}
 Yisheng Qiu: {available: 1, chairs: 0, email: yishengq@student.unimelb.edu.au, speakers: 0,
   type: master}
 Yuxiang Qin: {available: 1, chairs: 0, email: yuxiangq@student.unimelb.edu.au, speakers: 0,

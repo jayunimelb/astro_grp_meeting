@@ -3,11 +3,14 @@ Hi there,
 You are selected to be the chair and speaker(s) for the group meeting to be held 4 weeks later (http://qyx268.github.io/astromeeting_site/)
 
 Here are the details:
-date: 28. March 2016
-Yuxiang Qin Volunteered for chair
-Yuxiang Qin Volunteered for speaker
-chair:	Yuxiang Qin (yuxiangq@student.unimelb.edu.au)
-speaker:	Yuxiang Qin (yuxiangq@student.unimelb.edu.au)
+date: 04. April 2016
+Camila Correa Volunteered for chair
+Keven Ren Volunteered for speaker
+chair:	Camila Correa (correac@student.unimelb.edu.au)
+speaker:	Keven Ren, William Fulgenzi (name
+Keven Ren               kevenr@student.unimelb.edu.au
+William Fulgenzi    w.fulgenzi@student.unimelb.edu.au
+Name: email, dtype: object)
 
 Please note that it will be the speaker's duty to prepare a talk (less than 30 minutes) on the astro-group meeting.
 

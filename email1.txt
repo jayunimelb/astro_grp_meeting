@@ -3,9 +3,9 @@ Hi there,
 Let me remind you that you are the chair and speaker(s) for next week. (http://qyx268.github.io/astromeeting_site/)
 
 Here are the details:
-date: 07. March 2016
-chair:	Paul Angel (pangel@student.unimelb.edu.au)
-speaker:	Arthur Suvorov(suvorova@student.unimelb.edu.au)
+date: 14. March 2016
+chair:	Yuxiang Qin (yuxiangq@student.unimelb.edu.au)
+speaker:	Sarah Schon(sschon@student.unimelb.edu.au)
 
 Please note that it will be the speaker's duty to prepare a talk (less than 30 minutes) on the astro-group meeting.
 

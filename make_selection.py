@@ -121,7 +121,7 @@ def make_selection():
 
     print(colored('%s'%presenters+'4 weeks later',"red"))
     print(colored('%s'%selected_presenters[next_monday]+'next week','red'))
-    femail4.write('chair:\t%s (%s)\nspeaker:\t%s (%s)\n'%(presenters['chair'],members['email'][presenters['chair']],presenters['speaker'],members['email'][presenters['speaker']]))
+    femail4.write('chair:\t%s (%s)\nspeaker:\t%s (%s)\n'%(presenters['chair'],members['email'][presenters['chair']],presenters['speaker'],members['email'][presenters['speaker'].split(', ')]))
     with open("selected_presenters_tba.yaml", "w") as fd:
         yaml.safe_dump(selected_presenters, fd)
 
@@ -139,8 +139,12 @@ def make_selection():
     femail1.close()
     femail4.close()
 
-    email4 = members['email'][list(selected_presenters[next4_monday].values())]
-    email1 = members['email'][list(selected_presenters[next_monday].values())]
+    #double speaker:
+    tmp = list(selected_presenters[next4_monday].values())
+    email4 = members['email'][tmp[1].split(', ')+tmp[0].split(', ')]
+
+    tmp = list(selected_presenters[next_monday].values())
+    email1 = members['email'][tmp[1].split(', ')+tmp[0].split(', ')]
     print('mail -s "Speaker and chair on the astro-group meeting" "'+', '.join([people for people in email4])+'" <email4.txt')
     print('mail -s "Speaker and chair on the astro-group meeting" "'+', '.join([people for people in email1])+'" <email1.txt')
 
