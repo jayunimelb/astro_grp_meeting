@@ -3,13 +3,12 @@ Hi there,
 You are selected to be the chair and speaker(s) for the group meeting to be held 4 weeks later (http://qyx268.github.io/astromeeting_site/)
 
 Here are the details:
-date: 04. April 2016
-Camila Correa Volunteered for chair
-Keven Ren Volunteered for speaker
-chair:	Camila Correa (correac@student.unimelb.edu.au)
-speaker:	Keven Ren, William Fulgenzi (name
-Keven Ren               kevenr@student.unimelb.edu.au
-William Fulgenzi    w.fulgenzi@student.unimelb.edu.au
+date: 11. April 2016
+Lisa Drummond Volunteered for chair
+Cameron Van Der Velden Volunteered for speaker
+chair:	Lisa Drummond (l.drummond@student.unimelb.edu.au)
+speaker:	Cameron Van Der Velden (name
+Cameron Van Der Velden    c.vandervelden@student.unimelb.edu.au
 Name: email, dtype: object)
 
 Please note that it will be the speaker's duty to prepare a talk (less than 30 minutes) on the astro-group meeting.
@@ -19,7 +18,7 @@ And it will be the chair's responsibility to
 	2) remind the astro group that you are the chair and collect agendas from them on Monday, 
 	3) send an announcement to the astro-people about 15 minutes before the group meeting, 
 	4) update the group meeting minutes on AstroWiki,
-	5) prepare a cake (usually) after the colloquium on Wednesday. 
+	5) prepare a cake (usually) on Wednesday afternoon. 
 
 Please confirm it by replying me or let me know as soon as possible if you cannot make it :)
 If you only need to give a 15-minute talk but you are the only speaker selected, let me know and I will arrange one more speaker.
