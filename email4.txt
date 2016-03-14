@@ -4,11 +4,12 @@ You are selected to be the chair and speaker(s) for the group meeting to be held
 
 Here are the details:
 date: 11. April 2016
-Lisa Drummond Volunteered for chair
 Cameron Van Der Velden Volunteered for speaker
+Lisa Drummond Volunteered for chair
 chair:	Lisa Drummond (l.drummond@student.unimelb.edu.au)
-speaker:	Cameron Van Der Velden (name
+speaker:	Cameron Van Der Velden, Yisheng Qiu (name
 Cameron Van Der Velden    c.vandervelden@student.unimelb.edu.au
+Yisheng Qiu                     yishengq@student.unimelb.edu.au
 Name: email, dtype: object)
 
 Please note that it will be the speaker's duty to prepare a talk (less than 30 minutes) on the astro-group meeting.

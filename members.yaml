@@ -18,7 +18,7 @@ Benjamin McKinley: {available: 1, chairs: 0, email: ben.mckinley@unimelb.edu.au,
 Bryonie Scott: {available: 0, chairs: 0, email: bryonies@student.unimelb.edu.au, speakers: 0,
   type: Master}
 Cameron Van Der Velden: {available: 1, chairs: 0, email: c.vandervelden@student.unimelb.edu.au,
-  speakers: 0, type: unknown}
+  speakers: 0, type: master}
 Camila Correa: {available: 1, chairs: 0, email: correac@student.unimelb.edu.au, speakers: 0,
   type: phd_senior}
 Chiara Tonini: {available: 1, chairs: 0, email: chiara.tonini@unimelb.edu.au, speakers: 0,
