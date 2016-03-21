@@ -23,7 +23,7 @@ def make_selection():
     tick_end = datetime.datetime(now.year, now.month, now.day-datetime.date.today().weekday(), 17,0,0,0)
     if now < tick_end:
         print(colored("THIS IS NOT THE TIME!!!",'red'))
-        return
+        #return
 
     femail1 = open('email1.txt', 'w')
     femail4 = open('email4.txt', 'w')

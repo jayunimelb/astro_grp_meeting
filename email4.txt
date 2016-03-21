@@ -3,13 +3,12 @@ Hi there,
 You are selected to be the chair and speaker(s) for the group meeting to be held 4 weeks later (http://qyx268.github.io/astromeeting_site/)
 
 Here are the details:
-date: 11. April 2016
-Cameron Van Der Velden Volunteered for speaker
-Lisa Drummond Volunteered for chair
-chair:	Lisa Drummond (l.drummond@student.unimelb.edu.au)
-speaker:	Cameron Van Der Velden, Yisheng Qiu (name
-Cameron Van Der Velden    c.vandervelden@student.unimelb.edu.au
-Yisheng Qiu                     yishengq@student.unimelb.edu.au
+date: 18. April 2016
+Paul Geil Volunteered for chair
+Laura Wolz Volunteered for speaker
+chair:	Paul Geil (geil.p@unimelb.edu.au)
+speaker:	Laura Wolz (name
+Laura Wolz    lwolz@unimelb.edu.au
 Name: email, dtype: object)
 
 Please note that it will be the speaker's duty to prepare a talk (less than 30 minutes) on the astro-group meeting.
