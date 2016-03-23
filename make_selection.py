@@ -103,11 +103,13 @@ def make_selection():
             break
 
     # masters or 1-st year phds are required to give 15 mins talk, so add an other one
+    flag = 0
     if members['type'][presenters['speaker']] in half_talk_list:
         half_talk_members = members[members['type'].isin(half_talk_list)].drop(presenters['speaker'])
         mi = half_talk_members['speakers'].min()
         pool = list(half_talk_members.query('speakers == @mi').index)
         presenters['speaker']+=', '+random.sample(pool, 1)[0]
+        flag = 1
 
     # upate the selected_presenters file
     with open('selected_presenters.yaml', 'r') as fd:
@@ -121,7 +123,10 @@ def make_selection():
 
     print(colored('%s'%presenters+'4 weeks later',"red"))
     print(colored('%s'%selected_presenters[next_monday]+'next week','red'))
-    femail4.write('chair:\t%s (%s)\nspeaker:\t%s (%s)\n'%(presenters['chair'],members['email'][presenters['chair']],presenters['speaker'],members['email'][presenters['speaker'].split(', ')]))
+    if flag:
+        femail4.write('chair:\t%s (%s)\nspeaker:\t%s (%s)\n'%(presenters['chair'],members['email'][presenters['chair']],presenters['speaker'],members['email'][presenters['speaker'].split(', ')]))
+    else:
+        femail4.write('chair:\t%s (%s)\nspeaker:\t%s (%s)\n'%(presenters['chair'],members['email'][presenters['chair']],presenters['speaker'],members['email'][presenters['speaker']]))
     with open("selected_presenters_tba.yaml", "w") as fd:
         yaml.safe_dump(selected_presenters, fd)
 

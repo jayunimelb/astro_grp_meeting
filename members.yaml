@@ -79,6 +79,8 @@ Pietro Procopio: {available: 1, chairs: 0, email: pietro.procopio@unimelb.edu.au
   speakers: 0, type: postdoc}
 Rachel Webster: {available: 1, chairs: 0, email: r.webster@unimelb.edu.au, speakers: 0,
   type: professor}
+Ricardo D'Amico: {available: 1, chairs: 0, email: r.d'amico@student.unimelb.edu.au,
+  speakers: 0, type: master}
 Sanjay Patil: {available: 1, chairs: 0, email: null, speakers: 0, type: phd_senior}
 Sarah Schon: {available: 1, chairs: 0, email: sschon@student.unimelb.edu.au, speakers: 1,
   type: phd_senior}
