@@ -116,7 +116,11 @@ def make_selection():
         selected_presenters = yaml.load(fd)
     
     next_monday = groupmeeting_time(week=1).strftime("%m/%d/%y")
-    femail1.write('chair:\t%s (%s)\nspeaker:\t%s(%s)\n'%(selected_presenters[next_monday]['chair'],members['email'][selected_presenters[next_monday]['chair']],selected_presenters[next_monday]['speaker'],members['email'][selected_presenters[next_monday]['speaker']]))
+    try:
+        femail1.write('chair:\t%s (%s)\nspeaker:\t%s (%s)\n'%(selected_presenters[next_monday]['chair'],members['email'][selected_presenters[next_monday]['chair']],selected_presenters[next_monday]['speaker'],members['email'][selected_presenters[next_monday]['speaker']]))
+    except KeyError:
+        femail1.write('chair:\t%s (%s)\nspeaker:\t%s (%s)\n'%(selected_presenters[next_monday]['chair'],members['email'][selected_presenters[next_monday]['chair']],selected_presenters[next_monday]['speaker'],members['email'][selected_presenters[next_monday]['speaker'].split(', ')]))
+
 
     selected_presenters.pop(groupmeeting_time(week=0).strftime("%m/%d/%y")) 
     selected_presenters[next4_monday]= presenters

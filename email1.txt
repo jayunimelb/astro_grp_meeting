@@ -3,9 +3,12 @@ Hi there,
 Let me remind you that you are the chair and speaker(s) for next week. (http://qyx268.github.io/astromeeting_site/)
 
 Here are the details:
-date: 28. March 2016
-chair:	Ricardo D'Amico (r.d'amico@student.unimelb.edu.au)
-speaker:	Ricardo D'Amico(r.d'amico@student.unimelb.edu.au)
+date: 04. April 2016
+chair:	Camila Correa (correac@student.unimelb.edu.au)
+speaker:	Keven Ren, William Fulgenzi (name
+Keven Ren               kevenr@student.unimelb.edu.au
+William Fulgenzi    w.fulgenzi@student.unimelb.edu.au
+Name: email, dtype: object)
 
 Please note that it will be the speaker's duty to prepare a talk (less than 30 minutes) on the astro-group meeting.
 
