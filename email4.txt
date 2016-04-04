@@ -3,11 +3,10 @@ Hi there,
 You are selected to be the chair and speaker(s) for the group meeting to be held 4 weeks later (http://qyx268.github.io/astromeeting_site/)
 
 Here are the details:
-date: 25. April 2016
-George Howitt Volunteered for chair
-Rachel Webster Volunteered for speaker
-chair:	George Howitt (ghowitt@student.unimelb.edu.au)
-speaker:	Rachel Webster (r.webster@unimelb.edu.au)
+date: 02. May 2016
+Bryonie Scott Volunteered for speaker
+chair:	Jaehong Park (jaehongP@student.unimelb.edu.au)
+speaker:	Bryonie Scott (bryonies@student.unimelb.edu.au)
 
 Please note that it will be the speaker's duty to prepare a talk (less than 30 minutes) on the astro-group meeting.
 

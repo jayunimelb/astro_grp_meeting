@@ -119,7 +119,7 @@ def make_selection():
     try:
         femail1.write('chair:\t%s (%s)\nspeaker:\t%s (%s)\n'%(selected_presenters[next_monday]['chair'],members['email'][selected_presenters[next_monday]['chair']],selected_presenters[next_monday]['speaker'],members['email'][selected_presenters[next_monday]['speaker']]))
     except KeyError:
-        femail1.write('chair:\t%s (%s)\nspeaker:\t%s (%s)\n'%(selected_presenters[next_monday]['chair'],members['email'][selected_presenters[next_monday]['chair']],selected_presenters[next_monday]['speaker'],members['email'][selected_presenters[next_monday]['speaker'].split(', ')]))
+        femail1.write('chair:\t%s (%s)\nspeaker:\t%s (%s)\n'%(selected_presenters[next_monday]['chair'],members['email'][selected_presenters[next_monday]['chair']],selected_presenters[next_monday]['speaker'],members['email'][selected_presenters[next_monday]['speaker'].split(', ')].values))
 
 
     selected_presenters.pop(groupmeeting_time(week=0).strftime("%m/%d/%y")) 
@@ -128,7 +128,7 @@ def make_selection():
     print(colored('%s'%presenters+'4 weeks later',"red"))
     print(colored('%s'%selected_presenters[next_monday]+'next week','red'))
     if flag:
-        femail4.write('chair:\t%s (%s)\nspeaker:\t%s (%s)\n'%(presenters['chair'],members['email'][presenters['chair']],presenters['speaker'],members['email'][presenters['speaker'].split(', ')]))
+        femail4.write('chair:\t%s (%s)\nspeaker:\t%s (%s)\n'%(presenters['chair'],members['email'][presenters['chair']],presenters['speaker'],members['email'][presenters['speaker'].split(', ')].value))
     else:
         femail4.write('chair:\t%s (%s)\nspeaker:\t%s (%s)\n'%(presenters['chair'],members['email'][presenters['chair']],presenters['speaker'],members['email'][presenters['speaker']]))
     with open("selected_presenters_tba.yaml", "w") as fd:
