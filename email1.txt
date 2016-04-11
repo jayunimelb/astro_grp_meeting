@@ -3,9 +3,9 @@ Hi there,
 Let me remind you that you are the chair and speaker(s) for next week. (http://qyx268.github.io/astromeeting_site/)
 
 Here are the details:
-date: 11. April 2016
-chair:	Lisa Drummond (l.drummond@student.unimelb.edu.au)
-speaker:	Cameron Van Der Velden, Yisheng Qiu (['c.vandervelden@student.unimelb.edu.au' 'yishengq@student.unimelb.edu.au'])
+date: 18. April 2016
+chair:	Paul Geil (geil.p@unimelb.edu.au)
+speaker:	Laura Wolz (lwolz@unimelb.edu.au)
 
 Please note that it will be the speaker's duty to prepare a talk (less than 30 minutes) on the astro-group meeting.
 

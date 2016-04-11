@@ -75,7 +75,7 @@ def make_selection():
             presenters[k] = v
             volunteered[k] = True
             print(colored("Volunteer for "+k+" by "+v,'red'))
-            femail4.write(v+" Volunteered for "+k+'\n')
+            femail4.write(v+" volunteered for "+k+'\n')
 
     # choose the chair presenters randomly from those who have presented the
     # minimum number of times.

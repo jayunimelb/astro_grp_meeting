@@ -1,6 +1,3 @@
-increment:
-	python increment.py
-
 select:
 	python available.py
 	python make_selection.py
