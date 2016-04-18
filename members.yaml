@@ -16,7 +16,7 @@ Benedetta Vulcani: {available: 0, chairs: 0, email: benedetta.vulcani@unimelb.ed
 Benjamin McKinley: {available: 1, chairs: 0, email: ben.mckinley@unimelb.edu.au, speakers: 0,
   type: postdoc}
 Bryonie Scott: {available: 1, chairs: 0, email: bryonies@student.unimelb.edu.au, speakers: 0,
-  type: Master}
+  type: master}
 Cameron Van Der Velden: {available: 1, chairs: 0, email: c.vandervelden@student.unimelb.edu.au,
   speakers: 1, type: master}
 Camila Correa: {available: 1, chairs: 0, email: correac@student.unimelb.edu.au, speakers: 0,
@@ -36,7 +36,7 @@ Daniel Neri Lairios: {available: 1, chairs: 0, email: d.nerilarios@student.unime
 Daniela Carrasco: {available: 1, chairs: 0, email: dcarrasco@student.unimelb.edu.au,
   speakers: 0, type: phd_senior}
 Dylan Sutton: {available: 1, chairs: 0, email: d.sutton@student.unimelb.edu.au, speakers: 0,
-  type: unknown}
+  type: master}
 Edoardo Tescari: {available: 1, chairs: 0, email: edoardo.tescari@unimelb.edu.au,
   speakers: 1, type: postdoc}
 George Howitt: {available: 1, chairs: 0, email: ghowitt@student.unimelb.edu.au, speakers: 0,
@@ -57,7 +57,7 @@ Julian Carlin: {available: 1, chairs: 0, email: julescarlin@gmail.com, speakers:
 Katie Mack: {available: 1, chairs: 0, email: kmack@unimelb.edu.au, speakers: 0, type: postdoc}
 Keven Ren: {available: 1, chairs: 0, email: kevenr@student.unimelb.edu.au, speakers: 1,
   type: master}
-Laura Wolz: {available: 1, chairs: 0, email: lwolz@unimelb.edu.au, speakers: 0, type: postdoc}
+Laura Wolz: {available: 1, chairs: 0, email: lwolz@unimelb.edu.au, speakers: 1, type: postdoc}
 Ling Sun: {available: 1, chairs: 0, email: lings2@student.unimelb.edu.au, speakers: 0,
   type: phd_senior}
 Lisa Drummond: {available: 1, chairs: 1, email: l.drummond@student.unimelb.edu.au,
@@ -74,7 +74,7 @@ Patrick Clearwater: {available: 1, chairs: 1, email: p.clearwater@student.unimel
   speakers: 0, type: phd_senior}
 Paul Angel: {available: 1, chairs: 1, email: pangel@student.unimelb.edu.au, speakers: 0,
   type: phd_senior}
-Paul Geil: {available: 1, chairs: 0, email: geil.p@unimelb.edu.au, speakers: 0, type: postdoc}
+Paul Geil: {available: 1, chairs: 1, email: geil.p@unimelb.edu.au, speakers: 0, type: postdoc}
 Pietro Procopio: {available: 1, chairs: 0, email: pietro.procopio@unimelb.edu.au,
   speakers: 0, type: postdoc}
 Rachel Webster: {available: 1, chairs: 0, email: r.webster@unimelb.edu.au, speakers: 0,

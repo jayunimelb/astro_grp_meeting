@@ -128,7 +128,7 @@ def make_selection():
     print(colored('%s'%presenters+'4 weeks later',"red"))
     print(colored('%s'%selected_presenters[next_monday]+'next week','red'))
     if flag:
-        femail4.write('chair:\t%s (%s)\nspeaker:\t%s (%s)\n'%(presenters['chair'],members['email'][presenters['chair']],presenters['speaker'],members['email'][presenters['speaker'].split(', ')].value))
+        femail4.write('chair:\t%s (%s)\nspeaker:\t%s (%s)\n'%(presenters['chair'],members['email'][presenters['chair']],presenters['speaker'],members['email'][presenters['speaker'].split(', ')].values))
     else:
         femail4.write('chair:\t%s (%s)\nspeaker:\t%s (%s)\n'%(presenters['chair'],members['email'][presenters['chair']],presenters['speaker'],members['email'][presenters['speaker']]))
     with open("selected_presenters_tba.yaml", "w") as fd:

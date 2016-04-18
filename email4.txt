@@ -3,11 +3,10 @@ Hi there,
 You are selected to be the chair and speaker(s) for the group meeting to be held 4 weeks later (http://qyx268.github.io/astromeeting_site/)
 
 Here are the details:
-date: 09. May 2016
-Clare Kenyon volunteered for chair
-Dylan Sutton volunteered for speaker
-chair:	Clare Kenyon (ckenyon@student.unimelb.edu.au)
-speaker:	Dylan Sutton (d.sutton@student.unimelb.edu.au)
+date: 16. May 2016
+Hansik Kim volunteered for chair
+chair:	Hansik Kim (hansikk@unimelb.edu.au)
+speaker:	Michele Trenti (mtrenti@unimelb.edu.au)
 
 Please note that it will be the speaker's duty to prepare a talk (less than 30 minutes) on the astro-group meeting.
 
