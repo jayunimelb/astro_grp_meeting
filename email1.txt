@@ -3,9 +3,9 @@ Hi there,
 Let me remind you that you are the chair and speaker(s) for next week. (http://qyx268.github.io/astromeeting_site/)
 
 Here are the details:
-date: 02. May 2016
-chair:	Jaehong Park (jaehongP@student.unimelb.edu.au)
-speaker:	Bryonie Scott (bryonies@student.unimelb.edu.au)
+date: 09. May 2016
+chair:	Clare Kenyon (ckenyon@student.unimelb.edu.au)
+speaker:	Dylan Sutton, Ricardo D'Amico (['d.sutton@student.unimelb.edu.au' "r.d'amico@student.unimelb.edu.au"])
 
 Please note that it will be the speaker's duty to prepare a talk (less than 30 minutes) on the astro-group meeting.
 

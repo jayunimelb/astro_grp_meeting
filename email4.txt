@@ -3,11 +3,10 @@ Hi there,
 You are selected to be the chair and speaker(s) for the group meeting to be held 4 weeks later (http://qyx268.github.io/astromeeting_site/)
 
 Here are the details:
-date: 23. May 2016
-Jack Line volunteered for chair
-Stephanie Bernard volunteered for speaker
-chair:	Jack Line (j.line@student.unimelb.edu.au)
-speaker:	Stephanie Bernard (sbernard@student.unimelb.edu.au)
+date: 30. May 2016
+Craig Burnett volunteered for speaker
+chair:	Cameron Van Der Velden (c.vandervelden@student.unimelb.edu.au)
+speaker:	Craig Burnett (c.burnett@student.unimelb.edu.au)
 
 Please note that it will be the speaker's duty to prepare a talk (less than 30 minutes) on the astro-group meeting.
 
