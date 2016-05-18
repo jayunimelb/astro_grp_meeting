@@ -4,10 +4,9 @@ You are selected to be the chair and speaker(s) for the group meeting to be held
 
 Here are the details:
 date: 13. June 2016
-Alpha Mastrano volunteered for chair
 Patrick Clearwater volunteered for speaker
-chair:	Alpha Mastrano (alpham@unimelb.edu.au)
-speaker:	Patrick Clearwater (p.clearwater@student.unimelb.edu.au)
+chair:	Daniel Neri Lairios (d.nerilarios@student.unimelb.edu.au)
+speaker:	Patrick Clearwater (p.clearwater@student.unimelb.edu.au),Joe Dowson
 
 Please note that it will be the speaker's duty to prepare a talk (less than 30 minutes) on the astro-group meeting.
 
