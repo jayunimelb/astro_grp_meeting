@@ -27,7 +27,7 @@ def make_selection():
 
     femail1 = open('email1.txt', 'w')
     femail4 = open('email4.txt', 'w')
-    femail1.write('Hi there,\n\nLet me remind you that you are the chair and speaker(s) for next week. (http://qyx268.github.io/astromeeting_site/)\n\nHere are the details:\n')
+    femail1.write('Hi there,\n\nPlease allow me to remind you that you are the chair and speaker(s) for next week. (http://qyx268.github.io/astromeeting_site/)\n\nHere are the details:\n')
     femail4.write('Hi there,\n\nYou are selected to be the chair and speaker(s) for the group meeting to be held 4 weeks later (http://qyx268.github.io/astromeeting_site/)\n\nHere are the details:\n')
     femail1.write('date: %s\n'%groupmeeting_time(week=1).strftime("%d. %B %Y"))
     femail4.write('date: %s\n'%groupmeeting_time(week=4).strftime("%d. %B %Y"))
