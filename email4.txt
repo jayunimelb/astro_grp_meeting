@@ -3,10 +3,9 @@ Hi there,
 You are selected to be the chair and speaker(s) for the group meeting to be held 4 weeks later (http://qyx268.github.io/astromeeting_site/)
 
 Here are the details:
-date: 20. June 2016
-Lisa Drummond volunteered for speaker
-chair:	Simon Mutch (smutch@unimelb.edu.au)
-speaker:	Lisa Drummond, Nina Rajcic (['l.drummond@student.unimelb.edu.au' 'n.rajcic@student.unimelb.edu.au'])
+date: 27. June 2016
+chair:	Yisheng Qiu (yishengq@student.unimelb.edu.au)
+speaker:	Anthea King (anthea.king@unimelb.edu.au)
 
 Please note that it will be the speaker's duty to prepare a talk (less than 30 minutes) on the astro-group meeting.
 
@@ -18,6 +17,8 @@ And it will be the chair's responsibility to
 	5) prepare a cake (usually) on Wednesday afternoon. 
 
 Please confirm it by replying me or let me know as soon as possible if you cannot make it :)
+
+If you become unable to attend the meeting after this Friday, unfortunately, you will need to find an alternative by yourself.
 If you only need to give a 15-minute talk but you are the only speaker selected, let me know and I will arrange one more speaker.
 
 Cheers,

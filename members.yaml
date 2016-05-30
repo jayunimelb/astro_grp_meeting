@@ -2,7 +2,7 @@ Alpha Mastrano: {available: 1, chairs: 0, email: alpham@unimelb.edu.au, speakers
   type: unknown}
 Andrew Melatos: {available: 1, chairs: 0, email: amelatos@physics.unimelb.edu.au,
   speakers: 0, type: professor}
-Anthea King: {available: 0, chairs: 0, email: anthea.king@unimelb.edu.au, speakers: 0,
+Anthea King: {available: 1, chairs: 0, email: anthea.king@unimelb.edu.au, speakers: 0,
   type: postdoc}
 Anthony Doucouliagos: {available: 1, chairs: 0, email: a.doucouliagos@student.unimelb.edu.au,
   speakers: 0, type: unknown}
@@ -18,7 +18,7 @@ Benjamin McKinley: {available: 1, chairs: 0, email: ben.mckinley@unimelb.edu.au,
   type: postdoc}
 Bryonie Scott: {available: 1, chairs: 0, email: bryonies@student.unimelb.edu.au, speakers: 1,
   type: master}
-Cameron Van Der Velden: {available: 1, chairs: 0, email: c.vandervelden@student.unimelb.edu.au,
+Cameron Van Der Velden: {available: 1, chairs: 1, email: c.vandervelden@student.unimelb.edu.au,
   speakers: 1, type: master}
 Camila Correa: {available: 1, chairs: 0, email: correac@student.unimelb.edu.au, speakers: 0,
   type: phd_senior}
@@ -78,6 +78,8 @@ Rachel Webster: {available: 1, chairs: 0, email: r.webster@unimelb.edu.au, speak
   type: professor}
 Ricardo D'Amico: {available: 1, chairs: 0, email: r.d'amico@student.unimelb.edu.au,
   speakers: 0, type: master}
+Ruggero de Vita: {available: 1, chairs: 0, email: r.devita@student.unimelb.edu.au,
+  speakers: 1, type: phd_senior}
 Sanjay Patil: {available: 1, chairs: 0, email: null, speakers: 0, type: phd_senior}
 Sarah Schon: {available: 1, chairs: 0, email: sschon@student.unimelb.edu.au, speakers: 1,
   type: phd_senior}
