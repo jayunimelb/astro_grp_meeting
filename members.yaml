@@ -47,8 +47,6 @@ Jacinta den Besten: {available: 0, chairs: 0, email: jacinta.den@unimelb.edu.au,
   type: outreach}
 Jack Line: {available: 1, chairs: 1, email: j.line@student.unimelb.edu.au, speakers: 0,
   type: phd_senior}
-Jaehong Park: {available: 1, chairs: 1, email: jaehongP@student.unimelb.edu.au, speakers: 0,
-  type: phd_senior}
 Julian Carlin: {available: 1, chairs: 0, email: julescarlin@gmail.com, speakers: 0,
   type: undergraduate}
 Katie Mack: {available: 0, chairs: 1, email: kmack@unimelb.edu.au, speakers: 0, type: postdoc}
@@ -69,8 +67,6 @@ Noura Alonzi: {available: 1, chairs: 1, email: nalonzi@student.unimelb.edu.au, s
   type: phd_senior}
 Patrick Clearwater: {available: 1, chairs: 1, email: p.clearwater@student.unimelb.edu.au,
   speakers: 0, type: phd_senior}
-Paul Angel: {available: 1, chairs: 1, email: pangel@student.unimelb.edu.au, speakers: 0,
-  type: phd_senior}
 Paul Geil: {available: 1, chairs: 1, email: geil.p@unimelb.edu.au, speakers: 0, type: postdoc}
 Pietro Procopio: {available: 0, chairs: 0, email: pietro.procopio@unimelb.edu.au,
   speakers: 0, type: postdoc}
