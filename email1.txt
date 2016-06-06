@@ -3,9 +3,9 @@ Hi there,
 Please allow me to remind you that you are the chair and speaker(s) for next week. (http://qyx268.github.io/astromeeting_site/)
 
 Here are the details:
-date: 06. June 2016
-chair:	Katie Mack (kmack@unimelb.edu.au)
-speaker:	Daniela Carrasco (dcarrasco@student.unimelb.edu.au)
+date: 13. June 2016
+chair:	Nina Rajcic (n.rajcic@student.unimelb.edu.au)
+speaker:	Patrick Clearwater (p.clearwater@student.unimelb.edu.au)
 
 Please note that it will be the speaker's duty to prepare a talk (less than 30 minutes) on the astro-group meeting.
 
@@ -16,8 +16,7 @@ And it will be the chair's responsibility to
 	4) update the group meeting minutes on AstroWiki,
 	5) prepare a cake (usually) on Wednesday afternoon. 
 
-If you wiil be unable to attend the meeting but did not let me know when I sent you the previous email about 3 weeks ago, you need to find an alternative by yourself.
-
+If you will be unable to attend the meeting but did not let me know when I sent you the previous email about 3 weeks ago, you need to find an alternative by yourself.
 If you have swapped with other people, please forward this email :)
 
 Cheers,

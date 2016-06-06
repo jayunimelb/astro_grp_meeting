@@ -33,7 +33,7 @@ Clare Kenyon: {available: 1, chairs: 0, email: ckenyon@student.unimelb.edu.au, s
 Craig Burnett: {available: 1, chairs: 0, email: c.burnett@student.unimelb.edu.au,
   speakers: 0, type: phd_senior}
 Daniela Carrasco: {available: 1, chairs: 0, email: dcarrasco@student.unimelb.edu.au,
-  speakers: 0, type: phd_senior}
+  speakers: 1, type: phd_senior}
 Dylan Sutton: {available: 1, chairs: 0, email: d.sutton@student.unimelb.edu.au, speakers: 1,
   type: master}
 Edoardo Tescari: {available: 1, chairs: 0, email: edoardo.tescari@unimelb.edu.au,
@@ -51,7 +51,7 @@ Jaehong Park: {available: 1, chairs: 1, email: jaehongP@student.unimelb.edu.au, 
   type: phd_senior}
 Julian Carlin: {available: 1, chairs: 0, email: julescarlin@gmail.com, speakers: 0,
   type: undergraduate}
-Katie Mack: {available: 1, chairs: 0, email: kmack@unimelb.edu.au, speakers: 0, type: postdoc}
+Katie Mack: {available: 0, chairs: 1, email: kmack@unimelb.edu.au, speakers: 0, type: postdoc}
 Keven Ren: {available: 1, chairs: 0, email: kevenr@student.unimelb.edu.au, speakers: 1,
   type: master}
 Laura Wolz: {available: 1, chairs: 0, email: lwolz@unimelb.edu.au, speakers: 1, type: postdoc}
