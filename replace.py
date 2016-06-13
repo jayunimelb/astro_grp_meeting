@@ -70,7 +70,7 @@ def replace(reselect_contribution):
     femail4.close()  
 
     email4 = members['email'][reselected_name]
-    print('mail -s "Speaker and chair on the astro-group meeting" %s'%email4)
+    print('mail -s "Speaker and chair on the astro-group meeting" %s <email4.txt'%email4)
 
 if __name__ == "__main__":
     if len(sys.argv)<2:
