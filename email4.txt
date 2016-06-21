@@ -5,7 +5,7 @@ You are selected to be the chair and speaker(s) for the group meeting to be held
 Here are the details:
 date: 18. July 2016
 chair:	Sarah Schon (sschon@student.unimelb.edu.au)
-speaker:	Andrew Melatos (amelatos@physics.unimelb.edu.au)
+speaker:	Noura Alonzi (nalonzi@student.unimelb.edu.au)
 
 Please note that it will be the speaker's duty to prepare a talk (less than 30 minutes) on the astro-group meeting.
 
