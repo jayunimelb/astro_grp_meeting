@@ -10,7 +10,7 @@ Arthur Suvorov: {available: 1, chairs: 0, email: suvorova@student.unimelb.edu.au
   speakers: 1, type: phd_senior}
 Bart Pindor: {available: 1, chairs: 0, email: bpindor@unimelb.edu.au, speakers: 0,
   type: postdoc}
-Benedetta Vulcani: {available: 1, chairs: 0, email: benedetta.vulcani@unimelb.edu.au,
+Benedetta Vulcani: {available: 0, chairs: 0, email: benedetta.vulcani@unimelb.edu.au,
   speakers: 1, type: postdoc}
 Benjamin McKinley: {available: 1, chairs: 0, email: ben.mckinley@unimelb.edu.au, speakers: 0,
   type: postdoc}
@@ -43,7 +43,7 @@ Hansik Kim: {available: 1, chairs: 1, email: hansikk@unimelb.edu.au, speakers: 0
   type: postdoc}
 Jacinta den Besten: {available: 1, chairs: 0, email: jacinta.den@unimelb.edu.au, speakers: 0,
   type: outreach}
-Jack Line: {available: 1, chairs: 1, email: j.line@student.unimelb.edu.au, speakers: 0,
+Jack Line: {available: 1, chairs: 1, email: j.line@student.unimelb.edu.au, speakers: 1,
   type: phd_senior}
 Katie Mack: {available: 0, chairs: 1, email: kmack@unimelb.edu.au, speakers: 0, type: postdoc}
 Keven Ren: {available: 1, chairs: 0, email: kevenr@student.unimelb.edu.au, speakers: 1,
@@ -72,7 +72,8 @@ Ricardo D'Amico: {available: 1, chairs: 0, email: r.d'amico@student.unimelb.edu.
   speakers: 0, type: master}
 Ruggero de Vita: {available: 1, chairs: 0, email: r.devita@student.unimelb.edu.au,
   speakers: 1, type: phd_senior}
-Sanjay Patil: {available: 1, chairs: 0, email: null, speakers: 0, type: phd_senior}
+Sanjay Patil: {available: 1, chairs: 0, email: sanjaykumarp@student.unimelb.edu.au,
+  speakers: 0, type: phd_senior}
 Sarah Schon: {available: 1, chairs: 0, email: sschon@student.unimelb.edu.au, speakers: 1,
   type: phd_senior}
 Simon Mutch: {available: 1, chairs: 1, email: smutch@unimelb.edu.au, speakers: 0,
@@ -87,7 +88,7 @@ Stuart Wyithe: {available: 1, chairs: 1, email: swyithe@physics.unimelb.edu.au, 
   type: professor}
 William Fulgenzi: {available: 1, chairs: 0, email: w.fulgenzi@student.unimelb.edu.au,
   speakers: 1, type: master}
-Yisheng Qiu: {available: 1, chairs: 0, email: yishengq@student.unimelb.edu.au, speakers: 1,
+Yisheng Qiu: {available: 1, chairs: 1, email: yishengq@student.unimelb.edu.au, speakers: 1,
   type: master}
 Yuxiang Qin: {available: 1, chairs: 0, email: yuxiangq@student.unimelb.edu.au, speakers: 0,
   type: phd_senior}

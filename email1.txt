@@ -3,9 +3,9 @@ Hi there,
 Please allow me to remind you that you are the chair and speaker(s) for next week. (http://qyx268.github.io/astromeeting_site/)
 
 Here are the details:
-date: 27. June 2016
-chair:	Yisheng Qiu (yishengq@student.unimelb.edu.au)
-speaker:	Anthea King (anthea.king@unimelb.edu.au)
+date: 04. July 2016
+chair:	Clare Kenyon (ckenyon@student.unimelb.edu.au)
+speaker:	Bart Pindor (bpindor@unimelb.edu.au)
 
 Please note that it will be the speaker's duty to prepare a talk (less than 30 minutes) on the astro-group meeting.
 
