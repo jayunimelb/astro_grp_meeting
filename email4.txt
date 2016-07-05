@@ -4,7 +4,7 @@ You are selected to be the chair and speaker(s) for the group meeting to be held
 
 Here are the details:
 date: 01. August 2016
-chair:	Pietro Procopio (pietro.procopio@unimelb.edu.au)
+chair:	Benjamin McKinley (ben.mckinley@unimelb.edu.au)
 speaker:	Chuanwu Liu (chuanwul@student.unimelb.edu.au)
 
 Please note that it will be the speaker's duty to prepare a talk (less than 30 minutes) on the astro-group meeting.
