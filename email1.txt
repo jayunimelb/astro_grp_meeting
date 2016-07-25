@@ -3,9 +3,9 @@ Hi there,
 Please allow me to remind you that you are the chair and speaker(s) for next week. (http://qyx268.github.io/astromeeting_site/)
 
 Here are the details:
-date: 25. July 2016
-chair:	Dylan Sutton (d.sutton@student.unimelb.edu.au)
-speaker:	Christian Reichardt (christian.reichardt@unimelb.edu.au)
+date: 01. August 2016
+chair:	Benjamin McKinley (ben.mckinley@unimelb.edu.au)
+speaker:	Chuanwu Liu (chuanwul@student.unimelb.edu.au)
 
 Please note that it will be the speaker's duty to prepare a talk (less than 30 minutes) on the astro-group meeting.
 

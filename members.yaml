@@ -23,7 +23,7 @@ Camila Correa: {available: 1, chairs: 0, email: correac@student.unimelb.edu.au, 
 Chiara Tonini: {available: 0, chairs: 0, email: chiara.tonini@unimelb.edu.au, speakers: 0,
   type: postdoc}
 Christian Reichardt: {available: 1, chairs: 0, email: christian.reichardt@unimelb.edu.au,
-  speakers: 0, type: fellower}
+  speakers: 1, type: fellower}
 Chuanwu Liu: {available: 1, chairs: 1, email: chuanwul@student.unimelb.edu.au, speakers: 0,
   type: phd_senior}
 Clare Kenyon: {available: 1, chairs: 1, email: ckenyon@student.unimelb.edu.au, speakers: 0,
@@ -32,7 +32,7 @@ Craig Burnett: {available: 1, chairs: 0, email: c.burnett@student.unimelb.edu.au
   speakers: 0, type: phd_senior}
 Daniela Carrasco: {available: 1, chairs: 0, email: dcarrasco@student.unimelb.edu.au,
   speakers: 1, type: phd_senior}
-Dylan Sutton: {available: 1, chairs: 0, email: d.sutton@student.unimelb.edu.au, speakers: 1,
+Dylan Sutton: {available: 1, chairs: 1, email: d.sutton@student.unimelb.edu.au, speakers: 1,
   type: master}
 Edoardo Tescari: {available: 1, chairs: 0, email: edoardo.tescari@unimelb.edu.au,
   speakers: 1, type: postdoc}
