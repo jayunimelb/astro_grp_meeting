@@ -5,7 +5,7 @@ You are selected to be the chair and speaker(s) for the group meeting to be held
 Here are the details:
 date: 22. August 2016
 chair:	Daniela Carrasco (dcarrasco@student.unimelb.edu.au)
-speaker:	Sanjay Patil (sanjaykumarp@student.unimelb.edu.au)
+speaker:	Greg Poole (gpoole@unimelb.edu.au)
 
 Please note that it will be the speaker's duty to prepare a talk (less than 30 minutes) on the astro-group meeting.
 
