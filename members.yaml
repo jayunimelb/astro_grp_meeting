@@ -12,7 +12,7 @@ Bart Pindor: {available: 1, chairs: 0, email: bpindor@unimelb.edu.au, speakers: 
   type: postdoc}
 Benedetta Vulcani: {available: 0, chairs: 0, email: benedetta.vulcani@unimelb.edu.au,
   speakers: 1, type: postdoc}
-Benjamin McKinley: {available: 1, chairs: 0, email: ben.mckinley@unimelb.edu.au, speakers: 0,
+Benjamin McKinley: {available: 1, chairs: 1, email: ben.mckinley@unimelb.edu.au, speakers: 0,
   type: postdoc}
 Bryonie Scott: {available: 1, chairs: 0, email: bryonies@student.unimelb.edu.au, speakers: 1,
   type: master}
@@ -24,7 +24,7 @@ Chiara Tonini: {available: 0, chairs: 0, email: chiara.tonini@unimelb.edu.au, sp
   type: postdoc}
 Christian Reichardt: {available: 1, chairs: 0, email: christian.reichardt@unimelb.edu.au,
   speakers: 1, type: fellower}
-Chuanwu Liu: {available: 1, chairs: 1, email: chuanwul@student.unimelb.edu.au, speakers: 0,
+Chuanwu Liu: {available: 1, chairs: 1, email: chuanwul@student.unimelb.edu.au, speakers: 1,
   type: phd_senior}
 Clare Kenyon: {available: 1, chairs: 1, email: ckenyon@student.unimelb.edu.au, speakers: 0,
   type: phd_senior}
