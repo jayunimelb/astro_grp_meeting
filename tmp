@@ -1,7 +1,7 @@
 Alpha Mastrano: {available: 1, chairs: 0, email: alpham@unimelb.edu.au, speakers: 0,
   type: unknown}
-Andrew Melatos: {available: 1, chairs: 0, email: amelatos@unimelb.edu.au, speakers: 0,
-  type: professor}
+Andrew Melatos: {available: 1, chairs: 0, email: amelatos@physics.unimelb.edu.au,
+  speakers: 0, type: professor}
 Anthea King: {available: 0, chairs: 0, email: anthea.king@unimelb.edu.au, speakers: 0,
   type: postdoc}
 Anthony Doucouliagos: {available: 1, chairs: 0, email: a.doucouliagos@student.unimelb.edu.au,
@@ -10,7 +10,7 @@ Arthur Suvorov: {available: 1, chairs: 0, email: suvorova@student.unimelb.edu.au
   speakers: 1, type: phd_senior}
 Bart Pindor: {available: 1, chairs: 0, email: bpindor@unimelb.edu.au, speakers: 1,
   type: postdoc}
-Benedetta Vulcani: {available: 1, chairs: 0, email: benedetta.vulcani@unimelb.edu.au,
+Benedetta Vulcani: {available: 0, chairs: 0, email: benedetta.vulcani@unimelb.edu.au,
   speakers: 1, type: postdoc}
 Benjamin McKinley: {available: 1, chairs: 1, email: ben.mckinley@unimelb.edu.au, speakers: 0,
   type: postdoc}
@@ -20,7 +20,7 @@ Cameron Van Der Velden: {available: 1, chairs: 1, email: c.vandervelden@student.
   speakers: 1, type: master}
 Camila Correa: {available: 1, chairs: 0, email: correac@student.unimelb.edu.au, speakers: 0,
   type: phd_senior}
-Chiara Tonini: {available: 1, chairs: 0, email: chiara.tonini@unimelb.edu.au, speakers: 0,
+Chiara Tonini: {available: 0, chairs: 0, email: chiara.tonini@unimelb.edu.au, speakers: 0,
   type: postdoc}
 Christian Reichardt: {available: 1, chairs: 0, email: christian.reichardt@unimelb.edu.au,
   speakers: 1, type: fellower}
@@ -46,7 +46,7 @@ Jacinta den Besten: {available: 1, chairs: 0, email: jacinta.den@unimelb.edu.au,
 Jack Line: {available: 1, chairs: 1, email: j.line@student.unimelb.edu.au, speakers: 1,
   type: phd_senior}
 Katie Mack: {available: 1, chairs: 1, email: kmack@unimelb.edu.au, speakers: 0, type: postdoc}
-Keven Ren: {available: 1, chairs: 1, email: kevenr@student.unimelb.edu.au, speakers: 1,
+Keven Ren: {available: 1, chairs: 0, email: kevenr@student.unimelb.edu.au, speakers: 1,
   type: master}
 Laura Wolz: {available: 1, chairs: 0, email: lwolz@unimelb.edu.au, speakers: 1, type: postdoc}
 Ling Sun: {available: 1, chairs: 0, email: lings2@student.unimelb.edu.au, speakers: 0,
@@ -84,7 +84,7 @@ Srinivasan Raghunathan: {available: 1, chairs: 0, email: srinivasan.raghunathan@
   speakers: 1, type: postdoc}
 Stephanie Bernard: {available: 1, chairs: 2, email: sbernard@student.unimelb.edu.au,
   speakers: 0, type: phd_senior}
-Stuart Wyithe: {available: 1, chairs: 1, email: swyithe@.unimelb.edu.au, speakers: 0,
+Stuart Wyithe: {available: 1, chairs: 1, email: swyithe@physics.unimelb.edu.au, speakers: 0,
   type: professor}
 William Fulgenzi: {available: 1, chairs: 0, email: w.fulgenzi@student.unimelb.edu.au,
   speakers: 1, type: master}
