@@ -3,9 +3,9 @@ Hi there,
 Please allow me to remind you that you are the chair and speaker(s) for next week. (http://qyx268.github.io/astromeeting_site/)
 
 Here are the details:
-date: 15. August 2016
-chair:	George Howitt (ghowitt@student.unimelb.edu.au)
-speaker:	Manodeep Sinha (manodeep.sinha@unimelb.edu.au)
+date: 22. August 2016
+chair:	Daniela Carrasco (dcarrasco@student.unimelb.edu.au)
+speaker:	Greg Poole (gpoole@unimelb.edu.au)
 
 Please note that it will be the speaker's duty to prepare a talk (less than 30 minutes) on the astro-group meeting.
 

@@ -18,8 +18,6 @@ Bryonie Scott: {available: 1, chairs: 0, email: bryonies@student.unimelb.edu.au,
   type: master}
 Cameron Van Der Velden: {available: 1, chairs: 1, email: c.vandervelden@student.unimelb.edu.au,
   speakers: 1, type: master}
-Camila Correa: {available: 1, chairs: 0, email: correac@student.unimelb.edu.au, speakers: 0,
-  type: phd_senior}
 Chiara Tonini: {available: 1, chairs: 0, email: chiara.tonini@unimelb.edu.au, speakers: 0,
   type: postdoc}
 Christian Reichardt: {available: 1, chairs: 0, email: christian.reichardt@unimelb.edu.au,
@@ -36,12 +34,12 @@ Dylan Sutton: {available: 1, chairs: 1, email: d.sutton@student.unimelb.edu.au, 
   type: master}
 Edoardo Tescari: {available: 1, chairs: 0, email: edoardo.tescari@unimelb.edu.au,
   speakers: 1, type: postdoc}
-George Howitt: {available: 1, chairs: 0, email: ghowitt@student.unimelb.edu.au, speakers: 1,
+George Howitt: {available: 1, chairs: 1, email: ghowitt@student.unimelb.edu.au, speakers: 1,
   type: phd_senior}
 Greg Poole: {available: 1, chairs: 0, email: gpoole@unimelb.edu.au, speakers: 0, type: postdoc}
 Hansik Kim: {available: 1, chairs: 1, email: hansikk@unimelb.edu.au, speakers: 0,
   type: postdoc}
-Jacinta den Besten: {available: 1, chairs: 0, email: jacinta.den@unimelb.edu.au, speakers: 0,
+Jacinta den Besten: {available: 0, chairs: 0, email: jacinta.den@unimelb.edu.au, speakers: 0,
   type: outreach}
 Jack Line: {available: 1, chairs: 1, email: j.line@student.unimelb.edu.au, speakers: 1,
   type: phd_senior}
@@ -55,7 +53,7 @@ Lisa Drummond: {available: 1, chairs: 1, email: l.drummond@student.unimelb.edu.a
   speakers: 1, type: master}
 Mahsa Rahimi: {available: 1, chairs: 0, email: rahimi@student.unimelb.edu.au, speakers: 0,
   type: phd_senior}
-Manodeep Sinha: {available: 1, chairs: 1, email: manodeep.sinha@unimelb.edu.au, speakers: 0,
+Manodeep Sinha: {available: 1, chairs: 1, email: manodeep.sinha@unimelb.edu.au, speakers: 1,
   type: postdoc}
 Michele Trenti: {available: 1, chairs: 0, email: mtrenti@unimelb.edu.au, speakers: 1,
   type: fellower}
