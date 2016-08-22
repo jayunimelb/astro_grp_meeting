@@ -5,10 +5,9 @@ You are selected to be the chair and speaker(s) for the group meeting to be held
 Here are the details:
 date: 19. September 2016
 chair:	Ling Sun (lings2@student.unimelb.edu.au)
-speaker:	Rachel Webster (r.webster@unimelb.edu.au)
+speaker:	Katie Mack (kmack@unimelb.edu.au)
 
 Please note that it will be the speaker's duty to prepare a talk (less than 30 minutes) on the astro-group meeting.
-If possible, please finish your slice 8 days before your due date, just in case the previous meeting needs your backup :)
 
 And it will be the chair's responsibility to
 	1) supervise the speaker on preparing the talk, 
