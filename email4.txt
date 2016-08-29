@@ -4,12 +4,10 @@ You are selected to be the chair and speaker(s) for the group meeting to be held
 
 Here are the details:
 date: 26. September 2016
-Chiara Tonini volunteered for speaker
-chair:	Anthony Doucouliagos (a.doucouliagos@student.unimelb.edu.au)
+chair:	Srinivasan Raghunathan (srinivasan.raghunathan@unimelb.edu.au)
 speaker:	Chiara Tonini (chiara.tonini@unimelb.edu.au)
 
 Please note that it will be the speaker's duty to prepare a talk (less than 30 minutes) on the astro-group meeting.
-If possible, please finish your slice 8 days before your due date, just in case the previous meeting needs your backup :)
 
 And it will be the chair's responsibility to
 	1) supervise the speaker on preparing the talk, 
