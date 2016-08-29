@@ -70,7 +70,7 @@ Ricardo D'Amico: {available: 1, chairs: 0, email: r.d'amico@student.unimelb.edu.
   speakers: 0, type: master}
 Ruggero de Vita: {available: 1, chairs: 0, email: r.devita@student.unimelb.edu.au,
   speakers: 1, type: phd_senior}
-Sanjay Patil: {available: 1, chairs: 0, email: sanjaykumarp@student.unimelb.edu.au,
+Sanjay Patil: {available: 1, chairs: 1, email: sanjaykumarp@student.unimelb.edu.au,
   speakers: 0, type: phd_senior}
 Sarah Schon: {available: 1, chairs: 1, email: sschon@student.unimelb.edu.au, speakers: 1,
   type: phd_senior}
@@ -88,5 +88,5 @@ William Fulgenzi: {available: 1, chairs: 0, email: w.fulgenzi@student.unimelb.ed
   speakers: 1, type: master}
 Yisheng Qiu: {available: 1, chairs: 1, email: yishengq@student.unimelb.edu.au, speakers: 1,
   type: master}
-Yuxiang Qin: {available: 1, chairs: 0, email: yuxiangq@student.unimelb.edu.au, speakers: 0,
+Yuxiang Qin: {available: 1, chairs: 0, email: yuxiangq@student.unimelb.edu.au, speakers: 1,
   type: phd_senior}
