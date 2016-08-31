@@ -62,8 +62,6 @@ Noura Alonzi: {available: 1, chairs: 1, email: nalonzi@student.unimelb.edu.au, s
 Patrick Clearwater: {available: 1, chairs: 1, email: p.clearwater@student.unimelb.edu.au,
   speakers: 0, type: phd_senior}
 Paul Geil: {available: 1, chairs: 1, email: geil.p@unimelb.edu.au, speakers: 0, type: postdoc}
-Pietro Procopio: {available: 1, chairs: 0, email: pietro.procopio@unimelb.edu.au,
-  speakers: 0, type: postdoc}
 Rachel Webster: {available: 1, chairs: 0, email: r.webster@unimelb.edu.au, speakers: 0,
   type: professor}
 Ricardo D'Amico: {available: 1, chairs: 0, email: r.d'amico@student.unimelb.edu.au,
