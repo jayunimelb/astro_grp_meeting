@@ -10,7 +10,7 @@ Arthur Suvorov: {available: 1, chairs: 0, email: suvorova@student.unimelb.edu.au
   speakers: 1, type: phd_senior}
 Bart Pindor: {available: 1, chairs: 0, email: bpindor@unimelb.edu.au, speakers: 1,
   type: postdoc}
-Benedetta Vulcani: {available: 0, chairs: 0, email: benedetta.vulcani@unimelb.edu.au,
+Benedetta Vulcani: {available: 1, chairs: 1, email: benedetta.vulcani@unimelb.edu.au,
   speakers: 1, type: postdoc}
 Benjamin McKinley: {available: 1, chairs: 1, email: ben.mckinley@unimelb.edu.au, speakers: 0,
   type: postdoc}
