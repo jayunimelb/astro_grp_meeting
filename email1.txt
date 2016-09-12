@@ -3,9 +3,9 @@ Hi there,
 Please allow me to remind you that you are the chair and speaker(s) for next week. (http://qyx268.github.io/astromeeting_site/)
 
 Here are the details:
-date: 12. September 2016
-chair:	Mahsa Rahimi (rahimi@student.unimelb.edu.au)
-speaker:	Benjamin McKinley (ben.mckinley@unimelb.edu.au)
+date: 19. September 2016
+chair:	Ling Sun (lings2@student.unimelb.edu.au)
+speaker:	Katie Mack (kmack@unimelb.edu.au)
 
 Please note that it will be the speaker's duty to prepare a talk (less than 30 minutes) on the astro-group meeting.
 

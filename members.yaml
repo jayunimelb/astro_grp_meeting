@@ -39,7 +39,7 @@ George Howitt: {available: 1, chairs: 1, email: ghowitt@student.unimelb.edu.au, 
 Greg Poole: {available: 1, chairs: 0, email: gpoole@unimelb.edu.au, speakers: 1, type: postdoc}
 Hansik Kim: {available: 1, chairs: 1, email: hansikk@unimelb.edu.au, speakers: 0,
   type: postdoc}
-Jacinta den Besten: {available: 0, chairs: 0, email: jacinta.den@unimelb.edu.au, speakers: 0,
+Jacinta den Besten: {available: 1, chairs: 0, email: jacinta.den@unimelb.edu.au, speakers: 0,
   type: outreach}
 Jack Line: {available: 1, chairs: 1, email: j.line@student.unimelb.edu.au, speakers: 1,
   type: phd_senior}
@@ -51,7 +51,7 @@ Ling Sun: {available: 1, chairs: 0, email: lings2@student.unimelb.edu.au, speake
   type: phd_senior}
 Lisa Drummond: {available: 1, chairs: 1, email: l.drummond@student.unimelb.edu.au,
   speakers: 1, type: master}
-Mahsa Rahimi: {available: 1, chairs: 0, email: rahimi@student.unimelb.edu.au, speakers: 0,
+Mahsa Rahimi: {available: 1, chairs: 1, email: rahimi@student.unimelb.edu.au, speakers: 0,
   type: phd_senior}
 Manodeep Sinha: {available: 1, chairs: 1, email: manodeep.sinha@unimelb.edu.au, speakers: 1,
   type: postdoc}
