@@ -5,7 +5,7 @@ Please allow me to remind you that you are the chair and speaker(s) for next wee
 Here are the details:
 date: 26. September 2016
 chair:	Srinivasan Raghunathan (srinivasan.raghunathan@unimelb.edu.au)
-speaker:	Yuxiang Qin (yuxiangq@student.unimelb.edu.au)
+speaker:	Bruno Henriques (visitor)
 
 Please note that it will be the speaker's duty to prepare a talk (less than 30 minutes) on the astro-group meeting.
 

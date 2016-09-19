@@ -4,8 +4,6 @@ Andrew Melatos: {available: 1, chairs: 0, email: amelatos@unimelb.edu.au, speake
   type: professor}
 Anthea King: {available: 0, chairs: 0, email: anthea.king@unimelb.edu.au, speakers: 0,
   type: postdoc}
-Anthony Doucouliagos: {available: 1, chairs: 0, email: a.doucouliagos@student.unimelb.edu.au,
-  speakers: 0, type: unknown}
 Arthur Suvorov: {available: 1, chairs: 0, email: suvorova@student.unimelb.edu.au,
   speakers: 1, type: phd_senior}
 Bart Pindor: {available: 1, chairs: 0, email: bpindor@unimelb.edu.au, speakers: 1,
