@@ -10,7 +10,7 @@ Bart Pindor: {available: 1, chairs: 0, email: bpindor@unimelb.edu.au, speakers: 
   type: postdoc}
 Benedetta Vulcani: {available: 1, chairs: 1, email: benedetta.vulcani@unimelb.edu.au,
   speakers: 1, type: postdoc}
-Benjamin McKinley: {available: 1, chairs: 1, email: ben.mckinley@unimelb.edu.au, speakers: 0,
+Benjamin McKinley: {available: 1, chairs: 1, email: ben.mckinley@unimelb.edu.au, speakers: 1,
   type: postdoc}
 Bryonie Scott: {available: 1, chairs: 0, email: bryonies@student.unimelb.edu.au, speakers: 1,
   type: master}
@@ -34,7 +34,7 @@ Edoardo Tescari: {available: 1, chairs: 0, email: edoardo.tescari@unimelb.edu.au
   speakers: 1, type: postdoc}
 George Howitt: {available: 1, chairs: 1, email: ghowitt@student.unimelb.edu.au, speakers: 1,
   type: phd_senior}
-Greg Poole: {available: 1, chairs: 0, email: gpoole@unimelb.edu.au, speakers: 1, type: postdoc}
+Greg Poole: {available: 1, chairs: 1, email: gpoole@unimelb.edu.au, speakers: 1, type: postdoc}
 Hansik Kim: {available: 1, chairs: 1, email: hansikk@unimelb.edu.au, speakers: 0,
   type: postdoc}
 Jacinta den Besten: {available: 1, chairs: 0, email: jacinta.den@unimelb.edu.au, speakers: 0,
