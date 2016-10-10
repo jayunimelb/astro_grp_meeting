@@ -2,7 +2,7 @@ Alpha Mastrano: {available: 1, chairs: 0, email: alpham@unimelb.edu.au, speakers
   type: unknown}
 Andrew Melatos: {available: 1, chairs: 0, email: amelatos@unimelb.edu.au, speakers: 0,
   type: professor}
-Anthea King: {available: 0, chairs: 0, email: anthea.king@unimelb.edu.au, speakers: 0,
+Anthea King: {available: 1, chairs: 0, email: anthea.king@unimelb.edu.au, speakers: 0,
   type: postdoc}
 Arthur Suvorov: {available: 1, chairs: 0, email: suvorova@student.unimelb.edu.au,
   speakers: 1, type: phd_senior}
@@ -32,7 +32,7 @@ Dylan Sutton: {available: 1, chairs: 1, email: d.sutton@student.unimelb.edu.au, 
   type: master}
 Edoardo Tescari: {available: 1, chairs: 0, email: edoardo.tescari@unimelb.edu.au,
   speakers: 1, type: postdoc}
-George Howitt: {available: 1, chairs: 1, email: ghowitt@student.unimelb.edu.au, speakers: 1,
+George Howitt: {available: 1, chairs: 2, email: ghowitt@student.unimelb.edu.au, speakers: 1,
   type: phd_senior}
 Greg Poole: {available: 1, chairs: 1, email: gpoole@unimelb.edu.au, speakers: 1, type: postdoc}
 Hansik Kim: {available: 1, chairs: 1, email: hansikk@unimelb.edu.au, speakers: 0,
@@ -55,7 +55,7 @@ Manodeep Sinha: {available: 1, chairs: 1, email: manodeep.sinha@unimelb.edu.au, 
   type: postdoc}
 Michele Trenti: {available: 1, chairs: 0, email: mtrenti@unimelb.edu.au, speakers: 1,
   type: fellower}
-Noura Alonzi: {available: 1, chairs: 1, email: nalonzi@student.unimelb.edu.au, speakers: 0,
+Noura Alonzi: {available: 1, chairs: 1, email: nalonzi@student.unimelb.edu.au, speakers: 1,
   type: phd_senior}
 Patrick Clearwater: {available: 1, chairs: 1, email: p.clearwater@student.unimelb.edu.au,
   speakers: 1, type: phd_senior}
