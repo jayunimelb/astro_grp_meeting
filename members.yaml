@@ -6,7 +6,7 @@ Anthea King: {available: 1, chairs: 0, email: anthea.king@unimelb.edu.au, speake
   type: postdoc}
 Arthur Suvorov: {available: 1, chairs: 0, email: suvorova@student.unimelb.edu.au,
   speakers: 1, type: phd_senior}
-Bart Pindor: {available: 1, chairs: 0, email: bpindor@unimelb.edu.au, speakers: 1,
+Bart Pindor: {available: 1, chairs: 1, email: bpindor@unimelb.edu.au, speakers: 1,
   type: postdoc}
 Benedetta Vulcani: {available: 1, chairs: 1, email: benedetta.vulcani@unimelb.edu.au,
   speakers: 1, type: postdoc}
@@ -49,7 +49,7 @@ Ling Sun: {available: 1, chairs: 1, email: lings2@student.unimelb.edu.au, speake
   type: phd_senior}
 Lisa Drummond: {available: 1, chairs: 1, email: l.drummond@student.unimelb.edu.au,
   speakers: 1, type: master}
-Mahsa Rahimi: {available: 1, chairs: 1, email: rahimi@student.unimelb.edu.au, speakers: 0,
+Mahsa Rahimi: {available: 1, chairs: 1, email: rahimi@student.unimelb.edu.au, speakers: 1,
   type: phd_senior}
 Manodeep Sinha: {available: 1, chairs: 1, email: manodeep.sinha@unimelb.edu.au, speakers: 1,
   type: postdoc}

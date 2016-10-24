@@ -3,9 +3,9 @@ Hi there,
 Please allow me to remind you that you are the chair and speaker(s) for next week. (http://qyx268.github.io/astromeeting_site/)
 
 Here are the details:
-date: 24. October 2016
-chair:	Bart Pindor (bpindor@unimelb.edu.au)
-speaker:	Mahsa Rahimi (rahimi@student.unimelb.edu.au)
+date: 31. October 2016
+chair:	Arthur Suvorov (suvorova@student.unimelb.edu.au)
+speaker:	Rachel Webster (r.webster@unimelb.edu.au)
 
 Please note that it will be the speaker's duty to prepare a talk (less than 30 minutes) on the astro-group meeting.
 

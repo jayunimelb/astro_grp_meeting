@@ -1,13 +1,26 @@
-Hi Paul,
+Hi there,
 
-Sory for the late notice. The speaker for the group meeting to be held 4 weeks lateri just told me that he would not be able to give a talk on that day. You are selected to be the speaker instead (http://qyx268.github.io/astromeeting_site/)
+You are selected to be the chair and speaker(s) for the group meeting to be held 4 weeks later (http://qyx268.github.io/astromeeting_site/)
 
 Here are the details:
-date: 14. November 2016
-chair:	Ricardo D'Amico (r.d'amico@student.unimelb.edu.au)
-speaker:	Paul Geil (geil.p@unimelb.edu.au)
+date: 21. November 2016
+chair:	Rachel Webster (r.webster@unimelb.edu.au)
+speaker:	Sanjay Patil (sanjaykumarp@student.unimelb.edu.au)
 
-Please let me know if it is also not a proper time for you. Again I'm sorry for the late notice.
+Please note that it will be the speaker's duty to prepare a talk (less than 30 minutes) on the astro-group meeting.
+If possible, please finish your slice 8 days before your due date, just in case the previous meeting needs your backup :)
+
+And it will be the chair's responsibility to
+	1) supervise the speaker on preparing the talk, 
+	2) remind the astro group that you are the chair and collect agendas from them on Monday, 
+	3) send an announcement to the astro-people about 15 minutes before the group meeting, 
+	4) update the group meeting minutes on AstroWiki,
+	5) prepare a cake (usually) on Wednesday afternoon. 
+
+Please confirm it by replying me or let me know as soon as possible if you cannot make it :)
+
+If you become unable to attend the meeting after this Friday, unfortunately, you will need to find an alternative by yourself.
+If you only need to give a 15-minute talk but you are the only speaker selected, let me know and I will arrange one more speaker.
 
 Cheers,
 Yuxiang
