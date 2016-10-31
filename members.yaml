@@ -2,7 +2,7 @@ Alpha Mastrano: {available: 1, chairs: 0, email: alpham@unimelb.edu.au, speakers
   type: unknown}
 Andrew Melatos: {available: 1, chairs: 0, email: amelatos@unimelb.edu.au, speakers: 0,
   type: professor}
-Anthea King: {available: 1, chairs: 0, email: anthea.king@unimelb.edu.au, speakers: 0,
+Anthea King: {available: 1, chairs: 1, email: anthea.king@unimelb.edu.au, speakers: 0,
   type: postdoc}
 Arthur Suvorov: {available: 1, chairs: 0, email: suvorova@student.unimelb.edu.au,
   speakers: 1, type: phd_senior}
@@ -16,7 +16,7 @@ Bryonie Scott: {available: 1, chairs: 0, email: bryonies@student.unimelb.edu.au,
   type: master}
 Cameron Van Der Velden: {available: 1, chairs: 1, email: c.vandervelden@student.unimelb.edu.au,
   speakers: 1, type: master}
-Chiara Tonini: {available: 1, chairs: 0, email: chiara.tonini@unimelb.edu.au, speakers: 0,
+Chiara Tonini: {available: 0, chairs: 0, email: chiara.tonini@unimelb.edu.au, speakers: 0,
   type: postdoc}
 Christian Reichardt: {available: 1, chairs: 0, email: christian.reichardt@unimelb.edu.au,
   speakers: 1, type: fellower}
@@ -60,7 +60,7 @@ Noura Alonzi: {available: 1, chairs: 1, email: nalonzi@student.unimelb.edu.au, s
 Patrick Clearwater: {available: 1, chairs: 1, email: p.clearwater@student.unimelb.edu.au,
   speakers: 1, type: phd_senior}
 Paul Geil: {available: 1, chairs: 1, email: geil.p@unimelb.edu.au, speakers: 0, type: postdoc}
-Rachel Webster: {available: 1, chairs: 0, email: r.webster@unimelb.edu.au, speakers: 0,
+Rachel Webster: {available: 1, chairs: 0, email: r.webster@unimelb.edu.au, speakers: 1,
   type: professor}
 Ricardo D'Amico: {available: 1, chairs: 0, email: r.d'amico@student.unimelb.edu.au,
   speakers: 0, type: master}
