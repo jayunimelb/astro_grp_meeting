@@ -2,9 +2,9 @@ Alpha Mastrano: {available: 1, chairs: 0, email: alpham@unimelb.edu.au, speakers
   type: unknown}
 Andrew Melatos: {available: 1, chairs: 0, email: amelatos@unimelb.edu.au, speakers: 0,
   type: professor}
-Anthea King: {available: 1, chairs: 1, email: anthea.king@unimelb.edu.au, speakers: 0,
+Anthea King: {available: 0, chairs: 1, email: anthea.king@unimelb.edu.au, speakers: 0,
   type: postdoc}
-Arthur Suvorov: {available: 1, chairs: 0, email: suvorova@student.unimelb.edu.au,
+Arthur Suvorov: {available: 1, chairs: 1, email: suvorova@student.unimelb.edu.au,
   speakers: 1, type: phd_senior}
 Bart Pindor: {available: 1, chairs: 1, email: bpindor@unimelb.edu.au, speakers: 1,
   type: postdoc}
@@ -42,13 +42,13 @@ Jacinta den Besten: {available: 1, chairs: 1, email: jacinta.den@unimelb.edu.au,
 Jack Line: {available: 1, chairs: 1, email: j.line@student.unimelb.edu.au, speakers: 1,
   type: phd_senior}
 Katie Mack: {available: 1, chairs: 1, email: kmack@unimelb.edu.au, speakers: 0, type: postdoc}
-Keven Ren: {available: 1, chairs: 1, email: kevenr@student.unimelb.edu.au, speakers: 1,
+Keven Ren: {available: 1, chairs: 1, email: kevenr@student.unimelb.edu.au, speakers: 2,
   type: master}
 Laura Wolz: {available: 1, chairs: 0, email: lwolz@unimelb.edu.au, speakers: 1, type: postdoc}
 Ling Sun: {available: 1, chairs: 1, email: lings2@student.unimelb.edu.au, speakers: 0,
   type: phd_senior}
 Lisa Drummond: {available: 1, chairs: 1, email: l.drummond@student.unimelb.edu.au,
-  speakers: 1, type: master}
+  speakers: 2, type: master}
 Mahsa Rahimi: {available: 1, chairs: 1, email: rahimi@student.unimelb.edu.au, speakers: 1,
   type: phd_senior}
 Manodeep Sinha: {available: 1, chairs: 1, email: manodeep.sinha@unimelb.edu.au, speakers: 1,
