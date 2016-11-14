@@ -3,8 +3,8 @@ Hi there,
 Please allow me to remind you that you are the chair and speaker(s) for next week. (http://qyx268.github.io/astromeeting_site/)
 
 Here are the details:
-date: 14. November 2016
-chair:	Ricardo D'Amico (r.d'amico@student.unimelb.edu.au)
+date: 21. November 2016
+chair:	Ruggero de Vita (r.devita@student.unimelb.edu.au)
 speaker:	Yuxiang Qin (yuxiangq@student.unimelb.edu.au)
 
 Please note that it will be the speaker's duty to prepare a talk (less than 30 minutes) on the astro-group meeting.
