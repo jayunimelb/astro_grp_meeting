@@ -2,7 +2,7 @@ Alpha Mastrano: {available: 1, chairs: 0, email: alpham@unimelb.edu.au, speakers
   type: unknown}
 Andrew Melatos: {available: 1, chairs: 0, email: amelatos@unimelb.edu.au, speakers: 0,
   type: professor}
-Anthea King: {available: 0, chairs: 1, email: anthea.king@unimelb.edu.au, speakers: 0,
+Anthea King: {available: 1, chairs: 1, email: anthea.king@unimelb.edu.au, speakers: 0,
   type: postdoc}
 Arthur Suvorov: {available: 1, chairs: 1, email: suvorova@student.unimelb.edu.au,
   speakers: 1, type: phd_senior}
@@ -64,7 +64,7 @@ Rachel Webster: {available: 1, chairs: 0, email: r.webster@unimelb.edu.au, speak
   type: professor}
 Ricardo D'Amico: {available: 1, chairs: 1, email: r.d'amico@student.unimelb.edu.au,
   speakers: 0, type: master}
-Ruggero de Vita: {available: 1, chairs: 0, email: r.devita@student.unimelb.edu.au,
+Ruggero de Vita: {available: 1, chairs: 1, email: r.devita@student.unimelb.edu.au,
   speakers: 1, type: phd_senior}
 Sanjay Patil: {available: 1, chairs: 1, email: sanjaykumarp@student.unimelb.edu.au,
   speakers: 0, type: phd_senior}

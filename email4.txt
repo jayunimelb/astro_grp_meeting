@@ -3,10 +3,9 @@ Hi there,
 You are selected to be the chair and speaker(s) for the group meeting to be held 4 weeks later (http://qyx268.github.io/astromeeting_site/)
 
 Here are the details:
-date: 12. December 2016
-Sanjay Patil volunteered for speaker
-chair:	Christian Reichardt (christian.reichardt@unimelb.edu.au)
-speaker:	Sanjay Patil (sanjaykumarp@student.unimelb.edu.au)
+date: 19. December 2016
+chair:	Laura Wolz (lwolz@unimelb.edu.au)
+speaker:	Stephanie Bernard (sbernard@student.unimelb.edu.au)
 
 Please note that it will be the speaker's duty to prepare a talk (less than 30 minutes) on the astro-group meeting.
 If possible, please finish your slice 8 days before your due date, just in case the previous meeting needs your backup :)
