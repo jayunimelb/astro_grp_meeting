@@ -46,6 +46,7 @@ def make_selection():
     # Temporarily increment the contribution counts to include future volunteers
     doodle_poll = scrape_doodle("http://doodle.com/poll/psdh3untd9dqedzi")
     next4_monday = groupmeeting_time().strftime("%m/%d/%y")
+    doodle_poll[doodle_poll=='q']=False
     doodle_poll = doodle_poll.astype(np.bool)
     volunteers = {}
     for t in ('chair', 'speaker'):
