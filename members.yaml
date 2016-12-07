@@ -1,5 +1,3 @@
-Alpha Mastrano: {available: 1, chairs: 0, email: alpham@unimelb.edu.au, speakers: 0,
-  type: unknown}
 Andrew Melatos: {available: 1, chairs: 1, email: amelatos@unimelb.edu.au, speakers: 0,
   type: professor}
 Anthea King: {available: 1, chairs: 1, email: anthea.king@unimelb.edu.au, speakers: 0,
@@ -59,7 +57,7 @@ Noura Alonzi: {available: 1, chairs: 1, email: nalonzi@student.unimelb.edu.au, s
   type: phd_senior}
 Patrick Clearwater: {available: 1, chairs: 1, email: p.clearwater@student.unimelb.edu.au,
   speakers: 1, type: phd_senior}
-Paul Geil: {available: 1, chairs: 1, email: geil.p@unimelb.edu.au, speakers: 0, type: postdoc}
+Paul Geil: {available: 1, chairs: 1, email: geil.p@unimelb.edu.au, speakers: 1, type: postdoc}
 Rachel Webster: {available: 1, chairs: 0, email: r.webster@unimelb.edu.au, speakers: 1,
   type: professor}
 Ricardo D'Amico: {available: 1, chairs: 1, email: r.d'amico@student.unimelb.edu.au,
@@ -80,9 +78,7 @@ Stephanie Bernard: {available: 1, chairs: 2, email: sbernard@student.unimelb.edu
   speakers: 0, type: phd_senior}
 Stuart Wyithe: {available: 1, chairs: 1, email: swyithe@.unimelb.edu.au, speakers: 0,
   type: professor}
-William Fulgenzi: {available: 1, chairs: 0, email: w.fulgenzi@student.unimelb.edu.au,
-  speakers: 1, type: master}
 Yisheng Qiu: {available: 1, chairs: 1, email: yishengq@student.unimelb.edu.au, speakers: 1,
   type: master}
-Yuxiang Qin: {available: 1, chairs: 0, email: yuxiangq@student.unimelb.edu.au, speakers: 1,
+Yuxiang Qin: {available: 1, chairs: 1, email: yuxiangq@student.unimelb.edu.au, speakers: 1,
   type: phd_senior}
