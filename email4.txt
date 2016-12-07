@@ -3,9 +3,9 @@ Hi there,
 You are selected to be the chair and speaker(s) for the group meeting to be held 4 weeks later (http://qyx268.github.io/astromeeting_site/)
 
 Here are the details:
-date: 26. December 2016
+date: 02. January 2017
 chair:	William Fulgenzi (w.fulgenzi@student.unimelb.edu.au)
-speaker:	Hansik Kim (hansikk@unimelb.edu.au)
+speaker:	Alpha Mastrano (alpham@unimelb.edu.au)
 
 Please note that it will be the speaker's duty to prepare a talk (less than 30 minutes) on the astro-group meeting.
 If possible, please finish your slice 8 days before your due date, just in case the previous meeting needs your backup :)
