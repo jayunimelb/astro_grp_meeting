@@ -16,7 +16,7 @@ Cameron Van Der Velden: {available: 1, chairs: 1, email: c.vandervelden@student.
   speakers: 1, type: master}
 Chiara Tonini: {available: 0, chairs: 0, email: chiara.tonini@unimelb.edu.au, speakers: 0,
   type: postdoc}
-Christian Reichardt: {available: 1, chairs: 0, email: christian.reichardt@unimelb.edu.au,
+Christian Reichardt: {available: 1, chairs: 1, email: christian.reichardt@unimelb.edu.au,
   speakers: 1, type: fellower}
 Chuanwu Liu: {available: 1, chairs: 1, email: chuanwul@student.unimelb.edu.au, speakers: 1,
   type: phd_senior}
@@ -63,7 +63,7 @@ Ricardo D'Amico: {available: 1, chairs: 1, email: r.d'amico@student.unimelb.edu.
 Ruggero de Vita: {available: 1, chairs: 1, email: r.devita@student.unimelb.edu.au,
   speakers: 1, type: phd_senior}
 Sanjay Patil: {available: 1, chairs: 1, email: sanjaykumarp@student.unimelb.edu.au,
-  speakers: 0, type: phd_senior}
+  speakers: 1, type: phd_senior}
 Sarah Schon: {available: 1, chairs: 1, email: sschon@student.unimelb.edu.au, speakers: 1,
   type: phd_senior}
 Simon Mutch: {available: 1, chairs: 1, email: smutch@unimelb.edu.au, speakers: 0,

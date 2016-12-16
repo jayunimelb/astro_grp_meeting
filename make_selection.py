@@ -55,6 +55,16 @@ def make_selection():
         for contribution in ('chairs', 'speakers'):
             members.loc[name][contribution] += np.count_nonzero(doodle_poll[name].loc[:, contribution[:-1]])
 
+    # Temporarily increment the contribution counts to include the selected people
+    with open('selected_presenters.yaml', 'r') as fd:
+        presenters = yaml.load(fd)
+    this_week = groupmeeting_time(week=0).strftime("%m/%d/%y")
+    for k, l in iter(presenters.items()):
+        if k!=this_week:
+            for contribution in ('chairs', 'speakers'):
+                name = l[contribution[:-1]]
+                members.loc[name][contribution] += 1
+        
     # pickle the doodle poll for later use
     with open("doodle_poll.pkl", "wb") as fd:
         pickle.dump(doodle_poll, fd)
