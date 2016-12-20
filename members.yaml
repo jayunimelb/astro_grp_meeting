@@ -47,8 +47,6 @@ Lisa Drummond: {available: 1, chairs: 1, email: l.drummond@student.unimelb.edu.a
   speakers: 2, type: master}
 Mahsa Rahimi: {available: 1, chairs: 1, email: rahimi@student.unimelb.edu.au, speakers: 1,
   type: phd_senior}
-Manodeep Sinha: {available: 1, chairs: 1, email: manodeep.sinha@unimelb.edu.au, speakers: 1,
-  type: postdoc}
 Michele Trenti: {available: 1, chairs: 0, email: mtrenti@unimelb.edu.au, speakers: 1,
   type: fellower}
 Noura Alonzi: {available: 1, chairs: 1, email: nalonzi@student.unimelb.edu.au, speakers: 1,
