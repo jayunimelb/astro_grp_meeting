@@ -14,7 +14,7 @@ def available():
     
     doodle_poll = scrape_doodle("http://doodle.com/poll/pd7rn7esk4q5vuft")
     next_monday = groupmeeting_time().strftime("%m/%d/%y")
-    doodle_poll[doodle_poll=='q']=False
+    doodle_poll.replace('q',False)
     doodle_poll = doodle_poll.astype(np.bool)
 
     unavailable = list(doodle_poll.columns[doodle_poll.loc[next_monday, 'unavailable']])
