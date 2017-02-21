@@ -46,14 +46,14 @@
 
     <!-- Current speakers -->
     <section id="current" class="container content-section text-center">
-                <h1>{{ dates[0] }}</h1> <p>chair: {{ presenters['chair'][0] }}<br>speaker: {{ presenters['speaker'][0] }}</p>
-                <h1>{{ dates[1] }}</h1> <p>chair: {{ presenters['chair'][1] }}<br>speaker: {{ presenters['speaker'][1] }}</p>
-                <h1>{{ dates[2] }}</h1> <p>chair: {{ presenters['chair'][2] }}<br>speaker: {{ presenters['speaker'][2] }}</p>
-                <h1>{{ dates[3] }}</h1> <p>chair: {{ presenters['chair'][3] }}<br>speaker: {{ presenters['speaker'][3] }}</p>
+        <h1>{{ dates[0] }}</h1> <p>chair: {{ presenters['chair'][0][0] }}<br>speakers: {{ presenters['speaker'][0][0] }}, {{ presenters['speaker'][0][1] }}</p>
+        <h1>{{ dates[0] }}</h1> <p>chair: {{ presenters['chair'][1][0] }}<br>speakers: {{ presenters['speaker'][1][0] }}, {{ presenters['speaker'][1][1] }}</p>
+        <h1>{{ dates[0] }}</h1> <p>chair: {{ presenters['chair'][2][0] }}<br>speakers: {{ presenters['speaker'][2][0] }}, {{ presenters['speaker'][2][1] }}</p>
+        <h1>{{ dates[0] }}</h1> <p>chair: {{ presenters['chair'][3][0] }}<br>speakers: {{ presenters['speaker'][3][0] }}, {{ presenters['speaker'][3][1] }}</p>
     </section>
 
     <!-- History -->
-	<section id="past" class="content-section text-center">
+    <section id="past" class="content-section text-center">
         <div class="history-section">
             <div class="container">
                <div align="justify">

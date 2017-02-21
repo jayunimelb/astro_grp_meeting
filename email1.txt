@@ -1,20 +1,21 @@
-Hi there,
+Dear all,
 
-Please allow me to remind you that you are the chair and speaker(s) for next week. (http://qyx268.github.io/astromeeting_site/)
+Please allow me to remind you that you are the chair and speakers for next week. (http://qyx268.github.io/astromeeting_site/)
 
 Here are the details:
-date: 20. February 2017
-chair:	Laura Wolz (lwolz@unimelb.edu.au)
-speaker:	Ling Sun (lings2@student.unimelb.edu.au)
+date: 27. February 2017
+chair:	Rachel Webster (r.webster@unimelb.edu.au)
+speaker1:	Hansik Kim (hansikk@unimelb.edu.au)
+speaker2:	None (yuxiangq@student.unimelb.edu.au)
 
-Please note that it will be the speaker's duty to prepare a talk (less than 30 minutes) on the astro-group meeting.
+Please note that each speaker needs to give a talk (around 10 minutes) on the astro-group meeting.
 
 And it will be the chair's responsibility to
-	1) supervise the speaker on preparing the talk, 
+	1) supervise the speakers on preparing the talks, 
 	2) remind the astro group that you are the chair and collect agendas from them on Monday, 
 	3) send an announcement to the astro-people about 15 minutes before the group meeting, 
 	4) update the group meeting minutes on AstroWiki,
-	5) prepare a cake (usually) on Wednesday afternoon. 
+	5) serve a cake after the meeting 
 
 If you will be unable to attend the meeting, please find an alternative.
 If you have swapped with other people, please forward this email :)

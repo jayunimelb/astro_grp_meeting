@@ -10,7 +10,7 @@ import numpy as np
 
 def generate():
 
-    exception_list = {'chairs':{} ,'speakers':{'Stuart Wyithe',}}   
+    exception_list = {'chairs':{'None'} ,'speakers':{'Stuart Wyithe','None'}}   
 
     # read in the list of members and their presenting histories
     with open('members.yaml', 'r') as fd:

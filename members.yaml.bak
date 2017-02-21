@@ -76,7 +76,5 @@ Stuart Wyithe: {available: 1, chairs: 1, email: swyithe@.unimelb.edu.au, speaker
   type: professor}
 Yisheng Qiu: {available: 1, chairs: 1, email: yishengq@student.unimelb.edu.au, speakers: 1,
   type: master}
-Yuxiang Qin: {available: 1, chairs: 1, email: yuxiangq@student.unimelb.edu.au, speakers: 1,
-  type: phd_senior}
-None: {available: 1, chairs: 999, email: yuxiangq@student.unimelb.edu.au, speakers: 999,
+Yuxiang Qin: {available: 0, chairs: 1, email: yuxiangq@student.unimelb.edu.au, speakers: 1,
   type: phd_senior}

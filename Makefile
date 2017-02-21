@@ -7,7 +7,6 @@ reselect:
 	mv selected_presenters.yaml.bak selected_presenters.yaml
 	python available.py       
 	python make_selection.py  
-	cat selected_presenters_tba.yaml
 
 replace:	                         
 	python replace.py "$(type)"      
