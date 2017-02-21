@@ -1,7 +1,6 @@
 select:
 	python available.py
 	python make_selection.py
-	cat selected_presenters_tba.yaml
 
 reselect:
 	mv selected_presenters.yaml.bak selected_presenters.yaml

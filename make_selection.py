@@ -54,7 +54,7 @@ def make_selection():
 
     # Temporarily increment the contribution counts to include future volunteers
     doodle_poll = scrape_doodle("http://doodle.com/poll/psdh3untd9dqedzi")
-    doodle_poll[doodle_poll=='q']=False
+    doodle_poll = doodle_poll.replace('q',False) 
     doodle_poll = doodle_poll.astype(np.bool)
     volunteers = {}
     for t in ('chair', 'speaker'):
@@ -62,6 +62,7 @@ def make_selection():
     for name in doodle_poll.columns:
         for contribution in ('chairs', 'speakers'):
             members.loc[name][contribution] += np.count_nonzero(doodle_poll[name].loc[:, contribution[:-1]])
+    print(colored("Volunteers %s"%volunteers,'red'))
 
     # Temporarily increment the contribution counts to include the selected people
     with open('selected_presenters.yaml', 'r') as fd:

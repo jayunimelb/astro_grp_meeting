@@ -4,9 +4,9 @@ You are selected to be the chair and speakers for the group meeting to be held 4
 
 Here are the details:
 date: 20. March 2017
-chair:	Chiara Tonini (chiara.tonini@unimelb.edu.au)
-speaker1:	Andrew Melatos (amelatos@unimelb.edu.au)
-speaker2:	Clare Kenyon (ckenyon@student.unimelb.edu.au)
+chair:	Srinivasan Raghunathan (srinivasan.raghunathan@unimelb.edu.au)
+speaker1:	Clare Kenyon (ckenyon@student.unimelb.edu.au)
+speaker2:	Ricardo D'Amico (r.d'amico@student.unimelb.edu.au)
 
 Please note that each speaker needs to give a talk (around 10 minutes) on the astro-group meeting.
 If possible, please finish your slice 8 days before your due date, just in case the previous meeting needs your backup :)
