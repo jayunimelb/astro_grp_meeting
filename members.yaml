@@ -73,3 +73,5 @@ Yisheng Qiu: {available: 1, chairs: 1, email: yishengq@student.unimelb.edu.au, s
   type: master}
 Yuxiang Qin: {available: 0, chairs: 1, email: yuxiangq@student.unimelb.edu.au, speakers: 1,
   type: phd_senior}
+Mohit Bhardwaj: {available: 1, chairs: 1, email: mohitb@student.unimelb.edu.au, speakers: 1,
+  type: phd_senior}
