@@ -97,6 +97,7 @@ def make_selection():
             print(colored("Volunteer for "+k+" by "+v,'red'))
             femail4.write(v+" volunteered for "+k+'\n')
     
+    presenters['speaker'] = ['Mahsa Rahimi',]
     # the selected_presenters file
     with open('selected_presenters.yaml', 'r') as fd:
         selected_presenters = yaml.load(fd)
