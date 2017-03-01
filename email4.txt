@@ -6,8 +6,8 @@ Here are the details:
 date: 27. March 2017
 Andrew Melatos volunteered for chair
 chair:	Andrew Melatos (amelatos@unimelb.edu.au)
-speaker1:	Mahsa Rahimi (rahimi@student.unimelb.edu.au)
-speaker2:	Sanjay Patil (sanjaykumarp@student.unimelb.edu.au)
+speaker1:	Sanjay Patil (sanjaykumarp@student.unimelb.edu.au)
+speaker2:	George Howitt (ghowitt@student.unimelb.edu.au)
 
 Please note that each speaker needs to give a talk (around 10 minutes) on the astro-group meeting.
 If possible, please finish your slice 8 days before your due date, just in case the previous meeting needs your backup :)

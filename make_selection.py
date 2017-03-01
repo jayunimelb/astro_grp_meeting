@@ -86,7 +86,7 @@ def make_selection():
         print(colored("not enough people","red"))
         #return
     
-    presenters = dict(chair = [], speaker = [])
+    presenters = dict(chair = [], speaker = ['Sanjay Patil'])# you could put selected people here when doing reselection
     volunteered = dict(chair = "", speaker = "")
     
     # select volunteers if there are any
@@ -97,7 +97,6 @@ def make_selection():
             print(colored("Volunteer for "+k+" by "+v,'red'))
             femail4.write(v+" volunteered for "+k+'\n')
     
-    presenters['speaker'] = ['Mahsa Rahimi',]
     # the selected_presenters file
     with open('selected_presenters.yaml', 'r') as fd:
         selected_presenters = yaml.load(fd)
