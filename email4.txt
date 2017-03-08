@@ -3,11 +3,10 @@ Dear all,
 You are selected to be the chair and speakers for the group meeting to be held 4 weeks later (http://qyx268.github.io/astromeeting_site/)
 
 Here are the details:
-date: 27. March 2017
-Andrew Melatos volunteered for chair
-chair:	Andrew Melatos (amelatos@unimelb.edu.au)
-speaker1:	Sanjay Patil (sanjaykumarp@student.unimelb.edu.au)
-speaker2:	George Howitt (ghowitt@student.unimelb.edu.au)
+date: 03. April 2017
+chair:	Rachel Webster (r.webster@unimelb.edu.au)
+speaker1:	Andrew Melatos (amelatos@unimelb.edu.au)
+speaker2:	Benjamin McKinley (ben.mckinley@unimelb.edu.au)
 
 Please note that each speaker needs to give a talk (around 10 minutes) on the astro-group meeting.
 If possible, please finish your slice 8 days before your due date, just in case the previous meeting needs your backup :)

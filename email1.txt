@@ -3,10 +3,10 @@ Dear all,
 Please allow me to remind you that you are the chair and speakers for next week. (http://qyx268.github.io/astromeeting_site/)
 
 Here are the details:
-date: 06. March 2017
-chair:	Sinem Ozbilgen (s.ozbilgen@student.unimelb.edu.au)
-speaker1:	Stephanie Bernard (sbernard@student.unimelb.edu.au)
-speaker2:	None (yuxiangq@student.unimelb.edu.au)
+date: 13. March 2017
+chair:	Edoardo Tescari (edoardo.tescari@unimelb.edu.au)
+speaker1:	Simon Mutch (smutch@unimelb.edu.au)
+speaker2:	Mohit Bhardwaj (mohitb@student.unimelb.edu.au)
 
 Please note that each speaker needs to give a talk (around 10 minutes) on the astro-group meeting.
 

@@ -86,7 +86,7 @@ def make_selection():
         print(colored("not enough people","red"))
         #return
     
-    presenters = dict(chair = [], speaker = ['Sanjay Patil'])# you could put selected people here when doing reselection
+    presenters = dict(chair = [], speaker = [])# you could put selected people here when doing reselection
     volunteered = dict(chair = "", speaker = "")
     
     # select volunteers if there are any
@@ -101,7 +101,8 @@ def make_selection():
     with open('selected_presenters.yaml', 'r') as fd:
         selected_presenters = yaml.load(fd)
 
-    presenters['chair'] = [presenters['chair']]
+    if len(presenters['chair'])>0:
+        presenters['chair'] = [presenters['chair']]
     # choose the chair presenters randomly from those who have presented the
     # minimum number of times.
     for contribution, number_contribution in zip(('chairs', 'speakers'),(1,2)):

@@ -68,7 +68,7 @@ Sinem Ozbilgen: {available: 0, chairs: 1, email: s.ozbilgen@student.unimelb.edu.
 Srinivasan Raghunathan: {available: 1, chairs: 1, email: srinivasan.raghunathan@unimelb.edu.au,
   speakers: 1, type: postdoc}
 Stephanie Bernard: {available: 1, chairs: 2, email: sbernard@student.unimelb.edu.au,
-  speakers: 1, type: phd_senior}
+  speakers: 2, type: phd_senior}
 Stuart Wyithe: {available: 1, chairs: 1, email: swyithe@.unimelb.edu.au, speakers: 0,
   type: professor}
 Yisheng Qiu: {available: 1, chairs: 1, email: yishengq@student.unimelb.edu.au, speakers: 1,
