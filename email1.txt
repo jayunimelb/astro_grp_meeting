@@ -3,10 +3,10 @@ Dear all,
 Please allow me to remind you that you are the chair and speakers for next week. (http://qyx268.github.io/astromeeting_site/)
 
 Here are the details:
-date: 13. March 2017
-chair:	Edoardo Tescari (edoardo.tescari@unimelb.edu.au)
-speaker1:	Simon Mutch (smutch@unimelb.edu.au)
-speaker2:	Mohit Bhardwaj (mohitb@student.unimelb.edu.au)
+date: 20. March 2017
+chair:	Srinivasan Raghunathan (srinivasan.raghunathan@unimelb.edu.au)
+speaker1:	Mohit Bhardwaj (mohitb@student.unimelb.edu.au)
+speaker2:	Bart Pindor (bpindor@unimelb.edu.au)
 
 Please note that each speaker needs to give a talk (around 10 minutes) on the astro-group meeting.
 
