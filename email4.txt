@@ -4,9 +4,9 @@ You are selected to be the chair and speakers for the group meeting to be held 4
 
 Here are the details:
 date: 17. April 2017
-chair:	Patrick Clearwater (p.clearwater@student.unimelb.edu.au)
-speaker1:	Hansik Kim (hansikk@unimelb.edu.au)
-speaker2:	Yisheng Qiu (yishengq@student.unimelb.edu.au)
+chair:	Simon Mutch (smutch@unimelb.edu.au)
+speaker1:	Ricardo D'Amico (r.d'amico@student.unimelb.edu.au)
+speaker2:	Ruggero de Vita (r.devita@student.unimelb.edu.au)
 
 Please note that each speaker needs to give a talk (around 10 minutes) on the astro-group meeting.
 If possible, please finish your slice 8 days before your due date, just in case the previous meeting needs your backup :)

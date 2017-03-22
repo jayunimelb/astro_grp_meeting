@@ -43,7 +43,8 @@ def make_selection():
     # this is the exception list, people here do not present or host
     exception_list = {'chairs':{'',} ,'speakers':{'Stuart Wyithe',}} 
     
-    # read in the list of members and their presenting histories
+
+    # READ in the list of members and their presenting histories
     with open('members.yaml', 'r') as fd:
         members = yaml.load(fd)
     
