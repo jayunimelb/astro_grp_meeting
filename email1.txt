@@ -1,12 +1,12 @@
 Dear all,
 
-Please allow me to remind you that you are the chair and speakers for next week. (http://qyx268.github.io/astromeeting_site/)
+Please allow me to remind you that you are the organiser and speakers for next week. (http://qyx268.github.io/astromeeting_site/)
 
 Here are the details:
-date: 20. March 2017
-chair:	Srinivasan Raghunathan (srinivasan.raghunathan@unimelb.edu.au)
-speaker1:	Mohit Bhardwaj (mohitb@student.unimelb.edu.au)
-speaker2:	Bart Pindor (bpindor@unimelb.edu.au)
+date: 27. March 2017
+chair:	Andrew Melatos (amelatos@unimelb.edu.au)
+speaker1:	Sanjay Patil (sanjaykumarp@student.unimelb.edu.au)
+speaker2:	George Howitt (ghowitt@student.unimelb.edu.au)
 
 Please note that each speaker needs to give a talk (around 10 minutes) on the astro-group meeting.
 
@@ -21,4 +21,4 @@ If you will be unable to attend the meeting, please find an alternative.
 If you have swapped with other people, please forward this email :)
 
 Cheers,
-Yuxiang
+Sanjay

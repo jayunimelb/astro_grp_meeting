@@ -4,7 +4,7 @@ Anthea King: {available: 0, chairs: 1, email: anthea.king@unimelb.edu.au, speake
   type: postdoc}
 Arthur Suvorov: {available: 1, chairs: 1, email: suvorova@student.unimelb.edu.au,
   speakers: 1, type: phd_senior}
-Bart Pindor: {available: 1, chairs: 1, email: bpindor@unimelb.edu.au, speakers: 1,
+Bart Pindor: {available: 1, chairs: 1, email: bpindor@unimelb.edu.au, speakers: 2,
   type: postdoc}
 Benedetta Vulcani: {available: 0, chairs: 1, email: benedetta.vulcani@unimelb.edu.au,
   speakers: 1, type: postdoc}
@@ -44,7 +44,7 @@ Mahsa Rahimi: {available: 1, chairs: 1, email: rahimi@student.unimelb.edu.au, sp
   type: phd_senior}
 Michele Trenti: {available: 1, chairs: 1, email: mtrenti@unimelb.edu.au, speakers: 1,
   type: fellower}
-Mohit Bhardwaj: {available: 1, chairs: 1, email: mohitb@student.unimelb.edu.au, speakers: 1,
+Mohit Bhardwaj: {available: 1, chairs: 1, email: mohitb@student.unimelb.edu.au, speakers: 2,
   type: phd_senior}
 None: {available: 1, chairs: 999, email: yuxiangq@student.unimelb.edu.au, speakers: 999,
   type: phd_senior}
@@ -65,7 +65,7 @@ Simon Mutch: {available: 1, chairs: 1, email: smutch@unimelb.edu.au, speakers: 1
   type: postdoc}
 Sinem Ozbilgen: {available: 0, chairs: 1, email: s.ozbilgen@student.unimelb.edu.au,
   speakers: 0, type: phd_senior}
-Srinivasan Raghunathan: {available: 1, chairs: 1, email: srinivasan.raghunathan@unimelb.edu.au,
+Srinivasan Raghunathan: {available: 1, chairs: 2, email: srinivasan.raghunathan@unimelb.edu.au,
   speakers: 1, type: postdoc}
 Stephanie Bernard: {available: 1, chairs: 2, email: sbernard@student.unimelb.edu.au,
   speakers: 2, type: phd_senior}
