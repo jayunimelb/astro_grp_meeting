@@ -1,26 +1,19 @@
 Dear all,
 
-You are selected to be the chair and speakers for the group meeting to be held 4 weeks later (http://qyx268.github.io/astromeeting_site/)
+This email is to inform that you are selected either as an organiser or as a speaker for the group meeting to be held 4 weeks later (i.e on Monday 24. April 2017)
 
 Here are the details:
-date: 17. April 2017
-chair:	Simon Mutch (smutch@unimelb.edu.au)
-speaker1:	Ricardo D'Amico (r.d'amico@student.unimelb.edu.au)
-speaker2:	Ruggero de Vita (r.devita@student.unimelb.edu.au)
+date: 24. April 2017
+Organiser:	Clare Kenyon 
+Speakers:	Cameron Van Der Velden and  Arthur Suvorov
 
-Please note that each speaker needs to give a talk (around 10 minutes) on the astro-group meeting.
-If possible, please finish your slice 8 days before your due date, just in case the previous meeting needs your backup :)
+Please note that each speaker needs to give a talk (around 10 minutes) during the astro-group meeting. If possible, please prepare your talk 8 days before your due date, just in case the previous meeting needs your backup
+.
+And it will be the organiser's responsibility to update the group meeting minutes on AstroWiki and to serve a cake after the meeting
 
-And it will be the chair's responsibility to
-	1) supervise the speakers on preparing the talks, 
-	2) remind the astro group that you are the chair and collect agendas from them on Monday, 
-	3) send an announcement to the astro-people about 15 minutes before the group meeting, 
-	4) update the group meeting minutes on AstroWiki,
-	5) serve a cake after the meeting 
-
-Please let me know as soon as possible if you cannot make it :)
+If you can't make it please let me know within this friday (i,e ), otherwise you will need to find an alternative by yourself
 
 After this Friday, you will need to find an alternative by yourself.
 
 Cheers,
-Yuxiang
+Sanjay
