@@ -1,4 +1,4 @@
-Andrew Melatos: {available: 1, chairs: 1, email: amelatos@unimelb.edu.au, speakers: 0,
+Andrew Melatos: {available: 1, chairs: 2, email: amelatos@unimelb.edu.au, speakers: 0,
   type: professor}
 Anthea King: {available: 0, chairs: 1, email: anthea.king@unimelb.edu.au, speakers: 1,
   type: postdoc}
@@ -24,7 +24,7 @@ Dylan Sutton: {available: 1, chairs: 1, email: d.sutton@student.unimelb.edu.au, 
   type: master}
 Edoardo Tescari: {available: 1, chairs: 1, email: edoardo.tescari@unimelb.edu.au,
   speakers: 1, type: postdoc}
-George Howitt: {available: 1, chairs: 2, email: ghowitt@student.unimelb.edu.au, speakers: 1,
+George Howitt: {available: 1, chairs: 2, email: ghowitt@student.unimelb.edu.au, speakers: 2,
   type: phd_senior}
 Hansik Kim: {available: 1, chairs: 1, email: hansikk@unimelb.edu.au, speakers: 1,
   type: postdoc}
@@ -60,7 +60,7 @@ Ricardo D'Amico: {available: 1, chairs: 1, email: r.d'amico@student.unimelb.edu.
 Ruggero de Vita: {available: 1, chairs: 1, email: r.devita@student.unimelb.edu.au,
   speakers: 1, type: phd_senior}
 Sanjay Patil: {available: 1, chairs: 1, email: sanjaykumarp@student.unimelb.edu.au,
-  speakers: 1, type: phd_senior}
+  speakers: 2, type: phd_senior}
 Simon Mutch: {available: 1, chairs: 1, email: smutch@unimelb.edu.au, speakers: 1,
   type: postdoc}
 Sinem Ozbilgen: {available: 0, chairs: 1, email: s.ozbilgen@student.unimelb.edu.au,

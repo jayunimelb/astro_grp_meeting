@@ -35,10 +35,10 @@ def make_selection():
     # write some heads
     femail1 = open('email1.txt', 'w')
     femail4 = open('email4.txt', 'w')
-    femail1.write("Dear Organiser and Speakers,\n\nThis email is just a reminder that you are either organiser or speaker for the next week's (i,e on %s) group meeting\n\nHere are the details:\n"%(groupmeeting_time(week=0).strftime("%A %d. %B %Y")))
-    femail4.write("Dear all,\n\nThis email is to inform that you are selected either as an organiser or as a speaker for the group meeting to be held 4 weeks later (i.e on %s)\n\nHere are the details:\n"%(groupmeeting_time(week=4).strftime("%A %d. %B %Y")))
-    femail1.write('date: %s\n'%groupmeeting_time(week=1).strftime("%d. %B %Y"))
-    femail4.write('date: %s\n'%groupmeeting_time(week=4).strftime("%d. %B %Y"))
+    femail1.write("Dear Organiser and Speakers,\nThis email is just a reminder that you are either organiser or speaker for the next week's (i,e on %s) group meeting\nHere are the details:\n"%(groupmeeting_time(week=1).strftime("%A %d. %B %Y")))
+    femail4.write("Dear all,\nThis email is to inform that you are selected either as an organiser or as a speaker for the group meeting to be held 4 weeks later (i.e on %s)\nHere are the details:\n"%(groupmeeting_time(week=4).strftime("%A %d. %B %Y")))
+    femail1.write('Date: %s\n'%groupmeeting_time(week=1).strftime("%d. %B %Y"))
+    femail4.write('Date: %s\n'%groupmeeting_time(week=4).strftime("%d. %B %Y"))
     
     # this is the exception list, people here do not present or host
     exception_list = {'chairs':{'',} ,'speakers':{'Stuart Wyithe',}} 
@@ -69,8 +69,14 @@ def make_selection():
     for k, l in iter(presenters.items()):
         if k!=this_monday:
             for contribution in ('chairs', 'speakers'):
-                name = l[contribution[:-1]]
-                members.loc[name][contribution] += 1
+#                print("in for loop");quit()
+#                print(l['chair'],l['speaker'],[contribution[:-1]]);quit()
+                names = l[contribution[:-1]]
+                for name in names:
+                    members.loc[name][contribution] += 1
+                    print(contribution)
+#                print("name initiazlized %s"%(name));quit()#;print(members.loc[name][contribution]);quit()
+#                members.loc[name][contribution] += 1
         
     # pickle the doodle poll for later use
     with open("doodle_poll.pkl", "wb") as fd:
