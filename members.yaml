@@ -75,3 +75,7 @@ Yisheng Qiu: {available: 1, chairs: 1, email: yishengq@student.unimelb.edu.au, s
   type: master}
 Yuxiang Qin: {available: 1, chairs: 1, email: yuxiangq@student.unimelb.edu.au, speakers: 1,
   type: phd_senior}
+Lennart Balkenhol: {available: 1, chairs: 2, email: lbalkenhol@student.unimelb.edu.au, speakers: 2,
+  type: master}
+Julian Carlin: {available: 1, chairs: 2, email: jcarlin@student.unimelb.edu.au, speakers: 2,
+  type: master}
