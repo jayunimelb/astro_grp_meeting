@@ -73,7 +73,7 @@ Ruggero de Vita: {available: 1, chairs: 1, email: r.devita@student.unimelb.edu.a
   speakers: 1, type: phd_senior}
 Sanjay Patil: {available: 1, chairs: 1, email: sanjaykumarp@student.unimelb.edu.au,
   speakers: 2, type: phd_senior}
-Simon Mutch: {available: 1, chairs: 1, email: smutch@unimelb.edu.au, speakers: 1,
+Simon Mutch: {available: 1, chairs: 2, email: smutch@unimelb.edu.au, speakers: 1,
   type: postdoc}
 Sinem Ozbilgen: {available: 1, chairs: 1, email: s.ozbilgen@student.unimelb.edu.au,
   speakers: 0, type: phd_senior}

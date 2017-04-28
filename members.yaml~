@@ -58,7 +58,7 @@ Michele Trenti: {available: 1, chairs: 1, email: mtrenti@unimelb.edu.au, speaker
   type: fellower}
 Mohit Bhardwaj: {available: 1, chairs: 1, email: mohitb@student.unimelb.edu.au, speakers: 2,
   type: phd_senior}
-None: {available: 1, chairs: 999, email: yuxiangq@student.unimelb.edu.au, speakers: 999,
+None: {available: 1, chairs: 999, email: s.patil2@student.unimelb.edu.au, speakers: 999,
   type: phd_senior}
 Noura Alonzi: {available: 1, chairs: 1, email: nalonzi@student.unimelb.edu.au, speakers: 1,
   type: phd_senior}
