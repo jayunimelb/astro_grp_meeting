@@ -69,8 +69,14 @@ def make_selection():
     for k, l in iter(presenters.items()):
         if k!=this_monday:
             for contribution in ('chairs', 'speakers'):
-                name = l[contribution[:-1]]
-                members.loc[name][contribution] += 1
+#                print("in for loop");quit()
+#                print(l['chair'],l['speaker'],[contribution[:-1]]);quit()
+                names = l[contribution[:-1]]
+                for name in names:
+                    members.loc[name][contribution] += 1
+                    print(contribution)
+#                print("name initiazlized %s"%(name));quit()#;print(members.loc[name][contribution]);quit()
+#                members.loc[name][contribution] += 1
         
     # pickle the doodle poll for later use
     with open("doodle_poll.pkl", "wb") as fd:
