@@ -153,7 +153,7 @@ def make_selection():
 #    femail4.write("If possible, please finish your slice 8 days before your due date, just in case the previous meeting needs your backup :)\n")
     femail4.write("\nAnd it will be the organiser's responsibility to update the group meeting minutes on AstroWiki and to serve a cake after the meeting\n")
     femail4.write("\nIf you can't make it please let me know within this friday (i,e ), otherwise you will need to find an alternative by yourself\n")
-    femail4.write('\nAfter this Friday, you will need to find an alternative by yourself.\n')
+#    femail4.write('\nAfter this Friday, you will need to find an alternative by yourself.\n')
     femail4.write('\nCheers,\nSanjay')
     femail4.close()
     

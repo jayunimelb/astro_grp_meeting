@@ -6,8 +6,8 @@ Anh Pham: {available: 1, chairs: 1, email: tpham5@student.unimelb.edu.au, speake
   type: PhD}
 Anthea King: {available: 1, chairs: 1, email: anthea.king@unimelb.edu.au, speakers: 1,
   type: postdoc}
-Arthur Suvorov: {available: 1, chairs: 1, email: suvorova@student.unimelb.edu.au, speakers: 1,
-  type: postdoc}
+Arthur Suvorov: {available: 1, chairs: 1, email: suvorova@student.unimelb.edu.au,
+  speakers: 1, type: postdoc}
 Bart Pindor: {available: 1, chairs: 1, email: bpindor@unimelb.edu.au, speakers: 2,
   type: postdoc}
 Benedetta Vulcani: {available: 1, chairs: 1, email: benedetta.vulcani@unimelb.edu.au,
@@ -17,7 +17,7 @@ Benjamin McKinley: {available: 1, chairs: 1, email: ben.mckinley@unimelb.edu.au,
 Bryce Murphy: {available: 1, chairs: 1, email: brycem1@student.unimelb.edu.au, speakers: 2,
   type: PhD}
 Cameron Van Der Velden: {available: 1, chairs: 1, email: c.vandervelden@student.unimelb.edu.au,
-  speakers: 1, type: master}
+  speakers: 2, type: master}
 Christian Reichardt: {available: 1, chairs: 1, email: christian.reichardt@unimelb.edu.au,
   speakers: 1, type: fellower}
 Clare Kenyon: {available: 1, chairs: 1, email: ckenyon@student.unimelb.edu.au, speakers: 1,
@@ -28,13 +28,13 @@ Dasith da Silva: {available: 1, chairs: 1, email: dasithd@student.unimelb.edu.au
   speakers: 1, type: Master}
 Edoardo Tescari: {available: 1, chairs: 1, email: edoardo.tescari@unimelb.edu.au,
   speakers: 2, type: postdoc}
-Federico Bianchini: {available: 1, chairs: 1, email: fbianchini@unimelb.edu.au, speakers: 1,
+Federico Bianchini: {available: 1, chairs: 2, email: fbianchini@unimelb.edu.au, speakers: 1,
   type: post doc}
 George Howitt: {available: 1, chairs: 2, email: ghowitt@student.unimelb.edu.au, speakers: 2,
   type: phd_senior}
 Hansik Kim: {available: 1, chairs: 1, email: hansikk@unimelb.edu.au, speakers: 1,
   type: postdoc}
-Jack Line: {available: 1, chairs: 2, email: j.line@student.unimelb.edu.au, speakers: 1,
+Jack Line: {available: 1, chairs: 2, email: jack.line@unimelb.edu.au, speakers: 1,
   type: phd_senior}
 Jack Lonnbron: {available: 1, chairs: 1, email: lonnbornj@student.unimelb.edu.au,
   speakers: 1, type: master}

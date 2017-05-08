@@ -152,7 +152,7 @@ def make_selection():
     femail4.write("\nPlease note that each speaker needs to give a talk (around 10 minutes) during the astro-group meeting. If possible, please prepare your talk 8 days before your due date, just in case the previous meeting needs your backup\n.")
 #    femail4.write("If possible, please finish your slice 8 days before your due date, just in case the previous meeting needs your backup :)\n")
     femail4.write("\nAnd it will be the organiser's responsibility to update the group meeting minutes on AstroWiki and to serve a cake after the meeting\n")
-    femail4.write("\nIf you can't make it please let me know within this friday (i,e ), otherwise you will need to find an alternative by yourself\n")
+    femail4.write("\nIf you can't make it please let me know within i,e %s, otherwise you will need to find an alternative by yourself\n"%((groupmeeting_time(week=0) + datetime.timedelta(days=4)).strftime("%A %d. %B %Y")))
 #    femail4.write('\nAfter this Friday, you will need to find an alternative by yourself.\n')
     femail4.write('\nCheers,\nSanjay')
     femail4.close()
