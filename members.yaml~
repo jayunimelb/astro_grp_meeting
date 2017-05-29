@@ -34,7 +34,7 @@ George Howitt: {available: 1, chairs: 2, email: ghowitt@student.unimelb.edu.au, 
   type: phd_senior}
 Hansik Kim: {available: 1, chairs: 1, email: hansikk@unimelb.edu.au, speakers: 1,
   type: postdoc}
-Jack Line: {available: 1, chairs: 2, email: jack.line@unimelb.edu.au, speakers: 1,
+Jack Line: {available: 1, chairs: 2, email: jack.line@unimelb.edu.au, speakers: 2,
   type: phd_senior}
 Jack Lonnbron: {available: 1, chairs: 1, email: lonnbornj@student.unimelb.edu.au,
   speakers: 1, type: master}
@@ -53,7 +53,7 @@ Julian Carlin: {available: 1, chairs: 2, email: jcarlin@student.unimelb.edu.au, 
 Katie Mack: {available: 1, chairs: 1, email: kmack@unimelb.edu.au, speakers: 1, type: postdoc}
 Keven Ren: {available: 1, chairs: 1, email: kevenr@student.unimelb.edu.au, speakers: 2,
   type: master}
-Laura Wolz: {available: 1, chairs: 1, email: lwolz@unimelb.edu.au, speakers: 1, type: postdoc}
+Laura Wolz: {available: 1, chairs: 2, email: lwolz@unimelb.edu.au, speakers: 1, type: postdoc}
 Lennart Balkenhol: {available: 1, chairs: 1, email: lbalkenhol@student.unimelb.edu.au,
   speakers: 1, type: Master}
 Ling Sun: {available: 1, chairs: 1, email: lings2@student.unimelb.edu.au, speakers: 1,
@@ -103,5 +103,5 @@ Veronika Miles: {available: 1, chairs: 1, email: v.miles3@student.unimelb.edu.au
   speakers: 1, type: master}
 Yisheng Qiu: {available: 1, chairs: 1, email: yishengq@student.unimelb.edu.au, speakers: 1,
   type: master}
-Yuxiang Qin: {available: 1, chairs: 1, email: yuxiangq@student.unimelb.edu.au, speakers: 1,
+Yuxiang Qin: {available: 1, chairs: 1, email: yuxiangq@student.unimelb.edu.au, speakers: 2,
   type: phd_senior}
