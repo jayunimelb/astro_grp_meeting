@@ -22,10 +22,10 @@ Christian Reichardt: {available: 1, chairs: 1, email: christian.reichardt@unimel
   speakers: 1, type: fellower}
 Clare Kenyon: {available: 1, chairs: 1, email: ckenyon@student.unimelb.edu.au, speakers: 1,
   type: phd_senior}
-Daniela Carrasco: {available: 1, chairs: 1, email: dcarrasco@student.unimelb.edu.au,
+Daniela Carrasco: {available: 1, chairs: 2, email: dcarrasco@student.unimelb.edu.au,
   speakers: 2, type: phd_senior}
 Dasith da Silva: {available: 1, chairs: 1, email: dasithd@student.unimelb.edu.au,
-  speakers: 1, type: Master}
+  speakers: 2, type: Master}
 Edoardo Tescari: {available: 1, chairs: 1, email: edoardo.tescari@unimelb.edu.au,
   speakers: 2, type: postdoc}
 Federico Bianchini: {available: 1, chairs: 2, email: fbianchini@unimelb.edu.au, speakers: 1,
