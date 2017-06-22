@@ -52,7 +52,7 @@ Julian Carlin: {available: 1, chairs: 2, email: jcarlin@student.unimelb.edu.au, 
   type: master}
 Katie Mack: {available: 1, chairs: 1, email: kmack@unimelb.edu.au, speakers: 1, type: postdoc}
 Keven Ren: {available: 1, chairs: 1, email: kevenr@student.unimelb.edu.au, speakers: 2,
-  type: master}
+  type: PhD}
 Laura Wolz: {available: 1, chairs: 2, email: lwolz@unimelb.edu.au, speakers: 1, type: postdoc}
 Lennart Balkenhol: {available: 1, chairs: 1, email: lbalkenhol@student.unimelb.edu.au,
   speakers: 1, type: Master}
