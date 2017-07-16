@@ -6,8 +6,6 @@ Anh Pham: {available: 1, chairs: 1, email: tpham5@student.unimelb.edu.au, speake
   type: PhD}
 Anthea King: {available: 1, chairs: 1, email: anthea.king@unimelb.edu.au, speakers: 2,
   type: postdoc}
-Arthur Suvorov: {available: 1, chairs: 1, email: suvorova@student.unimelb.edu.au,
-  speakers: 1, type: postdoc}
 Bart Pindor: {available: 1, chairs: 1, email: bpindor@unimelb.edu.au, speakers: 2,
   type: postdoc}
 Benedetta Vulcani: {available: 1, chairs: 1, email: benedetta.vulcani@unimelb.edu.au,
@@ -32,8 +30,8 @@ Federico Bianchini: {available: 1, chairs: 2, email: fbianchini@unimelb.edu.au, 
   type: post doc}
 George Howitt: {available: 1, chairs: 2, email: ghowitt@student.unimelb.edu.au, speakers: 2,
   type: phd_senior}
-Hansik Kim: {available: 1, chairs: 1, email: hansikk@unimelb.edu.au, speakers: 1,
-  type: postdoc}
+Hansik Kim: {available: 1, chairs: 2, email: hansikk@unimelb.edu.au, speakers: 1,
+  type: post doc}
 Jack Line: {available: 1, chairs: 2, email: jack.line@unimelb.edu.au, speakers: 2,
   type: phd_senior}
 Jack Lonnbron: {available: 1, chairs: 1, email: lonnbornj@student.unimelb.edu.au,
@@ -46,7 +44,7 @@ James Paynter: {available: 1, chairs: 1, email: jpaynter@student.unimelb.edu.au,
   type: master}
 Jarryd Rasti: {available: 1, chairs: 1, email: jrasti@student.unimelb.edu.au, speakers: 1,
   type: master}
-Jude Prevens: {available: 1, chairs: 2, email: jprezens@unimelb.edu.au, speakers: 1,
+Jude Prevens: {available: 1, chairs: 2, email: jprezens@unimelb.edu.au, speakers: 2,
   type: master}
 Julian Carlin: {available: 1, chairs: 2, email: jcarlin@student.unimelb.edu.au, speakers: 2,
   type: master}
@@ -72,15 +70,15 @@ None: {available: 1, chairs: 999, email: s.patil2@student.unimelb.edu.au, speake
   type: phd_senior}
 Noura Alonzi: {available: 1, chairs: 1, email: nalonzi@student.unimelb.edu.au, speakers: 1,
   type: phd_senior}
-Patrick Clearwater: {available: 1, chairs: 1, email: p.clearwater@student.unimelb.edu.au,
+Patrick Clearwater: {available: 1, chairs: 2, email: p.clearwater@student.unimelb.edu.au,
   speakers: 1, type: phd_senior}
-Paul Geil: {available: 1, chairs: 1, email: geil.p@unimelb.edu.au, speakers: 1, type: postdoc}
+Paul Geil: {available: 1, chairs: 1, email: geil.p@unimelb.edu.au, speakers: 2, type: postdoc}
 Peter Robertson: {available: 1, chairs: 1, email: prob@unimelb.edu.au, speakers: 1,
   type: Research Fellow}
 Rachel Webster: {available: 1, chairs: 1, email: r.webster@unimelb.edu.au, speakers: 1,
   type: professor}
-Ricardo D'Amico: {available: 1, chairs: 1, email: r.d'amico@student.unimelb.edu.au,
-  speakers: 1, type: master}
+Ricardo D'Amico: {available: 1, chairs: 2, email: r.d'amico@student.unimelb.edu.au,
+  speakers: 2, type: master}
 Ruggero de Vita: {available: 1, chairs: 1, email: r.devita@student.unimelb.edu.au,
   speakers: 2, type: phd_senior}
 Sanjay Patil: {available: 1, chairs: 2, email: sanjaykumarp@student.unimelb.edu.au,
