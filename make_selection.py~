@@ -158,10 +158,10 @@ def make_selection():
     femail4.close()
     
     # print out the email commands
-    email4 = "%s, %s, %s"%(emails[selected_presenters[next4_monday]['chair'][0]],emails[selected_presenters[next4_monday]['speaker'][0]],emails[selected_presenters[next4_monday]['speaker'][1]])
-    email1 = "%s, %s, %s %s"%(emails[selected_presenters[next_monday]['chair'][0]],emails[selected_presenters[next_monday]['speaker'][0]],emails[selected_presenters[next_monday]['speaker'][1]],'r.webster@unimelb.edu.au')
-    print('mail -s "Speakers and organiser for Astro group meeting on %s""'%(next4_monday)+email4+'" <email4.txt')
-    print('mail -s "Speakers and organiser for Astro-group meeting on %s""'%(this_monday)+email1+'" <email1.txt')
+   # email4 = "%s, %s, %s"%(emails[selected_presenters[next4_monday]['chair'][0]],emails[selected_presenters[next4_monday]['speaker'][0]],emails[selected_presenters[next4_monday]['speaker'][1]])
+   # email1 = "%s, %s, %s %s"%(emails[selected_presenters[next_monday]['chair'][0]],emails[selected_presenters[next_monday]['speaker'][0]],emails[selected_presenters[next_monday]['speaker'][1]],'r.webster@unimelb.edu.au')
+   # print('mail -s "Speakers and organiser for Astro group meeting on %s""'%(next4_monday)+email4+'" <email4.txt')
+   # print('mail -s "Speakers and organiser for Astro-group meeting on %s""'%(this_monday)+email1+'" <email1.txt')
     
 if __name__ == "__main__":
     make_selection()
