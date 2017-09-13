@@ -4,7 +4,7 @@ Andrew Melatos: {available: 1, chairs: 2, email: amelatos@unimelb.edu.au, speake
   type: professor}
 Anh Pham: {available: 1, chairs: 2, email: tpham5@student.unimelb.edu.au, speakers: 1,
   type: PhD}
-Anthea King: {available: 1, chairs: 1, email: anthea.king@unimelb.edu.au, speakers: 2,
+Anthea King: {available: 1, chairs: 3, email: anthea.king@unimelb.edu.au, speakers: 2,
   type: postdoc}
 Bart Pindor: {available: 1, chairs: 1, email: bpindor@unimelb.edu.au, speakers: 2,
   type: postdoc}
@@ -30,7 +30,7 @@ Federico Bianchini: {available: 1, chairs: 2, email: fbianchini@unimelb.edu.au, 
   type: post doc}
 George Howitt: {available: 1, chairs: 2, email: ghowitt@student.unimelb.edu.au, speakers: 2,
   type: phd_senior}
-Hansik Kim: {available: 1, chairs: 2, email: hansikk@unimelb.edu.au, speakers: 1,
+Hansik Kim: {available: 1, chairs: 2, email: hansikk@unimelb.edu.au, speakers: 2,
   type: post doc}
 Jack Line: {available: 1, chairs: 2, email: jack.line@unimelb.edu.au, speakers: 2,
   type: phd_senior}
@@ -38,7 +38,7 @@ Jack Lonnbron: {available: 1, chairs: 1, email: lonnbornj@student.unimelb.edu.au
   speakers: 1, type: master}
 Jack Wei Heat Hon: {available: 1, chairs: 1, email: whon@student.unimelb.edu.au, speakers: 1,
   type: master}
-James Davies: {available: 1, chairs: 1, email: daviesje@student.unimelb.edu.au, speakers: 2,
+James Davies: {available: 1, chairs: 1, email: daviesje@student.unimelb.edu.au, speakers: 1,
   type: PhD}
 James Paynter: {available: 1, chairs: 1, email: jpaynter@student.unimelb.edu.au, speakers: 1,
   type: master}
@@ -85,12 +85,13 @@ Sarah Schon: {available: 1, chairs: 1, email: sschon@student.unimelb.edu.au, spe
   type: PhD}
 Simon Mutch: {available: 1, chairs: 2, email: smutch@unimelb.edu.au, speakers: 1,
   type: postdoc}
-Sinem Ozbilgen: {available: 1, chairs: 1, email: s.ozbilgen@student.unimelb.edu.au,
+Sinem Ozbilgen: {available: 1, chairs: 
+1, email: s.ozbilgen@student.unimelb.edu.au,
   speakers: 2, type: phd_senior}
 Srinivasan Raghunathan: {available: 1, chairs: 2, email: srinivasan.raghunathan@unimelb.edu.au,
   speakers: 2, type: postdoc}
 Stephanie Bernard: {available: 1, chairs: 2, email: sbernard@student.unimelb.edu.au,
-  speakers: 2, type: phd_senior}
+  speakers: 3, type: phd_senior}
 Stuart Wyithe: {available: 1, chairs: 1, email: swyithe@.unimelb.edu.au, speakers: 0,
   type: professor}
 Suk Yee Yong: {available: 1, chairs: 1, email: syong1@student.unimelb.edu.au, speakers: 2,
@@ -101,4 +102,3 @@ Yisheng Qiu: {available: 1, chairs: 1, email: yishengq@student.unimelb.edu.au, s
   type: master}
 Yuxiang Qin: {available: 1, chairs: 2, email: yuxiangq@student.unimelb.edu.au, speakers: 3,
   type: phd_senior}
-  
