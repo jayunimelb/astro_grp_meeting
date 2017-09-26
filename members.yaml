@@ -2,11 +2,11 @@ Alex Cameron: {available: 0, chairs: 2, email: alexc@student.unimelb.edu.au, spe
   type: PhD}
 Andrew Melatos: {available: 1, chairs: 2, email: amelatos@unimelb.edu.au, speakers: 1,
   type: professor}
-Anh Pham: {available: 1, chairs: 2, email: tpham5@student.unimelb.edu.au, speakers: 1,
+Anh Pham: {available: 1, chairs: 2, email: tpham5@student.unimelb.edu.au, speakers: 2,
   type: PhD}
 Anthea King: {available: 1, chairs: 3, email: anthea.king@unimelb.edu.au, speakers: 2,
   type: postdoc}
-Bart Pindor: {available: 1, chairs: 1, email: bpindor@unimelb.edu.au, speakers: 2,
+Bart Pindor: {available: 1, chairs: 2, email: bpindor@unimelb.edu.au, speakers: 2,
   type: postdoc}
 Benedetta Vulcani: {available: 1, chairs: 1, email: benedetta.vulcani@unimelb.edu.au,
   speakers: 2, type: postdoc}

@@ -28,7 +28,7 @@ Edoardo Tescari: {available: 1, chairs: 1, email: edoardo.tescari@unimelb.edu.au
   speakers: 2, type: postdoc}
 Federico Bianchini: {available: 1, chairs: 2, email: fbianchini@unimelb.edu.au, speakers: 1,
   type: post doc}
-George Howitt: {available: 1, chairs: 2, email: ghowitt@student.unimelb.edu.au, speakers: 2,
+George Howitt: {available: 1, chairs: 2, email: ghowitt@student.unimelb.edu.au, speakers: 3,
   type: phd_senior}
 Hansik Kim: {available: 1, chairs: 2, email: hansikk@unimelb.edu.au, speakers: 2,
   type: post doc}
@@ -97,7 +97,7 @@ Suk Yee Yong: {available: 1, chairs: 1, email: syong1@student.unimelb.edu.au, sp
   type: PhD}
 Veronika Miles: {available: 1, chairs: 1, email: v.miles3@student.unimelb.edu.au,
   speakers: 1, type: master}
-Yisheng Qiu: {available: 1, chairs: 1, email: yishengq@student.unimelb.edu.au, speakers: 2,
+Yisheng Qiu: {available: 1, chairs: 2, email: yishengq@student.unimelb.edu.au, speakers: 2,
   type: master}
 Yuxiang Qin: {available: 1, chairs: 2, email: yuxiangq@student.unimelb.edu.au, speakers: 3,
   type: phd_senior}
