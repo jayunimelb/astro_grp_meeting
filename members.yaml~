@@ -38,7 +38,7 @@ Jack Lonnbron: {available: 1, chairs: 1, email: lonnbornj@student.unimelb.edu.au
   speakers: 1, type: master}
 Jack Wei Heat Hon: {available: 1, chairs: 2, email: whon@student.unimelb.edu.au, speakers: 1,
   type: master}
-James Davies: {available: 1, chairs: 1, email: daviesje@student.unimelb.edu.au, speakers: 2,
+James Davies: {available: 1, chairs: 2, email: daviesje@student.unimelb.edu.au, speakers: 2,
   type: PhD}
 James Paynter: {available: 1, chairs: 1, email: jpaynter@student.unimelb.edu.au, speakers: 1,
   type: master}
@@ -97,7 +97,7 @@ Suk Yee Yong: {available: 1, chairs: 1, email: syong1@student.unimelb.edu.au, sp
   type: PhD}
 Veronika Miles: {available: 1, chairs: 1, email: v.miles3@student.unimelb.edu.au,
   speakers: 1, type: master}
-Yisheng Qiu: {available: 1, chairs: 2, email: yishengq@student.unimelb.edu.au, speakers: 2,
+Yisheng Qiu: {available: 1, chairs: 2, email: yishengq@student.unimelb.edu.au, speakers: 3,
   type: master}
 Yuxiang Qin: {available: 1, chairs: 2, email: yuxiangq@student.unimelb.edu.au, speakers: 3,
   type: phd_senior}
