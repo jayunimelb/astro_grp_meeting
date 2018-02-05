@@ -1,6 +1,6 @@
 """
 This script reads all the members of the group from  memebers.yaml and checks whether the member is available or not
-for the next weeks group meeeting from the doodle poll and dumps the info. into meembers.yaml 
+for the next weeks group meeeting from the doodle poll and dumps the info. into members.yaml 
 
 """
 import yaml
@@ -16,7 +16,6 @@ def available():
     # read in the list of members 
     with open('members.yaml', 'r') as fd:
         members = yaml.load(fd)
-    
     # reads doodle poll response for the particular week
     doodle_poll = scrape_doodle("http://doodle.com/poll/pd7rn7esk4q5vuft")
     next_monday = groupmeeting_time().strftime("%m/%d/%y")

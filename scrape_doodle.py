@@ -5,12 +5,22 @@ import re
 import json
 import pandas as pd
 import datetime
-
+import numpy as np
 def scrape_doodle(link):
+    
     soup = BeautifulSoup(urlopen(link), )
+    inds = np.arange(-19,20)    
     jscript = soup.find_all('script')[-8].string
-    data = json.loads(re.search('\{("poll":.*)\}', jscript).group(0))['poll']
-
+    #for i in inds:
+    #    jscript = soup.find_all('script')[8].string
+    #    try:
+    #        data = json.loads(re.search("poll", jscript).group(0))['poll']
+    #    except AttributeError:
+     #       print(i)
+     #       continue
+    #print(data);quit()
+    
+    data = json.loads(re.search("poll", jscript).group(0))['poll']
     df = pd.DataFrame([list(d['preferences'])for d in data['participants']]).T
     #make index
     index = []
