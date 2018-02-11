@@ -1,4 +1,4 @@
-Alex Cameron: {available: 0, chairs: 2, email: alexc@student.unimelb.edu.au, speakers: 2,
+Alex Cameron: {available: 1, chairs: 2, email: alexc@student.unimelb.edu.au, speakers: 2,
   type: PhD}
 Andrew Melatos: {available: 1, chairs: 2, email: amelatos@unimelb.edu.au, speakers: 1,
   type: professor}
@@ -48,7 +48,6 @@ Jude Prevens: {available: 1, chairs: 2, email: jprezens@unimelb.edu.au, speakers
   type: master}
 Julian Carlin: {available: 1, chairs: 2, email: jcarlin@student.unimelb.edu.au, speakers: 2,
   type: master}
-Katie Mack: {available: 1, chairs: 2, email: kmack@unimelb.edu.au, speakers: 1, type: postdoc}
 Keven Ren: {available: 1, chairs: 2, email: kevenr@student.unimelb.edu.au, speakers: 2,
   type: PhD}
 Laura Wolz: {available: 1, chairs: 2, email: lwolz@unimelb.edu.au, speakers: 2, type: postdoc}
@@ -80,7 +79,7 @@ Ricardo D'Amico: {available: 1, chairs: 2, email: r.d'amico@student.unimelb.edu.
 Ruggero de Vita: {available: 1, chairs: 2, email: r.devita@student.unimelb.edu.au,
   speakers: 2, type: phd_senior}
 Sanjay Patil: {available: 1, chairs: 2, email: sanjaykumarp@student.unimelb.edu.au,
-  speakers: 2, type: phd_senior}
+  speakers: 4, type: phd_senior}
 Sarah Schon: {available: 1, chairs: 1, email: sschon@student.unimelb.edu.au, speakers: 2,
   type: PhD}
 Simon Mutch: {available: 1, chairs: 2, email: smutch@unimelb.edu.au, speakers: 2,
@@ -99,7 +98,7 @@ Veronika Miles: {available: 1, chairs: 1, email: v.miles3@student.unimelb.edu.au
   speakers: 1, type: master}
 Yisheng Qiu: {available: 1, chairs: 2, email: yishengq@student.unimelb.edu.au, speakers: 3,
   type: master}
-Yuxiang Qin: {available: 1, chairs: 2, email: yuxiangq@student.unimelb.edu.au, speakers: 3,
+Yuxiang Qin: {available: 1, chairs: 2, email: yuxiangq@student.unimelb.edu.au, speakers: 4,
   type: phd_senior}
 Rachael Livermore: {available: 1, chairs: 2, email: yuxiangq@student.unimelb.edu.au, speakers: 3,
   type: phd_senior}

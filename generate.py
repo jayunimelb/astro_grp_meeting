@@ -21,6 +21,7 @@ def generate():
     members.index.name = 'name'
 
     # read in the pickled doodle poll
+    """
     with open("doodle_poll.pkl", "rb") as fd:
         doodle_poll = pickle.load(fd)
 
@@ -53,7 +54,7 @@ def generate():
             ("Volunteered (future)", "rect", {"fill":palette.css(1),}),
         ], corner=("right", 80, 80, 50),)
         toyplot.html.render(canvas, fobj="templates/"+contribution.lower()+"_history.html")
-
+    """
     # read in this week's presenters
     with open('selected_presenters.yaml', 'r') as fd:
         presenters = yaml.load(fd)
