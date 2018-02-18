@@ -111,7 +111,7 @@ def make_selection():
         presenters['chair'] = [presenters['chair']]
     # choose the chair presenters randomly from those who have presented the
     # minimum number of times.
-    from IPython import embed; embed()
+    #from IPython import embed; embed()
     for contribution, number_contribution in zip(('chairs', 'speakers'),(1,2)):
         offset = 0
         count_min = members[contribution].min()
@@ -120,12 +120,12 @@ def make_selection():
         while (len(presenters[contribution[:-1]])<2) and (offset<=diff):
             mi = count_min+offset
             # you don't want people contribute continuously
-            pool = list(set(members.query(contribution + ' == @mi').index) - set(presenters['chair']) - set(presenters['speaker']) - set(selected_presenters[next_monday][contribution[:-1]]) - set(selected_presenters[next2_monday][contribution[:-1]]) - set(selected_presenters[next3_monday][contribution[:-1]]))
+            pool = list(set(members.query(contribution + ' == @mi').index) - set(presenters['chair']) - set(presenters['speaker']) - set(selected_presenters[next_monday][contribution[:-1]]) - set(selected_presenters[next2_monday][contribution[:-1]]) - set(selected_presenters[next_monday][contribution[:-1]]))
             # some people are exception
             pool = set(pool) - exception_list[contribution]
             presenters[contribution[:-1]] += random.sample(pool, min(len(pool),number_contribution-len(presenters[contribution[:-1]])))
             offset +=1
-    
+
     # save the selection result
     selected_presenters.pop(this_monday) 
     selected_presenters[next4_monday]= presenters
@@ -134,6 +134,7 @@ def make_selection():
     
     # print the result so you can check
     os.system('cat selected_presenters_tba.yaml')
+    #from IPython import embed;embed()
     
     # finish the email
     femail1.write('Organiser:\t%s \n'%(selected_presenters[next_monday]['chair'][0]))
