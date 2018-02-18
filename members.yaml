@@ -10,7 +10,7 @@ Bart Pindor: {available: 1, chairs: 2, email: bpindor@unimelb.edu.au, speakers: 
   type: postdoc}
 Benedetta Vulcani: {available: 1, chairs: 2, email: benedetta.vulcani@unimelb.edu.au,
   speakers: 2, type: postdoc}
-Bryce Murphy: {available: 1, chairs: 1, email: brycem1@student.unimelb.edu.au, speakers: 2,
+Bryce Murphy: {available: 1, chairs: 2, email: brycem1@student.unimelb.edu.au, speakers: 2,
   type: PhD}
 Cameron Van Der Velden: {available: 1, chairs: 1, email: c.vandervelden@student.unimelb.edu.au,
   speakers: 2, type: master}
@@ -33,7 +33,7 @@ Hansik Kim: {available: 1, chairs: 2, email: hansikk@unimelb.edu.au, speakers: 2
 Jack Line: {available: 1, chairs: 2, email: line.j@unimelb.edu.au, speakers: 2,
   type: phd_senior}
 Jack Lonnbron: {available: 1, chairs: 1, email: lonnbornj@student.unimelb.edu.au,
-  speakers: 1, type: master}
+  speakers: 2, type: master}
 Jack Wei Heat Hon: {available: 1, chairs: 2, email: whon@student.unimelb.edu.au, speakers: 1,
   type: master}
 James Davies: {available: 1, chairs: 2, email: daviesje@student.unimelb.edu.au, speakers: 2,
@@ -48,7 +48,7 @@ Keven Ren: {available: 1, chairs: 2, email: kevenr@student.unimelb.edu.au, speak
   type: PhD}
 Laura Wolz: {available: 1, chairs: 2, email: lwolz@unimelb.edu.au, speakers: 2, type: postdoc}
 Lennart Balkenhol: {available: 1, chairs: 1, email: lbalkenhol@student.unimelb.edu.au,
-  speakers: 1, type: Master}
+  speakers: 2, type: Master}
 Ling Sun: {available: 1, chairs: 2, email: lings2@student.unimelb.edu.au, speakers: 2,
   type: phd_senior}
 Lisa Drummond: {available: 1, chairs: 2, email: l.drummond@student.unimelb.edu.au,
