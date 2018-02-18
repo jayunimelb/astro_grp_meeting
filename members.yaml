@@ -34,7 +34,7 @@ Jack Line: {available: 1, chairs: 2, email: line.j@unimelb.edu.au, speakers: 2,
   type: phd_senior}
 Jack Lonnbron: {available: 1, chairs: 1, email: lonnbornj@student.unimelb.edu.au,
   speakers: 2, type: master}
-Jack Wei Heat Hon: {available: 1, chairs: 2, email: whon@student.unimelb.edu.au, speakers: 1,
+Jack Heat Hon: {available: 1, chairs: 2, email: whon@student.unimelb.edu.au, speakers: 2,
   type: master}
 James Davies: {available: 1, chairs: 2, email: daviesje@student.unimelb.edu.au, speakers: 2,
   type: PhD}
