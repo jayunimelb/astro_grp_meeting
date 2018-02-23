@@ -16,6 +16,7 @@ def available():
     # read in the list of members 
     with open('members.yaml', 'r') as fd:
         members = yaml.load(fd)
+    
     # reads doodle poll response for the particular week
     doodle_poll = scrape_doodle("http://doodle.com/poll/pd7rn7esk4q5vuft")
     next_monday = groupmeeting_time().strftime("%m/%d/%y")

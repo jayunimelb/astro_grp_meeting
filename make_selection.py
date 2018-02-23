@@ -113,19 +113,20 @@ def make_selection():
     # minimum number of times.
     #from IPython import embed; embed()
     for contribution, number_contribution in zip(('chairs', 'speakers'),(1,2)):
-        offset = 0
+        offset = 0#0
         count_min = members[contribution].min()
         count_max = members[contribution].max()
         diff = count_max - count_min           
         while (len(presenters[contribution[:-1]])<2) and (offset<=diff):
             mi = count_min+offset
+            mi = 2
             # you don't want people contribute continuously
             pool = list(set(members.query(contribution + ' == @mi').index) - set(presenters['chair']) - set(presenters['speaker']) - set(selected_presenters[next_monday][contribution[:-1]]) - set(selected_presenters[next2_monday][contribution[:-1]]) - set(selected_presenters[next_monday][contribution[:-1]]))
             # some people are exception
             pool = set(pool) - exception_list[contribution]
             presenters[contribution[:-1]] += random.sample(pool, min(len(pool),number_contribution-len(presenters[contribution[:-1]])))
             offset +=1
-
+    #from IPython import embed;embed()
     # save the selection result
     selected_presenters.pop(this_monday) 
     selected_presenters[next4_monday]= presenters
