@@ -24,7 +24,8 @@ def make_selection():
     #if now < tick_end:
     #    print(colored("THIS IS NOT THE TIME!!!",'red'))
     #    return
-    
+    print('!! Warning!!!! \n Please make sure that you update the members.yaml file by looking at the doodle polls https://doodle.com/poll/psdh3untd9dqedzi and https://doodle.com/poll/pd7rn7esk4q5vuft  !!!')
+
     # calculate the timings
     this_monday = groupmeeting_time(week=0).strftime("%m/%d/%y")
     next_monday = groupmeeting_time(week=1).strftime("%m/%d/%y")
@@ -83,7 +84,7 @@ def make_selection():
     
     # cut down the members to just those who are available this coming week and
     # split by type
-    print(colored("Unavailable list: %s"%list(members[members.available==0].index),'red'))
+    #print(colored("Unavailable list: %s"%list(members[members.available==0].index),'red'))
     emails = members['email']
     members = members[members.available==1] 
    
@@ -109,6 +110,8 @@ def make_selection():
 
     if len(presenters['chair'])>0:
         presenters['chair'] = [presenters['chair']]
+
+    
     # choose the chair presenters randomly from those who have presented the
     # minimum number of times.
     #from IPython import embed; embed()
@@ -119,7 +122,6 @@ def make_selection():
         diff = count_max - count_min           
         while (len(presenters[contribution[:-1]])<2) and (offset<=diff):
             mi = count_min+offset
-            mi = 2
             # you don't want people contribute continuously
             pool = list(set(members.query(contribution + ' == @mi').index) - set(presenters['chair']) - set(presenters['speaker']) - set(selected_presenters[next_monday][contribution[:-1]]) - set(selected_presenters[next2_monday][contribution[:-1]]) - set(selected_presenters[next_monday][contribution[:-1]]))
             # some people are exception

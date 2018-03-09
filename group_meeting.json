@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "group-meeting",
+  "private_key_id": "16834a138fbc89d6d009fd4f79020804ec73ddf8",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDhlb+5DIlcoybC\ny9jj1Dc+JBSIKTzX2iGNJGs3q0JaSI8dbkMuqNw+crsYiUtpFW9M3VUdWgLhHtGg\n1Nc8PU6Orc6HRlTZe9tvyW2cYFLdO9sNda/9+SZtLq3vaic4xrA4KHYgLPmfSPjO\n1nJD0Cu9/CqggTL22rRi4RsgPOjqoEqw61G7Fo5NeIuFk87MjYF7fMTxB6JTkeio\nzLcPhmBpxp0hYfEB8iumNOFKCZ/fEgWkaX/MXFbG5+5f4cyq0P8lxUtD6HS+HGZi\nwTtHhH0g8LF9Z1RaF7vJH+9WEw4vesnwa0PGWz4DZkLrgKSSwN1m/Q/vynyGRc7l\nf3pWK8A7AgMBAAECggEACAsEzkjqJN6++mG2QU6cYZ97s+x0ejsRcyzXPcw3Y2yu\n3Z0ZfB0Sgo99/ZP3l67nTFWf5poCUZsoXOmkevCx+lhWwsVOhSqWBQL+Nih2YTj0\ncyMSZqXEKaRpGIjaY9CBu/QwB1mof3YPQ6CrFkvieLWi93IOf8qwdSNoNNq3G0ER\nWjjXHfDuuM7wo+0Tle85/iEtzDxA+OBp/N8SchwCAZXTv9ShSVWFnLWTiaQVoERX\nOZX2DYJ3BpXb01JeSqxh2fwFnt3uyG7P3D1lhLs6Uknknskf7hvZwjOzZzXMz1Xd\nwBCn5GZHv6T5suQRUmO6rXodlOD7cSRksvO9dIOOoQKBgQD1GM8RS2Avds6cemSc\nnVuwciJT7cOhgKzyjiy4IenrZUwMQWRXxkG9iRytIKlW3gPFyZ1sagfn+4QueMZL\n2H2l8AHi2T5Bgi9XFKeo05mq+cmwZjKO92DNwpmFZznPpVfCMkL7aLUyAVRXAVRD\nBgTmpD02lhlr48L4TnmUemoUuQKBgQDrnrxZ/L6NGa1am4ocBBX/McLk/TKiQttM\ncNckRHowepmuILv17Efhop/0jsuDUsoWTcajLo/T1ne3l9bjrLW/NGOymXVbza6n\nHCZhW14bPpMAbpaQcZC+w4jwvD9G4z4nmFoZgWspYLi9jMheNoG1VQgdPYKTzGFU\nueMo8/eqkwKBgGX8Kr1hheZ6I0LNUuwwNiTXeR0/RDYBmvVa35TG19URU3GODDjR\n0C0TzpDjlFMHEr7MQ+sGu7910uybaLfKn43aro48I0GS8Cvl9lWzpq+UPK5f+A2x\nNeCoZsUxzMZwYHH4BBMk4LCsCPIjJXK2IHfwQ2BhWLaiEVDNJp33yghRAoGBAKRd\nyZsk23DnFq18j63Xk9jAR+siTm4vIXiDxzF/q5WiEQ8NutFlkQdwQRGDg6kK2fsR\nKp6vXpoypLUocTnGQ8ssqtfugZYXN91Pn96OtGlhD39fph0BfC33jdISIDo9UCCj\nAUeFptHorTddvHEsqPNsbAqp3CtqigNm4XayKnWNAoGAH0nBvKl0q8pPd32huvYQ\nIWZkwuEE8RNP6XKddD/ngXFkWXL+Z/whtyFzD8DZz1hol3z6enSboM24dhO68Opa\nz7y/OKFbZc0rnXbH2gccCP49POwslSEEK4aNgR+MR7GNdYOgfgpkF5O8ueXGeaXb\nw8eIEVcR2BBFfekqhq5KXDY=\n-----END PRIVATE KEY-----\n",
+  "client_email": "group-meeting@group-meeting.iam.gserviceaccount.com",
+  "client_id": "113832636323163016785",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/group-meeting%40group-meeting.iam.gserviceaccount.com"
+}
