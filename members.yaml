@@ -12,8 +12,6 @@ Benedetta Vulcani: {available: 1, chairs: 2, email: benedetta.vulcani@unimelb.ed
   speakers: 2, type: postdoc}
 Bryce Murphy: {available: 1, chairs: 2, email: brycem1@student.unimelb.edu.au, speakers: 2,
   type: PhD}
-Cameron Van Der Velden: {available: 1, chairs: 1, email: c.vandervelden@student.unimelb.edu.au,
-  speakers: 2, type: master}
 Christian Reichardt: {available: 1, chairs: 2, email: christian.reichardt@unimelb.edu.au,
   speakers: 2, type: fellower}
 Clare Kenyon: {available: 1, chairs: 2, email: ckenyon@student.unimelb.edu.au, speakers: 1,
@@ -48,7 +46,7 @@ Ling Sun: {available: 1, chairs: 2, email: lings2@student.unimelb.edu.au, speake
 Lisa Drummond: {available: 1, chairs: 2, email: l.drummond@student.unimelb.edu.au,
   speakers: 2, type: master}
 Madeline Marshall: {available: 1, chairs: 2, email: madelinem1@student.unimelb.edu.au,
-  speakers: 2, type: PhD}
+  speakers: 3, type: PhD}
 Mahsa Rahimi: {available: 1, chairs: 2, email: rahimi@student.unimelb.edu.au, speakers: 1,
   type: phd_senior}
 Michele Trenti: {available: 1, chairs: 2, email: mtrenti@unimelb.edu.au, speakers: 2,
@@ -89,7 +87,7 @@ Rachael Livermore: {available: 1, chairs: 2, email: livermore@unimelb.edu.au, sp
   type: phd_senior}
 Robert Mearns: {available: 1, chairs: 2, email: robert.mearns@unimelb.edu.au, speakers: 2,
   type: phd_senior}
-Dominic Mendonca: {available: 1, chairs: 1, email: dxm@student.unimelb.edu.au, speakers: 2,
+Dominic Mendonca: {available: 1, chairs: 2, email: dxm@student.unimelb.edu.au, speakers: 2,
   type: master}
 
   
