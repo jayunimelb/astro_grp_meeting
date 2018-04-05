@@ -1,6 +1,6 @@
 select:
-	python available.py
-	python make_selection.py
+	python available_sp.py
+	python make_selection_sp.py
 
 reselect:
 	mv selected_presenters.yaml.bak selected_presenters.yaml

@@ -26,7 +26,7 @@ def make_selection():
     #    return
     print('!! Warning!!!! \n Please make sure that you update the members.yaml file by looking at the doodle polls https://doodle.com/poll/psdh3untd9dqedzi and https://doodle.com/poll/pd7rn7esk4q5vuft  !!!')
 
-    # calculate the timings
+    # calculate the timings 
     this_monday = groupmeeting_time(week=0).strftime("%m/%d/%y")
     next_monday = groupmeeting_time(week=1).strftime("%m/%d/%y")
     next2_monday = groupmeeting_time(week=2).strftime("%m/%d/%y")
@@ -114,7 +114,7 @@ def make_selection():
     
     # choose the chair presenters randomly from those who have presented the
     # minimum number of times.
-    #from IPython import embed; embed()
+    from IPython import embed; embed()
     for contribution, number_contribution in zip(('chairs', 'speakers'),(1,2)):
         offset = 0#0
         count_min = members[contribution].min()
