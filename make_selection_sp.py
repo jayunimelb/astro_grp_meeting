@@ -9,6 +9,11 @@ from termcolor import colored
 import numpy as np
 import pickle
 import os
+import gspread
+from oauth2client.service_account import ServiceAccountCredentials
+scope = ['https://spreadsheets.google.com/feeds']
+creds = ServiceAccountCredentials.from_json_keyfile_name('group_meeting.json',scope)
+clients = gspread.authorize(creds)
 
 def groupmeeting_time(week=4):
     """http://stackoverflow.com/a/6558571"""
@@ -29,28 +34,103 @@ def make_selection():
     this_monday = groupmeeting_time(week=0).strftime("%m/%d/%y")
     
     
-    # get date
+    # Get the astrophysics memebers list!
     with open('members.yaml', 'r') as fd:
     	members = yaml.load(fd)
+  
+    # Get the date -- will check the last selected date in selected_presenters.yaml and adds a week to it
     with open('selected_presenters.yaml', 'r') as fd:
     	selected_presenters = yaml.load(fd)
     pre_selected_date = sorted(selected_presenters.keys())[-1]
     date = datetime.datetime.strptime(pre_selected_date,'%m/%d/%y')+datetime.timedelta(7)
     date = date.strftime("%d-%m-%Y")
-    
-
+   
+    # Add contribution of all the people who have already been selected
     for k, l in iter(selected_presenters.items()):
     	if k>this_monday:
+    		# members data frame has chair and speaker keys!
     		for contribution in ('chairs', 'speakers'):
     			names = l[contribution[:-1]]
     			for name in names:
-    				members.loc[name][contribution] += 1
-    from IPython import embed;embed()
-    members = members[members.available==1] 
+    				members[name][contribution] += 1
+
+
+    
+    
     if len(members)<2:
     	print(colored("not enough people","red"))
 
-    	
+    #check for volunteers for chairs and speakers
+    
+    sheet = clients.open('Organisers volunteer List').sheet1
+    chrs_list = sheet.get_all_records()
+    vlnt_chrs = []
+    for ll in chrs_list:
+    	if ll[date] == 'Yes':
+    		vlnt_chrs.append(ll['Name'])
+    
+    if len(vlnt_chrs)>1:
+    	print("WE HAVE MORE VOLUNTEERS TO GIVE ORGANISE ON A GROUP MEETING !!")
+    
+    sheet = clients.open('Speakers volunteers list').sheet1
+    spkr_list = sheet.get_all_records()
+    vlnt_spkrs = []
+    for ll in spkr_list:
+    	if ll[date] == 'Yes':
+    		vlnt_spkrs.append(ll['Name'])
+    		members[ll['Name']][available] =0    		
+
+    if len(vlnt_spkrs)>2:
+    	print("WE HAVE MORE VOLUNTEERS TO GIVE TALKS ON A GROUP MEETING !!")
+
+    no_chrs = 1 - len(vlnt_chrs)
+    no_spkrs = 2 - len(vlnt_spkrs)
+    members = members[members.available==1] 
+    for contribution, number_contribution in zip(('chairs', 'speakers'),(no_chrs,no_spkrs)):
+    	offset = 0
+    	count_min = members[contribution].min()
+    	count_max = members[contribution].max()
+    	diff = count_max - count_min     
+    	while (len(presenters[contribution[:-1]])<2) and (offset<=diff):
+    		mi = count_min+offset
+    		pool = list(set(members.query(contribution + ' == @mi').index) - set(presenters['chair']) - set(presenters['speaker']) - set(selected_presenters[next_monday][contribution[:-1]]) - set(selected_presenters[next2_monday][contribution[:-1]]) - set(selected_presenters[next_monday][contribution[:-1]]))
+    		pool = set(pool) - exception_list[contribution]
+    		presenters[contribution[:-1]] += random.sample(pool, min(len(pool),number_contribution-len(presenters[contribution[:-1]])))
+    		offset +=1
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     # write some heads
     femail1 = open('email1.txt', 'w')
     femail4 = open('email4.txt', 'w')

@@ -43,3 +43,5 @@ for nn in member_names:
 
 with open('members.yaml', 'w') as fd:
 	yaml.safe_dump(members, fd)
+
+from IPython import embed;embed()
