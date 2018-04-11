@@ -46,10 +46,11 @@
 
     <!-- Current speakers -->
     <section id="current" class="container content-section text-center">
-        <h1>19. March 2018</h1> <p>chair: Sanjay Patil<br>speakers: Simon Mutch, Lucy Strang</p>
-        <h1>26. March 2018</h1> <p>chair: Jack Lonnbron<br>speakers: Lisa Drummond, None</p>
-        <h1>02. April 2018</h1> <p>chair: Stuart Wyithe<br>speakers: Dominic Mendonca, Mahsa Rahimi</p>
-        <h1>09. April 2018</h1> <p>chair: Laura Wolz<br>speakers: Noura Alonzi, Robert Mearns</p>
+        <h1>02. April 2018</h1> <p>chair: None<br>speakers: None, None</p>
+        <h1>09. April 2018</h1> <p>chair: Laura Wolz<br>speakers: Dominic Mendonca, Robert Mearns</p>
+        <h1>16. April 2018</h1> <p>chair: Lucy Strang<br>speakers: None, Clare Kenyon</p>
+        <h1>23. April 2018</h1> <p>chair: Stuart Wyithe<br>speakers: Masha Rahimi, Julian Carlin</p>
+	
     </section>
 
     <!-- History -->
@@ -57,8 +58,8 @@
         <div class="history-section">
             <div class="container">
                <div align="justify">
-                    <p>Don't forget, you can volunteer for any future meeting of your choosing at <a href="http://doodle.com/poll/psdh3untd9dqedzi">the doodle poll</a>. Doing so will reduce your chances of being randomly selected to present!</p>
-                    <p>Also, you can choose the date that you will not be able to make it for the group meeting at <a href="http://doodle.com/poll/pd7rn7esk4q5vuft">this doodle poll</a>, so that you will not be selected on that day!</p>
+                    <p>If you are willing to be either a volunteer and/or an organiser on a particular group meeting please mark "Yes" on that particular date column on  <a href="https://docs.google.com/spreadsheets/d/1PUoG-P4mS-JNzqP7ERNDZav0QJrzTC5J92GyNERrN08/edit">volunteer list</a> and/or < href="https://docs.google.com/spreadsheets/d/19WQ0UT2Vt64zzodN3ND8vcEVadwWD2-SaifgPSACUVc/edit?usp=drive_web&ouid=117303084894301757134">organisers list</a> repectively. Doing so will reduce your chances of being randomly selected to present!</p>
+                    <p>Also, you can choose the date that you will not be able to make it for the group meeting at <a href="https://docs.google.com/spreadsheets/d/1HxD8vBmYgI69-Mfxe0fJOqmjDLikssVqQp_7CAtHfpA/edit#gid=0">attendees list</a>, so that you will not be selected on that day!</p>
                 </div>
                 <br>
                 <h2>History</h2>
