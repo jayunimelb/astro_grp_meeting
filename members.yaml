@@ -14,7 +14,7 @@ Bryce Murphy: {available: 1, chairs: 2, email: brycem1@student.unimelb.edu.au, s
   type: PhD}
 Christian Reichardt: {available: 1, chairs: 2, email: christian.reichardt@unimelb.edu.au,
   speakers: 2, type: fellower}
-Clare Kenyon: {available: 1, chairs: 2, email: ckenyon@student.unimelb.edu.au, speakers: 1,
+Clare Kenyon: {available: 1, chairs: 2, email: ckenyon@student.unimelb.edu.au, speakers: 3,
   type: phd_senior}
 Dominic Mendonca: {available: 1, chairs: 2, email: dxm@student.unimelb.edu.au, speakers: 2,
   type: master}
@@ -44,11 +44,11 @@ Ling Sun: {available: 1, chairs: 2, email: lings2@student.unimelb.edu.au, speake
   type: phd_senior}
 Lisa Drummond: {available: 1, chairs: 2, email: l.drummond@student.unimelb.edu.au,
   speakers: 3, type: master}
-Lucy Strang: {available: 1, chairs: 1, email: lstrang@student.unimelb.edu.au,
-  speakers: 2, type: master}
+Lucy Strang: {available: 1, chairs: 2, email: lstrang@student.unimelb.edu.au,
+  speakers: 3, type: master}
 Madeline Marshall: {available: 1, chairs: 2, email: madelinem1@student.unimelb.edu.au,
   speakers: 3, type: PhD}
-Mahsa Rahimi: {available: 1, chairs: 2, email: rahimi@student.unimelb.edu.au, speakers: 1,
+Mahsa Rahimi: {available: 1, chairs: 2, email: rahimi@student.unimelb.edu.au, speakers: 2,
   type: phd_senior}
 Michele Trenti: {available: 1, chairs: 2, email: mtrenti@unimelb.edu.au, speakers: 2,
   type: fellower}
@@ -64,7 +64,7 @@ Rachael Livermore: {available: 1, chairs: 2, email: livermore@unimelb.edu.au, sp
   type: phd_senior}
 Rachel Webster: {available: 1, chairs: 2, email: r.webster@unimelb.edu.au, speakers: 2,
   type: professor}
-Robert Mearns: {available: 1, chairs: 2, email: robert.mearns@unimelb.edu.au, speakers: 3stud,
+Robert Mearns: {available: 1, chairs: 2, email: robert.mearns@unimelb.edu.au, speakers: 3,
   type: phd_senior}
 Ruggero de Vita: {available: 1, chairs: 2, email: r.devita@student.unimelb.edu.au,
   speakers: 3, type: phd_senior}
@@ -88,3 +88,5 @@ Yisheng Qiu: {available: 1, chairs: 2, email: yishengq@student.unimelb.edu.au, s
   type: master}
 Yuxiang Qin: {available: 0, chairs: 2, email: yuxiangq@student.unimelb.edu.au, speakers: 4,
   type: phd_senior}
+Hannah Middleton: {available: 1, chairs: 1, email: hannah.middleton@unimelb.edu.au,
+  speakers: 3, type: fellower}

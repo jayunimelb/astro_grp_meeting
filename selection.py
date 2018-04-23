@@ -60,6 +60,7 @@ for k, l in iter(selected_presenters.items()):
 		for contribution in ('chairs', 'speakers'):
 			names = l[contribution[:-1]]
 			for name in names:
+				
 				members.loc[name][contribution] += 1
 
 # Get list of volunteers if any
