@@ -70,7 +70,8 @@ Robert Mearns: {available: 1, chairs: 2, email: robert.mearns@unimelb.edu.au, sp
   type: phd_senior}
 Ruggero de Vita: {available: 1, chairs: 2, email: r.devita@student.unimelb.edu.au,
   speakers: 3, type: phd_senior}
-Sanjay Patil: {available: 1, chairs: 3, email: sanjaykumarp@student.unimelb.edu.au,
+Sanjay Patimembers
+l: {available: 1, chairs: 3, email: sanjaykumarp@student.unimelb.edu.au,
   speakers: 4, type: phd_senior}
 Simon Mutch: {available: 1, chairs: 2, email: smutch@unimelb.edu.au, speakers: 3,
   type: postdoc}

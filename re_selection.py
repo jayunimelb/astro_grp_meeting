@@ -23,7 +23,8 @@ from termcolor import colored
 scope = ['https://spreadsheets.google.com/feeds']
 creds = ServiceAccountCredentials.from_json_keyfile_name('group_meeting.json',scope)
 clients = gspread.authorize(creds)
-
+no_of_speakers_meeting = 2
+no_of_organisers_meeting = 1 
 
 def groupmeeting_time(week=4):
     """http://stackoverflow.com/a/6558571"""
@@ -34,7 +35,7 @@ def groupmeeting_time(week=4):
         days_ahead += week*7
     return today + datetime.timedelta(days_ahead)
 
-def read_poll(list_name, response = 'Yes'):
+def read_poll(list_name,date,response = 'Yes'):
 	'''
 	This function reads the poll and returns the the list of names as output
 	Input: 
@@ -47,6 +48,7 @@ def read_poll(list_name, response = 'Yes'):
 	names_list = []
 	sheet = clients.open(list_name).sheet1
 	mems_list = sheet.get_all_records()
+	date = date.strftime("%d-%m-%Y")
 	for ll in mems_list:
 		ll[date] = ll[date].strip()
 		if ll[date] == response:
@@ -73,9 +75,6 @@ for kargs in args_keys:
 
 try:
 	date = datetime.datetime.strptime('%s'%(date),'%b %d %Y')
-	date = date.strftime("%d-%m-%Y")
-	print date
-	print type(date)
 except:
 	print  colored("date should be provide in 'Month day year' for example 'Sep 01 2018' \n exiting now",'red')
 	sys.exit()
@@ -88,18 +87,17 @@ with open('members.yaml', 'r') as fd:
 members = pd.DataFrame.from_dict(members).T
 # get the date for which we need group meeting speakers
 
-with open('selected_presenters.yaml', 'r') as fd:
-	presenters = yaml.load(fd)
+
 print date.strftime("%m/%d/%y")
 from IPython import embed;embed()
 
 
 # members.yaml is updated manually so for all the selected members above the current week +1 has to be added
-with open('selected_presenters.yaml', 'r') as fd:
+with open('presenters_log.yaml', 'r') as fd:
 	selected_presenters = yaml.load(fd)
-this_monday = groupmeeting_time(week=0).strftime("%m/%d/%y")
+this_monday = groupmeeting_time(week=0).strftime("%m/%d/%y") # Below this monday the contribuation is taken into account in members.yaml
 for k, l in iter(selected_presenters.items()):
-	if k!=this_monday:
+	if k>this_monday:
 		for contribution in ('chairs', 'speakers'):
 			names = l[contribution[:-1]]
 			for name in names:
@@ -123,8 +121,8 @@ number_of_speakers_volunteered = len(speakers_volunteer_list)
 number_of_organisers_volunteered = len(organisers_volunteer_list)
 
 
-number_of_speakers_needed = 2 - number_of_speakers_volunteered
-number_of_orgnaisers_needed = 1 - number_of_speakers_volunteered
+number_of_speakers_needed = no_of_speaker - number_of_speakers_volunteered
+number_of_orgnaisers_needed = no_of_organisers - number_of_speakers_volunteered
 # Select speakers
 pool_speakers = [];pool_organisers = []
 cnt = 0
