@@ -1,20 +1,20 @@
 select:
-	python3 available.py
-	python3 make_selection.py
+	python available_sp.py
+	python make_selection_sp.py
 
 reselect:
 	mv selected_presenters.yaml.bak selected_presenters.yaml
-	python3 available.py       
-	python3 make_selection.py  
+	python available.py       
+	python make_selection.py  
 
 replace:	                         
-	python3 replace.py "$(type)"      
+	python replace.py "$(type)"      
 	cat selected_presenters_tba.yaml 
 
 confirm:
 	mv selected_presenters.yaml selected_presenters.yaml.bak
 	mv selected_presenters_tba.yaml selected_presenters.yaml
-	python3 generate.py
+	python generate.py
 	open build/index.html
 
 push:
@@ -24,9 +24,9 @@ push:
 	# git push origin `git subtree split --prefix build master`:gh-pages --force
 
 auto:
-	python3 increment.py
-	python3 available.py
-	python3 make_selection.py
+	python increment.py
+	python available.py
+	python make_selection.py
 	cat selected_presenters_tba.yaml
 	mv selected_presenters.yaml selected_presenters.yaml.bak
 	mv selected_presenters_tba.yaml selected_presenters.yaml
