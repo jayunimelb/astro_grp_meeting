@@ -60,7 +60,7 @@ Noura Alonzi: {available: 1, chairs: 2, email: nalonzi@student.unimelb.edu.au, s
   type: phd_senior}
 Patrick Clearwater: {available: 1, chairs: 2, email: p.clearwater@student.unimelb.edu.au,
   speakers: 2, type: phd_senior}
-Peter Robertson: {available: 1, chairs: 1, email: prob@unimelb.edu.au, speakers: 2,
+Peter Robertson: {available: 1, chairs: 1, email: prob@unimelb.edu.au, speakers: 999,
   type: Research Fellow}
 Rachael Livermore: {available: 1, chairs: 2, email: livermore@unimelb.edu.au, speakers: 2,
   type: phd_senior}
