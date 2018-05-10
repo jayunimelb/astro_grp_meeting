@@ -6,9 +6,9 @@ import toyplot.color
 import pickle
 from jinja2 import Environment, FileSystemLoader
 import numpy as np
-
+from termcolor import colored
 def generate():
-    print "Make sure you have update selected_presenters.yaml file!"
+    print colored("Make sure you have update selected_presenters.yaml file!","red")
     with open('selected_presenters.yaml', 'r') as fd:
         presenters = yaml.load(fd)
     presenters = pd.DataFrame.from_dict(presenters).T
