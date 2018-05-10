@@ -8,7 +8,7 @@ from jinja2 import Environment, FileSystemLoader
 import numpy as np
 
 def generate():
-
+    print "Make sure you have update selected_presenters.yaml file!"
     with open('selected_presenters.yaml', 'r') as fd:
         presenters = yaml.load(fd)
     presenters = pd.DataFrame.from_dict(presenters).T
