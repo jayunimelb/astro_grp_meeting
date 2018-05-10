@@ -1,23 +1,5 @@
-select:
-	python available_sp.py
-	python make_selection_sp.py
-
-reselect:
-	mv selected_presenters.yaml.bak selected_presenters.yaml
-	python available.py       
-	python make_selection.py  
-
-replace:	                         
-	python replace.py "$(type)"      
-	cat selected_presenters_tba.yaml 
-
-confirm:
-	mv selected_presenters.yaml selected_presenters.yaml.bak
-	mv selected_presenters_tba.yaml selected_presenters.yaml
-	python generate.py
-	open build/index.html
-
 push:
+	python generate.py
 	git add .
 	git commit -m "increment `date +"%d/%m/%y"`"
 	git subtree push --prefix build origin gh-pages
