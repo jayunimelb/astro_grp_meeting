@@ -23,8 +23,7 @@ from termcolor import colored
 scope = ['https://spreadsheets.google.com/feeds']
 creds = ServiceAccountCredentials.from_json_keyfile_name('group_meeting.json',scope)
 clients = gspread.authorize(creds)
-no_of_speakers_meeting = 2
-no_of_organisers_meeting = 1 
+
 
 def groupmeeting_time(week=4):
     """http://stackoverflow.com/a/6558571"""
@@ -72,7 +71,7 @@ for kargs in args_keys:
                 cmd = '%s = %s' %(kargs, param_value)
         exec(cmd)
 
-
+from IPython import embed;embed()
 try:
 	date = datetime.datetime.strptime('%s'%(date),'%b %d %Y')
 except:
