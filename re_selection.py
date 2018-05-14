@@ -8,7 +8,7 @@ date: provide the date on which you need to reselect speakers/organisers
 Output:
 Names of organisers or speakers
 
-Example command: python re_selection.py -no_of_speakers 1 -no_of_organisers 1 -date Apr 09 2018
+Example command: python re_selection.py -no_of_speakers 1 -no_of_organisers 1 -date "Apr 8 2018" 	
 """
 
 
@@ -71,25 +71,20 @@ for kargs in args_keys:
                 cmd = '%s = %s' %(kargs, param_value)
         exec(cmd)
 
-from IPython import embed;embed()
+
 try:
 	date = datetime.datetime.strptime('%s'%(date),'%b %d %Y')
 except:
 	print  colored("date should be provide in 'Month day year' for example 'Sep 01 2018' \n exiting now",'red')
 	sys.exit()
 
-
+date_str = date.strftime("%m/%d/%y")
 
 # read members list
 with open('members.yaml', 'r') as fd:
 	members = yaml.load(fd)
 members = pd.DataFrame.from_dict(members).T
 # get the date for which we need group meeting speakers
-
-
-print date.strftime("%m/%d/%y")
-from IPython import embed;embed()
-
 
 # members.yaml is updated manually so for all the selected members above the current week +1 has to be added
 with open('presenters_log.yaml', 'r') as fd:
@@ -103,10 +98,17 @@ for k, l in iter(selected_presenters.items()):
 				members.loc[name][contribution] += 1
 
 # Get list of volunteers if any
-speakers_volunteer_list= read_poll('Speakers volunteers list')
-organisers_volunteer_list = read_poll('Organisers volunteer List')
-# Get lis to of absentees for that particular group meeting
-absntees_list = read_poll('Attendee list', response = 'No')
+speakers_volunteer_list= read_poll('Speakers volunteers list',date)
+organisers_volunteer_list = read_poll('Organisers volunteer List',date)
+# Get list to of absentees for that particular group meeting
+absntees_list = read_poll('Attendee list',date, response = 'No')
+
+# Make previously selected presenters and chairs as unavailable
+for ss in selected_presenters[date_str]['speaker']:
+	absntees_list.append(ss)
+
+for ss in selected_presenters[date_str]['chair']:
+	absntees_list.append(ss)	
 
 # to make sure that volunteered speakers, organisers, and absntees are not randomly selected again 
 members_not_to_consider = speakers_volunteer_list +organisers_volunteer_list + absntees_list
@@ -115,13 +117,9 @@ for nn in members_not_to_consider:
 	members.loc[nn]['available'] = 0
 
 members = members[members.available==1] 
-from IPython import embed; embed()
-number_of_speakers_volunteered = len(speakers_volunteer_list)
-number_of_organisers_volunteered = len(organisers_volunteer_list)
+number_of_speakers_needed = no_of_speakers
+number_of_orgnaisers_needed = no_of_organisers
 
-
-number_of_speakers_needed = no_of_speaker - number_of_speakers_volunteered
-number_of_orgnaisers_needed = no_of_organisers - number_of_speakers_volunteered
 # Select speakers
 pool_speakers = [];pool_organisers = []
 cnt = 0
@@ -142,3 +140,8 @@ while len(pool_organisers)  < number_of_orgnaisers_needed:
 		pool_organisers = pool_organisers + list(set(members.query('chairs' + ' == @cnt').index))
 	cnt = cnt +1
 organisers = random.sample(pool_organisers,number_of_orgnaisers_needed)
+
+
+print "Re-selected speakers are %s"%(speakers)
+print "Re-selected organisers are %s"%(organisers)
+print "Note the presenters_log should be updated manually"
