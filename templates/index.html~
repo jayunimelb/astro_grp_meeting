@@ -74,7 +74,7 @@
     <!-- Footer -->
     <footer>
         <div class="container text-center">
-            <p><i class="fa fa-copyright"></i> Yuxiang Qin<br><small>The University of Melbourne (2016)</small></p>
+            <p><i class="fa fa-copyright"></i> <br><small>The University of Melbourne (2016)</small></p>
         </div>
     </footer>
 
