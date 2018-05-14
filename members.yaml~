@@ -8,7 +8,7 @@ Anthea King: {available: 1, chairs: 3, email: anthea.king@unimelb.edu.au, speake
   type: postdoc}
 Bradley Greig: {available: 1, chairs: 2, email: greigb@unimelb.edu.au, speakers: 3,
   type: postdoc}
-Bart Pindor: {available: 1, chairs: 2, email: bpindor@unimelb.edu.au, speakers: 2,
+Bart Pindor: {available: 1, chairs: 2, email: bpindor@unimelb.edu.au, speakers: 3,
   type: postdoc}
 Benedetta Vulcani: {available: 1, chairs: 999, email: benedetta.vulcani@unimelb.edu.au,
   speakers: 999, type: postdoc}
@@ -59,8 +59,8 @@ None: {available: 1, chairs: 999, email: s.patil2@student.unimelb.edu.au, speake
 Noura Alonzi: {available: 1, chairs: 2, email: nalonzi@student.unimelb.edu.au, speakers: 1,
   type: phd_senior}
 Patrick Clearwater: {available: 1, chairs: 2, email: p.clearwater@student.unimelb.edu.au,
-  speakers: 2, type: phd_senior}
-Peter Robertson: {available: 1, chairs: 1, email: prob@unimelb.edu.au, speakers: 999,
+  speakers: 3, type: phd_senior}
+Peter Robertson: {available: 1, chairs: 2, email: prob@unimelb.edu.au, speakers: 999,
   type: Research Fellow}
 Rachael Livermore: {available: 1, chairs: 2, email: livermore@unimelb.edu.au, speakers: 2,
   type: post_doc}
