@@ -2,7 +2,7 @@ import numpy as np
 import warnings, random, yaml, datetime, pickle, os, gspread, sys, argparse
 import pandas as pd
 from oauth2client.service_account import ServiceAccountCredentials
-scope = ['https://spreadsheets.google.com/feeds']
+scope = ['https://spreadsheets.google.com/feeds','https://www.googleapis.com/auth/drive']
 creds = ServiceAccountCredentials.from_json_keyfile_name('group_meeting.json',scope)
 clients = gspread.authorize(creds)
 no_of_speakers_meeting = 2
