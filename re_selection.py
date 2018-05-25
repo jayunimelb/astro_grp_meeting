@@ -20,7 +20,7 @@ import warnings, random, yaml, datetime, pickle, os, gspread, sys, argparse
 import pandas as pd
 from oauth2client.service_account import ServiceAccountCredentials
 from termcolor import colored
-scope = ['https://spreadsheets.google.com/feeds']
+scope = ['https://spreadsheets.google.com/feeds','https://www.googleapis.com/auth/drive']
 creds = ServiceAccountCredentials.from_json_keyfile_name('group_meeting.json',scope)
 clients = gspread.authorize(creds)
 
