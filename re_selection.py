@@ -104,6 +104,7 @@ organisers_volunteer_list = read_poll('Organisers volunteer List',date)
 absntees_list = read_poll('Attendee list',date, response = 'No')
 
 # Make previously selected presenters and chairs as unavailable
+
 for ss in selected_presenters[date_str]['speaker']:
 	absntees_list.append(ss)
 
@@ -144,4 +145,5 @@ organisers = random.sample(pool_organisers,number_of_orgnaisers_needed)
 
 print "Re-selected speakers are %s"%(speakers)
 print "Re-selected organisers are %s"%(organisers)
+print "emails of re-selected organiser and/or speakers %s" %(members.loc[organisers[0]]['email'])
 print "Note the presenters_log should be updated manually"
