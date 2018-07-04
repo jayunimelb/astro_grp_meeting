@@ -58,13 +58,13 @@ Michele Trenti: {available: 1, chairs: 2, email: mtrenti@unimelb.edu.au, speaker
   type: fellower}
 None: {available: 1, chairs: 999, email: s.patil2@student.unimelb.edu.au, speakers: 999,
   type: phd_senior}
-Noura Alonzi: {available: 1, chairs: 2, email: nalonzi@student.unimelb.edu.au, speakers: 1,
+Noura Alonzi: {available: 1, chairs: 2, email: nalonzi@student.unimelb.edu.au, speakers: 10,
   type: phd_senior}
 Patrick Clearwater: {available: 1, chairs: 3, email: p.clearwater@student.unimelb.edu.au,
   speakers: 3, type: phd_senior}
 Peter Robertson: {available: 1, chairs: 2, email: prob@unimelb.edu.au, speakers: 999,
   type: Research Fellow}
-Rachael Livermore: {available: 1, chairs: 2, email: livermore@unimelb.edu.au, speakers: 2,
+Rachael Livermore: {available: 0, chairs: 2, email: livermore@unimelb.edu.au, speakers: 2,
   type: post_doc}
 Rachel Webster: {available: 1, chairs: 2, email: r.webster@unimelb.edu.au, speakers: 3,
   type: professor}
@@ -84,7 +84,7 @@ Stephanie Bernard: {available: 1, chairs: 2, email: sbernard@student.unimelb.edu
   speakers: 3, type: phd_senior}
 #Stuart Wyithe: {available: 1, chairs: 1, email: swyithe@.unimelb.edu.au, speakers: 999,
 #  type: professor}
-Suk Yee Yong: {available: 1, chairs: 2, email: syong1@student.unimelb.edu.au, speakers: 2,
+Suk Yee Yong: {available: 1, chairs: 2, email: syong1@student.unimelb.edu.au, speakers: 3,
   type: PhD}
 Veronika Miles: {available: 1, chairs: 3, email: v.miles3@student.unimelb.edu.au,
   speakers: 1, type: master}
